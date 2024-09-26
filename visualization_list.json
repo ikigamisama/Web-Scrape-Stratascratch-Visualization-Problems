@@ -1,0 +1,602 @@
+[
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10468-daily-temperature-trends?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10468",
+		"title": "Daily temperature trends"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10521-it-spending-breakdown?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10521",
+		"title": "IT spending breakdown"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10447-feedback-word-cloud?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10447",
+		"title": "Feedback word cloud"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10440-website-visitors-tracking?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10440",
+		"title": "Website visitors tracking"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10515-gaming-platform-market-share?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10515",
+		"title": "Gaming platform market share"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10482-energy-usage-sectors?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10482",
+		"title": "Energy usage sectors"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10529-subscriber-growth-trend?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10529",
+		"title": "Subscriber growth trend"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10520-aqi-trend-tracking?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10520",
+		"title": "AQI trend tracking"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10528-cyber-attack-frequency?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10528",
+		"title": "Cyber attack frequency"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10441-smartphone-market-share?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10441",
+		"title": "Smartphone market share"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10489-office-space-usage?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10489",
+		"title": "Office space usage"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10450-coffee-market-share?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10450",
+		"title": "Coffee market share"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10512-hourly-electricity-consumption?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10512",
+		"title": "Hourly electricity consumption"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10455-online-sales-growth?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10455",
+		"title": "Online sales growth"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10478-annual-revenue-comparison?code_type=2",
+		"difficulty": "Easy",
+		"id": "ID 10478",
+		"title": "Annual revenue comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10446-sales-evolution-chart?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10446",
+		"title": "Sales evolution chart"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10456-aqi-city-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10456",
+		"title": "AQI city comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10472-revenue-growth-sectors?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10472",
+		"title": "Revenue growth sectors"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10511-transportation-efficiency-analysis?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10511",
+		"title": "Transportation efficiency analysis"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10510-house-price-factors?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10510",
+		"title": "House price factors"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10514-land-use-changes?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10514",
+		"title": "Land use changes"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10509-daily-sales-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10509",
+		"title": "Daily sales comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10507-emergency-response-times?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10507",
+		"title": "Emergency response times"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10442-public-transport-frequency?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10442",
+		"title": "Public transport frequency"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10438-car-price-relationship?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10438",
+		"title": "Car price relationship"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10513-test-scores-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10513",
+		"title": "Test scores comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10453-population-density-map?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10453",
+		"title": "Population density map"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10462-order-fulfillment-process?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10462",
+		"title": "Order fulfillment process"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10527-research-grants-treemap?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10527",
+		"title": "Research grants treemap"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10530-tech-profession-salaries?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10530",
+		"title": "Tech profession salaries"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10524-energy-consumption-vs-production?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10524",
+		"title": "Energy consumption vs. production"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10532-seasonal-booking-rates?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10532",
+		"title": "Seasonal booking rates"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10536-real-estate-returns?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10536",
+		"title": "Real estate returns"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10525-density-vs-green-space?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10525",
+		"title": "Density vs. green space"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10495-water-quality-trends?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10495",
+		"title": "Water quality trends"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10535-net-profit-calculation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10535",
+		"title": "Net profit calculation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10517-construction-project-timeline?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10517",
+		"title": "Construction project timeline"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10505-smartphone-market-share?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10505",
+		"title": "Smartphone market share"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10484-monthly-app-downloads?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10484",
+		"title": "Monthly app downloads"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10483-marketing-campaign-effectiveness?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10483",
+		"title": "Marketing campaign effectiveness"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10522-scores-vs-participation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10522",
+		"title": "Scores vs. participation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10523-hospital-staffing-levels?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10523",
+		"title": "Hospital staffing levels"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10457-revenue-streams-breakdown?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10457",
+		"title": "Revenue streams breakdown"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10518-soil-moisture-variations?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10518",
+		"title": "Soil moisture variations"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10499-quarterly-earnings-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10499",
+		"title": "Quarterly earnings comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10452-product-development-timeline?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10452",
+		"title": "Product development timeline"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10481-company-size-profitability-correlation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10481",
+		"title": "Company size-profitability correlation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10480-temperature-and-humidity-trends?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10480",
+		"title": "Temperature and humidity trends"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10493-gym-usage-patterns?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10493",
+		"title": "Gym usage patterns"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10479-traffic-density-patterns?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10479",
+		"title": "Traffic density patterns"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10477-salary-distribution-analysis?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10477",
+		"title": "Salary distribution analysis"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10476-marketing-impact-analysis?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10476",
+		"title": "Marketing impact analysis"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10474-regional-energy-consumption?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10474",
+		"title": "Regional energy consumption"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10444-student-performance-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10444",
+		"title": "Student performance comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10471-smartphone-os-market-share?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10471",
+		"title": "Smartphone OS market share"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10464-construction-timelines-tracking?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10464",
+		"title": "Construction timelines tracking"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10463-retail-store-density?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10463",
+		"title": "Retail store density"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10459-elevation-levels-trail?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10459",
+		"title": "Elevation levels trail"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10454-electricity-consumption-variation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10454",
+		"title": "Electricity consumption variation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10449-monthly-sales-proportion?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10449",
+		"title": "Monthly sales proportion"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10439-store-sales-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10439",
+		"title": "Store sales comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10506-mountain-topography?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10506",
+		"title": "Mountain topography"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10497-software-project-phases?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10497",
+		"title": "Software project phases"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10496-product-market-potential?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10496",
+		"title": "Product market potential"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10490-delivery-time-variability?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10490",
+		"title": "Delivery time variability"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10508-revenue-changes?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10508",
+		"title": "Revenue changes"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10448-advertising-sales-correlation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10448",
+		"title": "Advertising-sales correlation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10460-profit-growth-sequence?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10460",
+		"title": "Profit growth sequence"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10498-spending-distribution-analysis?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10498",
+		"title": "Spending distribution analysis"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10486-literacy-rate-map?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10486",
+		"title": "Literacy rate map"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10485-age-distribution-analysis?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10485",
+		"title": "Age distribution analysis"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10492-satisfaction-productivity-correlation?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10492",
+		"title": "Satisfaction-productivity correlation"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10494-monthly-sales-comparison?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10494",
+		"title": "Monthly sales comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10534-congestion-vs-pollution?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10534",
+		"title": "Congestion vs. pollution"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10443-customer-wait-times?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10443",
+		"title": "Customer wait times"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10537-customer-demographics-diversity?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10537",
+		"title": "Customer demographics diversity"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10488-stock-portfolio-performance?code_type=2",
+		"difficulty": "Medium",
+		"id": "ID 10488",
+		"title": "Stock portfolio performance"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10519-social-media-growth?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10519",
+		"title": "Social media growth"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10473-global-resource-distribution?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10473",
+		"title": "Global resource distribution"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10503-city-population-growth?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10503",
+		"title": "City population growth"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10502-software-usage-breakdown?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10502",
+		"title": "Software usage breakdown"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10501-seasonal-sales-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10501",
+		"title": "Seasonal sales comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10500-startup-partnerships?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10500",
+		"title": "Startup partnerships"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10445-software-tool-relationships?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10445",
+		"title": "Software tool relationships"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10470-age-income-savings-3d-plot?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10470",
+		"title": "Age-income-savings 3D plot"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10533-energy-source-impact?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10533",
+		"title": "Energy source impact"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10504-ev-efficiency-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10504",
+		"title": "EV efficiency comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10451-team-skills-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10451",
+		"title": "Team skills comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10487-car-aspects-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10487",
+		"title": "Car aspects comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10458-appliance-energy-rates?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10458",
+		"title": "Appliance energy rates"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10466-car-performance-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10466",
+		"title": "Car performance comparison"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10461-health-metrics-relationships?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10461",
+		"title": "Health metrics relationships"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10469-satisfaction-vs-product?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10469",
+		"title": "Satisfaction vs. product"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10465-population-growth-race?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10465",
+		"title": "Population growth race"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10531-crypto-market-performance?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10531",
+		"title": "Crypto market performance"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10467-sales-breakdown-sunburst?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10467",
+		"title": "Sales breakdown sunburst"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10475-student-performance-radar?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10475",
+		"title": "Student performance radar"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10516-plant-operational-capabilities?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10516",
+		"title": "Plant operational capabilities"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10491-satisfaction-across-channels?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10491",
+		"title": "Satisfaction across channels"
+	},
+	{
+		"link": "https://platform.stratascratch.com/visualizations/10526-annual-sales-comparison?code_type=2",
+		"difficulty": "Hard",
+		"id": "ID 10526",
+		"title": "Annual sales comparison"
+	}
+]

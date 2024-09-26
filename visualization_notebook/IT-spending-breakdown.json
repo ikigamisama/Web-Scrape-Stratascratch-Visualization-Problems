@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10521-it-spending-breakdown?code_type=2",
+	"title": "IT spending breakdown",
+	"difficulty": "Easy",
+	"id": "ID 10521",
+	"type": "Doughnut Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Construct a doughnut chart to display the breakdown of annual IT spending by category within a corporation, using 'navy' for hardware, 'gray' for software, and 'teal' for services.",
+	"data": {},
+	"solution": ""
+}

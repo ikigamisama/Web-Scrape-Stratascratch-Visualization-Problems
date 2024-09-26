@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10536-real-estate-returns?code_type=2",
+	"title": "Real estate returns",
+	"difficulty": "Medium",
+	"id": "ID 10536",
+	"type": "Bubble Chart",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Construct a bubble chart to evaluate the investment returns of different real estate markets, using 'skyblue' for residential, 'darkgreen' for commercial, and 'gray' for industrial properties.",
+	"data": {},
+	"solution": ""
+}

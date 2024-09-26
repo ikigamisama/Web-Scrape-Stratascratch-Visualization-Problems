@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10470-age-income-savings-3d-plot?code_type=2",
+	"title": "Age-income-savings 3D plot",
+	"difficulty": "Hard",
+	"id": "ID 10470",
+	"type": "3D Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Generate a 3D scatter plot to explore the relationship between age, income, and personal savings among individuals, using 'lightcoral' for below average savings and 'darkgreen' for above average savings.",
+	"data": [],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\n\n#adding plot titles and labels\ncolors = {'Under 25': 'skyblue', '25-50': 'mediumslateblue', 'Over 50': 'slategray'}\nplt.figure(figsize=(12, 6))\nfor group, color in colors.items():\n    plt.hist(df[df['age_group'] == group]['age'], bins=range(0, 81, 5), alpha=0.7, label=group, color=color)\n\nplt.title('Age Distribution of Population')\nplt.xlabel('Age')\nplt.ylabel('Frequency')\nplt.legend(title='Age Group')\nplt.grid(True)\nplt.show()\n"
+}

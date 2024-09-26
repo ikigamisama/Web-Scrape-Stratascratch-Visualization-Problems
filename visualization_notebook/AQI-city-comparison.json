@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10456-aqi-city-comparison?code_type=2",
+	"title": "AQI city comparison",
+	"difficulty": "Medium",
+	"id": "ID 10456",
+	"type": "Multi-Line Chart",
+	"analysis": "Comparison",
+	"data_type": "Time Series Data",
+	"description": "Craft a multi-line chart to monitor the change in air quality index (AQI) of various cities over the last month, using distinct colors 'goldenrod' for City X, 'firebrick' for City Y, and 'forestgreen' for City Z.",
+	"data": {},
+	"solution": ""
+}

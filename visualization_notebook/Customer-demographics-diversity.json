@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10537-customer-demographics-diversity?code_type=2",
+	"title": "Customer demographics diversity",
+	"difficulty": "Medium",
+	"id": "ID 10537",
+	"type": "Stacked Bar Chart",
+	"analysis": "Comparison",
+	"data_type": "Categorical Data & Numerical Data",
+	"description": "Develop a stacked bar chart to illustrate the diversity of customer demographics in a retail chain, using 'ivory' for teens, 'tan' for adults, and 'olivedrab' for seniors.",
+	"data": [],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolor_map = {'teens': 'ivory', 'adults': 'tan', 'seniors': 'olivedrab'}\n#adding plot titles and labels\n\ndf.plot(kind='bar',stacked=True,color=[color_map[col] for col in df.columns],figsize=(10, 6))\n\nplt.title('Diversity of Customer Demographics in a Retail Chain')\nplt.xlabel('Store')\nplt.ylabel('Number of Customers')\nplt.legend(bbox_to_anchor=(1.05, 1), borderaxespad=0,loc=\"upper left\", title='Demographic Group')\nplt.grid(axis='y')\nplt.tight_layout()\nplt.show()\n"
+}

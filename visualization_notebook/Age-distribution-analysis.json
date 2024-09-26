@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10485-age-distribution-analysis?code_type=2",
+	"title": "Age distribution analysis",
+	"difficulty": "Medium",
+	"id": "ID 10485",
+	"type": "Histogram",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Create a histogram to examine the age distribution of a population, using 'skyblue' for individuals under 25, 'mediumslateblue' for 25-50, and 'slategray' for over 50.",
+	"data": [],
+	"solution": "import matplotlib.pyplot as plt\n\n# Colors for each media channel\ncolors = {'TV': 'chocolate', 'Online': 'cyan', 'Print': 'crimson'}\n\n# Plotting\nplt.figure(figsize=(10, 6))\nfor channel, group in df.groupby('media_channel'):\n    plt.scatter(group['ad_spend'], group['sales_volume'], s=group['sales_volume']*10, color=colors[channel], alpha=0.5, label=channel)\n\nplt.title('Correlation Between Advertising Spend and Sales Volume by Media Channel')\nplt.xlabel('Advertising Spend ($)')\nplt.ylabel('Sales Volume (units)')\nplt.legend(title='Media Channel')\nplt.grid(True)\nplt.show()"
+}
