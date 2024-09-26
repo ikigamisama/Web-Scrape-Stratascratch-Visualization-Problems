@@ -1,1 +1,31 @@
-{"link": "https://platform.stratascratch.com/visualizations/10517-construction-project-timeline?code_type=2", "title": "Construction project timeline", "difficulty": "Medium", "id": "ID 10517", "type": "Gantt Chart", "analysis": "Trend Analysis", "data_type": "Time Series Data", "description": "Develop a Gantt chart to visualize the timeline for different phases of a construction project, using 'olive' for planning, 'darkorange' for operation, and 'cornflowerblue' for assessment.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10517-construction-project-timeline?code_type=2",
+	"title": "Construction project timeline",
+	"difficulty": "Medium",
+	"id": "ID 10517",
+	"type": "Gantt Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Develop a Gantt chart to visualize the timeline for different phases of a construction project, using 'olive' for planning, 'darkorange' for operation, and 'cornflowerblue' for assessment.",
+	"data": [
+		{
+			"task": "Planning",
+			"start": "2023-01-01",
+			"finish": "2023-01-31",
+			"phase": "Planning"
+		},
+		{
+			"task": "operation",
+			"start": "2023-02-01",
+			"finish": "2023-05-31",
+			"phase": "operation"
+		},
+		{
+			"task": "Assessment",
+			"start": "2023-06-01",
+			"finish": "2023-07-31",
+			"phase": "Assessment"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n#plotting the chart\ncolors = {'Planning': 'olive', 'operation': 'darkorange', 'Assessment': 'cornflowerblue'}\nfig, ax = plt.subplots(figsize=(12, 8))\n\nfor i, task in df.iterrows():\n    ax.barh(task['task'], (task['finish'] - task['start']).days, left=task['start'], color=colors[task['phase']])\n    \n    \n#adding plot titles and labels\nax.set_xlabel('Date')\nax.set_ylabel('Task')\nax.set_title('Gantt Chart for Construction Project Phases')\n\nax.xaxis_date()\nax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))\nplt.xticks(rotation=45)\n\n# Adding legend\nlegend_elements = [plt.Line2D([0], [0], color='olive', lw=4, label='Planning'),\n                   plt.Line2D([0], [0], color='darkorange', lw=4, label='operation'),\n                   plt.Line2D([0], [0], color='cornflowerblue', lw=4, label='Assessment')]\nax.legend(handles=legend_elements, loc='upper right')\n\nplt.show()"
+}

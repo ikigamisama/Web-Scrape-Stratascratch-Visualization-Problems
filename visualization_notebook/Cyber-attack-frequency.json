@@ -1,1 +1,25 @@
-{"link": "https://platform.stratascratch.com/visualizations/10528-cyber-attack-frequency?code_type=2", "title": "Cyber attack frequency", "difficulty": "Easy", "id": "ID 10528", "type": "Bar Chart", "analysis": "Distribution", "data_type": "Categorical Data", "description": "Create a bar chart to display the frequency of different types of cyber attacks on a network, using 'black' for phishing, 'red' for malware, and 'purple' for ransomware.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10528-cyber-attack-frequency?code_type=2",
+	"title": "Cyber attack frequency",
+	"difficulty": "Easy",
+	"id": "ID 10528",
+	"type": "Bar Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Create a bar chart to display the frequency of different types of cyber attacks on a network, using 'black' for phishing, 'red' for malware, and 'purple' for ransomware.",
+	"data": [
+		{
+			"attack_type": "Phishing",
+			"frequency": "120"
+		},
+		{
+			"attack_type": "Malware",
+			"frequency": "85"
+		},
+		{
+			"attack_type": "Ransomware",
+			"frequency": "60"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Phishing': \"black\", \"Malware\": 'red', 'Ransomware': 'purple'}\n\nplt.figure(figsize=(10,6))\nplt.bar(df['attack_type'], df['frequency'] , color=[colors[attack_type] for attack_type in df['attack_type']])\nplt.title(\"Frequency of Different Types of Cyber Attack on a Network\")\nplt.xlabel(\"Attack Type\")\nplt.ylabel('Frequency')\nplt.grid(axis=\"y\")\nplt.show()"
+}

@@ -1,1 +1,61 @@
-{"link": "https://platform.stratascratch.com/visualizations/10520-aqi-trend-tracking?code_type=2", "title": "AQI trend tracking", "difficulty": "Easy", "id": "ID 10520", "type": "Line Plot", "analysis": "Trend Analysis", "data_type": "Time Series Data", "description": "Generate a line plot to track changes in local air quality index (AQI) over several months, using 'gray' to represent the AQI trend.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10520-aqi-trend-tracking?code_type=2",
+	"title": "AQI trend tracking",
+	"difficulty": "Easy",
+	"id": "ID 10520",
+	"type": "Line Plot",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Generate a line plot to track changes in local air quality index (AQI) over several months, using 'gray' to represent the AQI trend.",
+	"data": [
+		{
+			"date": "2023-01-31 00:00:00",
+			"aqi": "97"
+		},
+		{
+			"date": "2023-02-28 00:00:00",
+			"aqi": "167"
+		},
+		{
+			"date": "2023-03-31 00:00:00",
+			"aqi": "117"
+		},
+		{
+			"date": "2023-04-30 00:00:00",
+			"aqi": "153"
+		},
+		{
+			"date": "2023-05-31 00:00:00",
+			"aqi": "59"
+		},
+		{
+			"date": "2023-06-30 00:00:00",
+			"aqi": "71"
+		},
+		{
+			"date": "2023-07-31 00:00:00",
+			"aqi": "86"
+		},
+		{
+			"date": "2023-08-31 00:00:00",
+			"aqi": "137"
+		},
+		{
+			"date": "2023-09-30 00:00:00",
+			"aqi": "120"
+		},
+		{
+			"date": "2023-10-31 00:00:00",
+			"aqi": "138"
+		},
+		{
+			"date": "2023-11-30 00:00:00",
+			"aqi": "190"
+		},
+		{
+			"date": "2023-12-31 00:00:00",
+			"aqi": "108"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['date'], df['aqi'], color=\"gray\", linewidth=2, marker='o')\nplt.title(\"Hourly Electricity Consumption in an Industrial Park\")\nplt.xlabel(\"Date\")\nplt.ylabel(\"AQl\")\nplt.grid(True)\nplt.show()"
+}

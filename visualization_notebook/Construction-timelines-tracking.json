@@ -1,1 +1,43 @@
-{"link": "https://platform.stratascratch.com/visualizations/10464-construction-timelines-tracking?code_type=2", "title": "Construction timelines tracking", "difficulty": "Medium", "id": "ID 10464", "type": "Gantt Chart", "analysis": "Trend Analysis", "data_type": "Time Series Data", "description": "Deploy a Gantt chart to track the project timelines for multiple construction projects, using 'salmon' for delays and 'lightgreen' for on-schedule tasks.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10464-construction-timelines-tracking?code_type=2",
+	"title": "Construction timelines tracking",
+	"difficulty": "Medium",
+	"id": "ID 10464",
+	"type": "Gantt Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Deploy a Gantt chart to track the project timelines for multiple construction projects, using 'salmon' for delays and 'lightgreen' for on-schedule tasks.",
+	"data": [
+		{
+			"task": "Site Prep",
+			"start": "2024-01-01 00:00:00",
+			"finish": "2024-01-14 00:00:00",
+			"status": "On Schedule"
+		},
+		{
+			"task": "Foundation",
+			"start": "2024-01-15 00:00:00",
+			"finish": "2024-01-30 00:00:00",
+			"status": "On Schedule"
+		},
+		{
+			"task": "Framing",
+			"start": "2024-02-01 00:00:00",
+			"finish": "2024-02-28 00:00:00",
+			"status": "Delayed"
+		},
+		{
+			"task": "Roofing",
+			"start": "2024-03-01 00:00:00",
+			"finish": "2024-03-30 00:00:00",
+			"status": "On Schedule"
+		},
+		{
+			"task": "Finishing",
+			"start": "2024-04-01 00:00:00",
+			"finish": "2024-04-30 00:00:00",
+			"status": "Delayed"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n\n#plotting the chart\ncolors = {'On Schedule': 'lightgreen', 'Delayed': 'salmon'}\nfig, ax = plt.subplots(figsize=(10,6))\n#adding plot titles and labels\nfor i, task, in df_projects.iterrows():\n    start = mdates.date2num(task['start'])\n    finish = mdates.date2num(task['finish'])\n    ax.barh(task['task'], finish - start, left=start, color=colors[task['status']])\n    \n    \nax.set_xlabel('Date')\nax.set_title('Construction Project Timeline')\nax.xaxis_date()\nax.xaxis.set_major_locator(mdates.MonthLocator())\nax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))\n\n\nlegend_elements = [plt.Line2D([0], [0], color='lightgreen', lw=4, label='On Schedule'),\n                   plt.Line2D([0], [0], color='salmon', lw=4, label='Delayed'),]\nax.legend(handles=legend_elements, loc='upper right')\n\nplt.show()"
+}

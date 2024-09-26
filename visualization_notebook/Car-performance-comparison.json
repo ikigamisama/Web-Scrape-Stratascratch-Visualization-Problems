@@ -1,1 +1,43 @@
-{"link": "https://platform.stratascratch.com/visualizations/10466-car-performance-comparison?code_type=2", "title": "Car performance comparison", "difficulty": "Hard", "id": "ID 10466", "type": "Parallel Coordinates Plot", "analysis": "Comparison", "data_type": "Numerical Data & Categorical Data", "description": "Design a parallel coordinates plot to compare the performance data of various cars, using 'steelblue' for fuel efficiency, 'tomato' for horsepower, and 'khaki' for safety ratings.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10466-car-performance-comparison?code_type=2",
+	"title": "Car performance comparison",
+	"difficulty": "Hard",
+	"id": "ID 10466",
+	"type": "Parallel Coordinates Plot",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data & Categorical Data",
+	"description": "Design a parallel coordinates plot to compare the performance data of various cars, using 'steelblue' for fuel efficiency, 'tomato' for horsepower, and 'khaki' for safety ratings.",
+	"data": [
+		{
+			"car": "Car A",
+			"fuel_efficiency": "21",
+			"horsepower": "172",
+			"safety_rating": "2"
+		},
+		{
+			"car": "Car B",
+			"fuel_efficiency": "26",
+			"horsepower": "181",
+			"safety_rating": "2"
+		},
+		{
+			"car": "Car C",
+			"fuel_efficiency": "26",
+			"horsepower": "218",
+			"safety_rating": "9"
+		},
+		{
+			"car": "Car D",
+			"fuel_efficiency": "29",
+			"horsepower": "189",
+			"safety_rating": "3"
+		},
+		{
+			"car": "Car E",
+			"fuel_efficiency": "20",
+			"horsepower": "157",
+			"safety_rating": "4"
+		}
+	],
+	"solution": "import pandas as pd\nfrom pandas.plotting import parallel_coordinates\nimport matplotlib.pyplot as plt\n\ndf_normalized = df_cars.copy()\ndf_normalized['fuel_efficiency'] = (df_cars['fuel_efficiency'] - df_cars['fuel_efficiency'].min()) / (df_cars['fuel_efficiency'].max() - df_cars['fuel_efficiency'].min())\ndf_normalized['horsepower'] = (df_cars['horsepower'] - df_cars['horsepower'].min()) / (df_cars['horsepower'].max() - df_cars['horsepower'].min())\ndf_normalized['safety_rating'] = (df_cars['safety_rating'] - df_cars['safety_rating'].min()) / (df_cars['safety_rating'].max() - df_cars['safety_rating'].min())\n\ndf_normalized['car'] = df_cars['car']\n\n\nplt.figure(figsize=(12, 6))\nparallel_coordinates(df_normalized, 'car', color=['steelblue', 'tomato', 'khaki', 'gray', 'purple'])\nplt.title('Parallel Coordinates Plot for Car Performance')\nplt.xlabel('Performance Metrics')\nplt.ylabel('Normalized Values')\nplt.grid(True)\nplt.legend(title='Car Model')\nplt.show()"
+}
