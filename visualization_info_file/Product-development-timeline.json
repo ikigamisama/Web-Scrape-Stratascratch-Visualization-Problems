@@ -1,0 +1,38 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10452-product-development-timeline?code_type=2",
+	"title": "Product development timeline",
+	"difficulty": "Medium",
+	"id": "ID 10452",
+	"type": "Timeline",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Develop a timeline to illustrate the major milestones in the development of a new technology product, using 'orange' to highlight completed phases and 'grey' for upcoming ones.",
+	"data": [
+		{
+			"milestone": "Concept Approval",
+			"date": "2024-01-01 00:00:00",
+			"status": "Completed"
+		},
+		{
+			"milestone": "Prototype Build",
+			"date": "2024-04-01 00:00:00",
+			"status": "Completed"
+		},
+		{
+			"milestone": "Testing Phase",
+			"date": "2024-07-01 00:00:00",
+			"status": "Completed"
+		},
+		{
+			"milestone": "Market Analysis",
+			"date": "2024-10-01 00:00:00",
+			"status": "Upcoming"
+		},
+		{
+			"milestone": "Product Launch",
+			"date": "2025-01-01 00:00:00",
+			"status": "Upcoming"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n\nfig, ax = plt.subplots(figsize=(10, 3))\nax.set(title=\"Development Timeline of the New Technology Product\")\n\nfor i, (date, milestone, status) in enumerate(zip(df['date'], df['milestone'], df['status'])):\n    color = 'orange' if status == 'Completed' else 'grey'\n    ax.plot([date, date], [0, 1], color=color, linewidth=2)\n    ax.text(date, 1.05, f'{milestone} ({status})', horizontalalignment='right' if i % 2 == 0 else 'left',\n            verticalalignment='bottom', rotation=45, color=color)\n\nax.set_ylim(0, 2)\nax.set_yticks([])\nax.set_xlim([df['date'].min() - pd.Timedelta(days=60), df['date'].max() + pd.Timedelta(days=60)])\nax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))\nax.xaxis.set_major_formatter(mdates.DateFormatter('%b %Y'))\nax.grid(True)\n\nplt.show()"
+}

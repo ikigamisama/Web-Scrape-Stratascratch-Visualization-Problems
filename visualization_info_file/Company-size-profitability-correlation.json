@@ -1,0 +1,613 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10481-company-size-profitability-correlation?code_type=2",
+	"title": "Company size-profitability correlation",
+	"difficulty": "Medium",
+	"id": "ID 10481",
+	"type": "Bubble Chart",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Construct a bubble chart to explore the relationship between company size, profitability, and market presence, using 'mediumseagreen' for small companies, 'darkkhaki' for medium-sized, and 'coral' for large companies.",
+	"data": [
+		{
+			"company_size": "Small",
+			"profitability": 51.453,
+			"market_presence": 339.646,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 6.516,
+			"market_presence": 180.311,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 45.665,
+			"market_presence": 171.816,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 2.979,
+			"market_presence": 463.988,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 44.729,
+			"market_presence": 874.698,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 97.979,
+			"market_presence": 944.176,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 36.585,
+			"market_presence": 608.645,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 48.608,
+			"market_presence": 597.059,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 69.177,
+			"market_presence": 783.861,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 88.167,
+			"market_presence": 500.526,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 91.905,
+			"market_presence": 51.32,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 22.465,
+			"market_presence": 699.399,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 56.954,
+			"market_presence": 992.404,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 86.645,
+			"market_presence": 267.995,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Large",
+			"profitability": 51.388,
+			"market_presence": 679.412,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 91.756,
+			"market_presence": 864.417,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 92.195,
+			"market_presence": 751.093,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 9.228,
+			"market_presence": 964.525,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 28.494,
+			"market_presence": 554.688,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 1.926,
+			"market_presence": 213.178,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 84.392,
+			"market_presence": 223.221,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 65.07,
+			"market_presence": 219.531,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 84.297,
+			"market_presence": 570.004,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 27.208,
+			"market_presence": 452.657,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 40.384,
+			"market_presence": 970.266,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 55.729,
+			"market_presence": 680.864,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 17.329,
+			"market_presence": 86.21,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 37.611,
+			"market_presence": 57.362,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 15.498,
+			"market_presence": 488.35,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 57.392,
+			"market_presence": 881.124,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 70.67,
+			"market_presence": 976.428,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 29.559,
+			"market_presence": 618.04,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 43.896,
+			"market_presence": 542.956,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 75.855,
+			"market_presence": 854.759,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 40.214,
+			"market_presence": 744.091,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 89.708,
+			"market_presence": 479.118,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 64.253,
+			"market_presence": 677.404,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 89.264,
+			"market_presence": 607.438,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 68.326,
+			"market_presence": 714.982,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 45.471,
+			"market_presence": 470.028,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Large",
+			"profitability": 97.879,
+			"market_presence": 456.559,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 12.504,
+			"market_presence": 906.512,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 76.935,
+			"market_presence": 138.083,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 41.77,
+			"market_presence": 229.99,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 67.868,
+			"market_presence": 881.704,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 25.73,
+			"market_presence": 904.521,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 32.009,
+			"market_presence": 646.139,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 96.576,
+			"market_presence": 325.358,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 59.258,
+			"market_presence": 520.191,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 66.307,
+			"market_presence": 1.055,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 53.787,
+			"market_presence": 312.548,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 23.823,
+			"market_presence": 426.026,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 40.092,
+			"market_presence": 885.452,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 62.262,
+			"market_presence": 680.2,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 48.012,
+			"market_presence": 456.674,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Large",
+			"profitability": 47.543,
+			"market_presence": 483.925,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 71.891,
+			"market_presence": 788.951,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 29.511,
+			"market_presence": 230.212,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 38.963,
+			"market_presence": 880.417,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 75.168,
+			"market_presence": 314.379,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 87.967,
+			"market_presence": 957.493,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 11.183,
+			"market_presence": 472.28,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Large",
+			"profitability": 10.145,
+			"market_presence": 711.872,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Large",
+			"profitability": 36.051,
+			"market_presence": 154.541,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 55.63,
+			"market_presence": 730.712,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 4.329,
+			"market_presence": 646.618,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 96.927,
+			"market_presence": 215.666,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 32.779,
+			"market_presence": 187.272,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 22.905,
+			"market_presence": 807.773,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 14.985,
+			"market_presence": 747.332,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 10.629,
+			"market_presence": 675.172,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 98.42,
+			"market_presence": 277.617,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 26.774,
+			"market_presence": 175.734,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 54.165,
+			"market_presence": 704.77,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 45.345,
+			"market_presence": 463.687,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 10.857,
+			"market_presence": 840.588,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 35.879,
+			"market_presence": 205.661,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 47.456,
+			"market_presence": 165.794,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Small",
+			"profitability": 84.273,
+			"market_presence": 125.708,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 90.56,
+			"market_presence": 722.359,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 4.718,
+			"market_presence": 31.423,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 51.323,
+			"market_presence": 747.247,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 17.518,
+			"market_presence": 93.504,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 78.126,
+			"market_presence": 218.233,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 86.628,
+			"market_presence": 749.505,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 41.728,
+			"market_presence": 731.962,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 14.857,
+			"market_presence": 46.569,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 4.289,
+			"market_presence": 209.948,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 98.275,
+			"market_presence": 287.628,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Small",
+			"profitability": 37.956,
+			"market_presence": 677.586,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 42.587,
+			"market_presence": 63.975,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 6.008,
+			"market_presence": 556.094,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 37.184,
+			"market_presence": 10.231,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 2.646,
+			"market_presence": 833.205,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 23.843,
+			"market_presence": 984.345,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 76.726,
+			"market_presence": 703.791,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Large",
+			"profitability": 94.468,
+			"market_presence": 182.45,
+			"bubble_size": 100
+		},
+		{
+			"company_size": "Small",
+			"profitability": 75.25,
+			"market_presence": 512.881,
+			"bubble_size": 20
+		},
+		{
+			"company_size": "Medium",
+			"profitability": 34.601,
+			"market_presence": 580.867,
+			"bubble_size": 50
+		},
+		{
+			"company_size": "Large",
+			"profitability": 49.465,
+			"market_presence": 787.755,
+			"bubble_size": 100
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n# Setting colors based on company size\ncolors = {'Small': 'mediumseagreen', 'Medium': 'darkkhaki', 'Large': 'coral'}\n\n# Plotting\nplt.figure(figsize=(12, 8))\nfor size, group in df.groupby('company_size'):\n    plt.scatter(group['profitability'], group['market_presence'], \n                s=group['bubble_size']*10, color=colors[size], alpha=0.6, label=size)\n\nplt.title('Relationship between Company Size, Profitability, and Market Presence')\nplt.xlabel('Profitability (%)')\nplt.ylabel('Market Presence')\nplt.legend(title='Company Size')\nplt.grid(True)\nplt.show()"
+}

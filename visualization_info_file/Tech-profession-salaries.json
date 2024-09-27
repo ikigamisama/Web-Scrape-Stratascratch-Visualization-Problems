@@ -1,0 +1,49 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10530-tech-profession-salaries?code_type=2",
+	"title": "Tech profession salaries",
+	"difficulty": "Medium",
+	"id": "ID 10530",
+	"type": "Box Plot",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data",
+	"description": "Generate a box plot to compare the annual salaries of different professions within the tech industry, marked 'cyan' for software engineers, 'magenta' for data scientists, and 'yellowgreen' for UX designers.",
+	"data": [
+		{
+			"profession": "Software Engineer",
+			"annual_salary": 138268
+		},
+		{
+			"profession": "Software Engineer",
+			"annual_salary": 113567
+		},
+		{
+			"profession": "Software Engineer",
+			"annual_salary": 112613
+		},
+		{
+			"profession": "Data Scientist",
+			"annual_salary": 115891
+		},
+		{
+			"profession": "Data Scientist",
+			"annual_salary": 91243
+		},
+		{
+			"profession": "Data Scientist",
+			"annual_salary": 111993
+		},
+		{
+			"profession": "UX Designer",
+			"annual_salary": 125026
+		},
+		{
+			"profession": "UX Designer",
+			"annual_salary": 118600
+		},
+		{
+			"profession": "UX Designer",
+			"annual_salary": 109512
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolor_map = { 'Software Engineer': 'cyan', 'Data Scientist': 'magenta', 'UX Designer': 'yellowgreen' }\n\n\ncolors = df['profession'].map(color_map)\nplt.figure(figsize=(10, 6))\n\nbox = plt.boxplot([df[df['profession'] == 'Software Engineer']['annual_salary'],\n                   df[df['profession'] == 'Data Scientist']['annual_salary'],\n                   df[df['profession'] == 'UX Designer']['annual_salary']],\n                  patch_artist=True,\n                  labels=['Software Engineer', 'Data Scientist', 'UX Designer'])\n\nfor patch, color in zip(box['boxes'], ['cyan', 'magenta', 'yellowgreen']):\n    patch.set_facecolor(color)\n\nplt.title('Annual Salaries of Different Professions in the Tech Industry')\nplt.xlabel('Profession')\nplt.ylabel('Annual Salary ($)')\nplt.grid(True)\nplt.show()"
+}

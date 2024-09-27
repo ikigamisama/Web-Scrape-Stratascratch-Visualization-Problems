@@ -1,0 +1,37 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10457-revenue-streams-breakdown?code_type=2",
+	"title": "Revenue streams breakdown",
+	"difficulty": "Medium",
+	"id": "ID 10457",
+	"type": "Tree Map",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Deploy a tree map to break down the revenue streams of a corporation by different departments, using shades like 'dodgerblue', 'mediumorchid', and 'sandybrown' to represent various sectors.",
+	"data": [
+		{
+			"department": "Sales",
+			"revenue": 50000
+		},
+		{
+			"department": "Marketing",
+			"revenue": 40000
+		},
+		{
+			"department": "Operations",
+			"revenue": 30000
+		},
+		{
+			"department": "Human Resources",
+			"revenue": 20000
+		},
+		{
+			"department": "IT",
+			"revenue": 15000
+		},
+		{
+			"department": "Customer Support",
+			"revenue": 10000
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport squarify\n\ncolor_map={'Sales': 'dodgerblue', 'Marketing': 'mediumorchid', 'Operations': 'sandybrown', 'Human Resources': 'lightblue', 'IT': 'mediumorchid', 'Customer Support': 'sandybrown'}\nplt.figure(figsize=(12, 8))\ncolors = [color_map[color] for color in df['department']]\n\nsquarify.plot(sizes=df['revenue'], label=df['department'], color=colors, alpha=0.7)\nplt.title('Revenue Streams by Department')\nplt.axis('off')\nplt.show()"
+}

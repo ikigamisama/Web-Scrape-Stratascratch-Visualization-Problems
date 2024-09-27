@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10515-gaming-platform-market-share?code_type=2",
+	"title": "Gaming platform market share",
+	"difficulty": "Easy",
+	"id": "ID 10515",
+	"type": "Pie Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Create a pie chart to depict the market share of different gaming platforms, with 'sienna' for PC, 'rosybrown' for consoles, and 'tan' for mobile devices.",
+	"data": [
+		{
+			"platform": "PC",
+			"market_share": 35
+		},
+		{
+			"platform": "Consoles",
+			"market_share": 40
+		},
+		{
+			"platform": "Mobile",
+			"market_share": 25
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolor = ['sienna', 'rosybrown', 'tan']\nplt.figure(figsize=(8,8))\n#adding plot titles and labels\nplt.pie(df['market_share'], labels=df['platform'], autopct=\"%1.1f%%\",  colors=color)\nplt.title(\"Market Share of Different Gaming Platforms\")\nplt.show()"
+}

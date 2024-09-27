@@ -1,0 +1,193 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10439-store-sales-comparison?code_type=2",
+	"title": "Store sales comparison",
+	"difficulty": "Medium",
+	"id": "ID 10439",
+	"type": "Bar Chart",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data & Categorical Data",
+	"description": "Design a bar chart to compare the average monthly sales of electronic products across different stores. Use 'gold' for Store X, 'silver' for Store Y, and 'bronze' for Store Z.",
+	"data": [
+		{
+			"month": "January",
+			"sales": 43003,
+			"store": "Store X"
+		},
+		{
+			"month": "February",
+			"sales": 22172,
+			"store": "Store X"
+		},
+		{
+			"month": "March",
+			"sales": 15192,
+			"store": "Store X"
+		},
+		{
+			"month": "April",
+			"sales": 42511,
+			"store": "Store X"
+		},
+		{
+			"month": "May",
+			"sales": 17813,
+			"store": "Store X"
+		},
+		{
+			"month": "June",
+			"sales": 31440,
+			"store": "Store X"
+		},
+		{
+			"month": "July",
+			"sales": 42912,
+			"store": "Store X"
+		},
+		{
+			"month": "August",
+			"sales": 30609,
+			"store": "Store X"
+		},
+		{
+			"month": "September",
+			"sales": 17751,
+			"store": "Store X"
+		},
+		{
+			"month": "October",
+			"sales": 41228,
+			"store": "Store X"
+		},
+		{
+			"month": "November",
+			"sales": 46230,
+			"store": "Store X"
+		},
+		{
+			"month": "December",
+			"sales": 42025,
+			"store": "Store X"
+		},
+		{
+			"month": "January",
+			"sales": 31758,
+			"store": "Store Y"
+		},
+		{
+			"month": "February",
+			"sales": 45730,
+			"store": "Store Y"
+		},
+		{
+			"month": "March",
+			"sales": 18444,
+			"store": "Store Y"
+		},
+		{
+			"month": "April",
+			"sales": 29946,
+			"store": "Store Y"
+		},
+		{
+			"month": "May",
+			"sales": 47532,
+			"store": "Store Y"
+		},
+		{
+			"month": "June",
+			"sales": 32926,
+			"store": "Store Y"
+		},
+		{
+			"month": "July",
+			"sales": 37204,
+			"store": "Store Y"
+		},
+		{
+			"month": "August",
+			"sales": 41959,
+			"store": "Store Y"
+		},
+		{
+			"month": "September",
+			"sales": 34535,
+			"store": "Store Y"
+		},
+		{
+			"month": "October",
+			"sales": 29433,
+			"store": "Store Y"
+		},
+		{
+			"month": "November",
+			"sales": 27137,
+			"store": "Store Y"
+		},
+		{
+			"month": "December",
+			"sales": 36103,
+			"store": "Store Y"
+		},
+		{
+			"month": "January",
+			"sales": 43878,
+			"store": "Store Z"
+		},
+		{
+			"month": "February",
+			"sales": 49053,
+			"store": "Store Z"
+		},
+		{
+			"month": "March",
+			"sales": 43799,
+			"store": "Store Z"
+		},
+		{
+			"month": "April",
+			"sales": 47183,
+			"store": "Store Z"
+		},
+		{
+			"month": "May",
+			"sales": 13606,
+			"store": "Store Z"
+		},
+		{
+			"month": "June",
+			"sales": 12561,
+			"store": "Store Z"
+		},
+		{
+			"month": "July",
+			"sales": 39960,
+			"store": "Store Z"
+		},
+		{
+			"month": "August",
+			"sales": 42397,
+			"store": "Store Z"
+		},
+		{
+			"month": "September",
+			"sales": 49539,
+			"store": "Store Z"
+		},
+		{
+			"month": "October",
+			"sales": 10431,
+			"store": "Store Z"
+		},
+		{
+			"month": "November",
+			"sales": 46842,
+			"store": "Store Z"
+		},
+		{
+			"month": "December",
+			"sales": 26926,
+			"store": "Store Z"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolors={'Store X': 'gold', 'Store Y': 'silver', 'Store Z': '#cd7f32'}\nmean_sales = df.groupby(['store', 'month']).mean().unstack('store')\n\nmean_sales.plot(kind='bar', figsize=(14, 7), color=['gold', 'silver', '#cd7f32'])\nplt.title('Average Monthly Sales of Electronic Products Across Different Stores')\nplt.xlabel('Month')\nplt.ylabel('Average Sales ($)')\nplt.xticks(rotation=45)\nplt.legend(title='Store')\nplt.grid(axis='y')\nplt.show()"
+}

@@ -1,0 +1,85 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10446-sales-evolution-chart?code_type=2",
+	"title": "Sales evolution chart",
+	"difficulty": "Medium",
+	"id": "ID 10446",
+	"type": "Stacked Area Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data & Categorical Data",
+	"description": "Create a stacked area chart to display the evolution of sales figures for multiple product categories over time, using 'lightcoral' for electronics, 'lightseagreen' for clothing, and 'lightsalmon' for accessories.",
+	"data": [
+		{
+			"date": "2023-01-31 00:00:00",
+			"electronics": 3954,
+			"clothing": 2521,
+			"accessories": 910
+		},
+		{
+			"date": "2023-02-28 00:00:00",
+			"electronics": 3761,
+			"clothing": 826,
+			"accessories": 1027
+		},
+		{
+			"date": "2023-03-31 00:00:00",
+			"electronics": 1227,
+			"clothing": 3343,
+			"accessories": 973
+		},
+		{
+			"date": "2023-04-30 00:00:00",
+			"electronics": 3004,
+			"clothing": 3470,
+			"accessories": 842
+		},
+		{
+			"date": "2023-05-31 00:00:00",
+			"electronics": 1618,
+			"clothing": 3172,
+			"accessories": 1126
+		},
+		{
+			"date": "2023-06-30 00:00:00",
+			"electronics": 4437,
+			"clothing": 2753,
+			"accessories": 1439
+		},
+		{
+			"date": "2023-07-31 00:00:00",
+			"electronics": 1335,
+			"clothing": 2088,
+			"accessories": 697
+		},
+		{
+			"date": "2023-08-31 00:00:00",
+			"electronics": 4434,
+			"clothing": 930,
+			"accessories": 985
+		},
+		{
+			"date": "2023-09-30 00:00:00",
+			"electronics": 1848,
+			"clothing": 3052,
+			"accessories": 933
+		},
+		{
+			"date": "2023-10-31 00:00:00",
+			"electronics": 3366,
+			"clothing": 1787,
+			"accessories": 1144
+		},
+		{
+			"date": "2023-11-30 00:00:00",
+			"electronics": 2305,
+			"clothing": 1855,
+			"accessories": 985
+		},
+		{
+			"date": "2023-12-31 00:00:00",
+			"electronics": 3561,
+			"clothing": 2461,
+			"accessories": 562
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\nplt.figure(figsize=(12, 6))\n\ncolors=['lightcoral', 'lightseagreen', 'lightsalmon']\nplt.stackplot(df['date'], df['electronics'], df['clothing'], df['accessories'], labels=['Electronics', 'Clothing', 'Accessories'], colors=colors)\n\nplt.title('Evolution of Sales Figures Over Time')\nplt.xlabel('Month')\nplt.ylabel('Sales ($)')\nplt.legend()\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+}

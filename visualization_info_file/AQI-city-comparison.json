@@ -1,0 +1,188 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10456-aqi-city-comparison?code_type=2",
+	"title": "AQI city comparison",
+	"difficulty": "Medium",
+	"id": "ID 10456",
+	"type": "Multi-Line Chart",
+	"analysis": "Comparison",
+	"data_type": "Time Series Data",
+	"description": "Craft a multi-line chart to monitor the change in air quality index (AQI) of various cities over the last month, using distinct colors 'goldenrod' for City X, 'firebrick' for City Y, and 'forestgreen' for City Z.",
+	"data": [
+		{
+			"date": "2024-08-28 13:28:46",
+			"city_x": 59,
+			"city_y": 218,
+			"city_z": 173
+		},
+		{
+			"date": "2024-08-29 13:28:46",
+			"city_x": 175,
+			"city_y": 149,
+			"city_z": 44
+		},
+		{
+			"date": "2024-08-30 13:28:46",
+			"city_x": 65,
+			"city_y": 200,
+			"city_z": 111
+		},
+		{
+			"date": "2024-08-31 13:28:46",
+			"city_x": 114,
+			"city_y": 125,
+			"city_z": 128
+		},
+		{
+			"date": "2024-09-01 13:28:46",
+			"city_x": 163,
+			"city_y": 91,
+			"city_z": 128
+		},
+		{
+			"date": "2024-09-02 13:28:46",
+			"city_x": 173,
+			"city_y": 117,
+			"city_z": 90
+		},
+		{
+			"date": "2024-09-03 13:28:46",
+			"city_x": 163,
+			"city_y": 96,
+			"city_z": 148
+		},
+		{ "date": "2024-09-04 13:28:46", "city_x": 58, "city_y": 87, "city_z": 74 },
+		{
+			"date": "2024-09-05 13:28:46",
+			"city_x": 123,
+			"city_y": 78,
+			"city_z": 144
+		},
+		{
+			"date": "2024-09-06 13:28:46",
+			"city_x": 50,
+			"city_y": 153,
+			"city_z": 55
+		},
+		{
+			"date": "2024-09-07 13:28:46",
+			"city_x": 90,
+			"city_y": 137,
+			"city_z": 128
+		},
+		{
+			"date": "2024-09-08 13:28:46",
+			"city_x": 165,
+			"city_y": 210,
+			"city_z": 174
+		},
+		{
+			"date": "2024-09-09 13:28:46",
+			"city_x": 66,
+			"city_y": 211,
+			"city_z": 125
+		},
+		{
+			"date": "2024-09-10 13:28:46",
+			"city_x": 150,
+			"city_y": 154,
+			"city_z": 51
+		},
+		{
+			"date": "2024-09-11 13:28:46",
+			"city_x": 189,
+			"city_y": 199,
+			"city_z": 152
+		},
+		{
+			"date": "2024-09-12 13:28:46",
+			"city_x": 104,
+			"city_y": 216,
+			"city_z": 52
+		},
+		{
+			"date": "2024-09-13 13:28:46",
+			"city_x": 138,
+			"city_y": 134,
+			"city_z": 102
+		},
+		{
+			"date": "2024-09-14 13:28:46",
+			"city_x": 157,
+			"city_y": 197,
+			"city_z": 119
+		},
+		{
+			"date": "2024-09-15 13:28:46",
+			"city_x": 172,
+			"city_y": 75,
+			"city_z": 148
+		},
+		{
+			"date": "2024-09-16 13:28:46",
+			"city_x": 112,
+			"city_y": 78,
+			"city_z": 82
+		},
+		{
+			"date": "2024-09-17 13:28:46",
+			"city_x": 83,
+			"city_y": 178,
+			"city_z": 97
+		},
+		{
+			"date": "2024-09-18 13:28:46",
+			"city_x": 150,
+			"city_y": 131,
+			"city_z": 137
+		},
+		{
+			"date": "2024-09-19 13:28:46",
+			"city_x": 104,
+			"city_y": 148,
+			"city_z": 90
+		},
+		{
+			"date": "2024-09-20 13:28:46",
+			"city_x": 127,
+			"city_y": 199,
+			"city_z": 85
+		},
+		{
+			"date": "2024-09-21 13:28:46",
+			"city_x": 63,
+			"city_y": 205,
+			"city_z": 168
+		},
+		{
+			"date": "2024-09-22 13:28:46",
+			"city_x": 176,
+			"city_y": 195,
+			"city_z": 63
+		},
+		{
+			"date": "2024-09-23 13:28:46",
+			"city_x": 191,
+			"city_y": 88,
+			"city_z": 43
+		},
+		{
+			"date": "2024-09-24 13:28:46",
+			"city_x": 142,
+			"city_y": 93,
+			"city_z": 69
+		},
+		{
+			"date": "2024-09-25 13:28:46",
+			"city_x": 136,
+			"city_y": 156,
+			"city_z": 56
+		},
+		{
+			"date": "2024-09-26 13:28:46",
+			"city_x": 80,
+			"city_y": 104,
+			"city_z": 124
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(12,6))\nplt.plot(df['date'], df['city_x'], label=\"City X\", color=\"goldenrod\")\nplt.plot(df['date'], df['city_y'], label=\"City Y\", color=\"firebrick\")\nplt.plot(df['date'], df['city_z'], label=\"City Z\", color=\"forestgreen\")\n\nplt.title('Daily Air Quality Index (AQI) for Various Cities Over the Last Month')\nplt.xlabel('Date')\nplt.ylabel('AQI')\nplt.tick_params(axis='x', labelrotation=45)\nplt.legend()\nplt.grid(True)\nplt.tight_layout()\nplt.show()"
+}

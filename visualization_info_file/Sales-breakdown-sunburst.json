@@ -1,0 +1,26 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10467-sales-breakdown-sunburst?code_type=2",
+	"title": "Sales breakdown sunburst",
+	"difficulty": "Hard",
+	"id": "ID 10467",
+	"type": "Sunburst Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Utilize a sunburst chart to break down the sales data of a company by region and product type, with 'navajowhite' for North America, 'sandybrown' for Europe, and 'lightsteelblue' for Asia.",
+	"data": [
+		{
+			"region": "North America",
+			"product_type": "Electronics",
+			"sales": 100000
+		},
+		{ "region": "North America", "product_type": "Apparel", "sales": 50000 },
+		{ "region": "North America", "product_type": "Toys", "sales": 25000 },
+		{ "region": "Europe", "product_type": "Electronics", "sales": 80000 },
+		{ "region": "Europe", "product_type": "Apparel", "sales": 40000 },
+		{ "region": "Europe", "product_type": "Toys", "sales": 20000 },
+		{ "region": "Asia", "product_type": "Electronics", "sales": 90000 },
+		{ "region": "Asia", "product_type": "Apparel", "sales": 30000 },
+		{ "region": "Asia", "product_type": "Toys", "sales": 10000 }
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nregion_colors = {'North America': 'navajowhite', 'Europe': 'sandybrown', 'Asia': 'lightsteelblue'}\ndf_sales['colors'] = df_sales['region'].map(region_colors)\n\nfig, ax = plt.subplots()\nsize = 0.3\n\nvals = df_sales.groupby('region')['sales'].sum()\ncmap = plt.get_cmap(\"tab20c\")\nouter_colors = df_sales['region'].map(region_colors).unique()\nax.pie(vals, radius=1, colors=outer_colors, wedgeprops=dict(width=size, edgecolor='w'),\n       labels=vals.index, autopct='%1.1f%%', pctdistance=0.85)\n\n\nvals = df_sales['sales']\ninner_colors = df_sales['colors']\nax.pie(vals, radius=1-size, colors=inner_colors, wedgeprops=dict(width=size, edgecolor='w'),\n       labels=df_sales['product_type'], labeldistance=0.75, autopct='%1.1f%%', pctdistance=0.75)\n\ncentre_circle = plt.Circle((0,0),1-size,fc='white')\nfig.gca().add_artist(centre_circle)\n\nax.set_aspect('equal')\nplt.title('Sales Breakdown by Region and Product Type')\nplt.show()"
+}

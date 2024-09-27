@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10458-appliance-energy-rates?code_type=2",
+	"title": "Appliance energy rates",
+	"difficulty": "Hard",
+	"id": "ID 10458",
+	"type": "Polar Area Chart",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data",
+	"description": "Design a polar area chart to compare the energy consumption rates of various appliances in a home, using 'mediumblue' for the refrigerator, 'darkorange' for the heater, and 'limegreen' for the air conditioner.",
+	"data": [
+		{
+			"appliance": "Refrigerator",
+			"energy_consumption": 500
+		},
+		{
+			"appliance": "Heater",
+			"energy_consumption": 800
+		},
+		{
+			"appliance": "Air Conditioner",
+			"energy_consumption": 600
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Define colors for each appliance\ncolors = ['mediumblue', 'darkorange', 'limegreen']\n\n# Prepare data\nlabels = df['appliance']\nenergy = df['energy_consumption']\n\n# Number of variables\nnum_vars = len(labels)\n\n# Compute the angle each bar is centered on:\nangles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()\n\n# Complete the loop to close the circular graph\nenergy = np.concatenate((energy, [energy[0]]))\nangles += angles[:1]\n\n# Draw plot\nfig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(polar=True))\n\n# Draw bars\nfor i in range(num_vars):\n    ax.bar(angles[i], energy[i], color=colors[i], width=0.4, label=labels[i], alpha=0.7)\n\n# Connect the last bar to the first to close the shape\nax.plot(angles, energy, color='black', linewidth=2)  # Outline\n\n# Set the labels for each appliance at the appropriate angle\nax.set_xticks(angles[:-1])\nax.set_xticklabels(labels)\n\n# Title\nplt.title('Energy Consumption Rates of Various Appliances', size=15, color='black', y=1.1)\nplt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))\n\nplt.show()"
+}

@@ -1,0 +1,613 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10461-health-metrics-relationships?code_type=2",
+	"title": "Health metrics relationships",
+	"difficulty": "Hard",
+	"id": "ID 10461",
+	"type": "Scatter Plot Matrix",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Use a scatter plot matrix to analyze the relationships between various health metrics (BMI, blood pressure, cholesterol), using 'lightskyblue' for normal ranges and 'darkred' for critical ranges.",
+	"data": [
+		{
+			"bmi": 19.15,
+			"blood_pressure": 101.773,
+			"cholesterol": 237.177,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.015,
+			"blood_pressure": 105.077,
+			"cholesterol": 166.871,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.822,
+			"blood_pressure": 104.581,
+			"cholesterol": 184.741,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.807,
+			"blood_pressure": 111.721,
+			"cholesterol": 202.072,
+			"status": "Normal"
+		},
+		{
+			"bmi": 27.38,
+			"blood_pressure": 114.164,
+			"cholesterol": 146.652,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.129,
+			"blood_pressure": 122.535,
+			"cholesterol": 370.055,
+			"status": "Critical"
+		},
+		{
+			"bmi": 27.401,
+			"blood_pressure": 95.053,
+			"cholesterol": 226.266,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.445,
+			"blood_pressure": 126.343,
+			"cholesterol": 136.156,
+			"status": "Normal"
+		},
+		{
+			"bmi": 27.915,
+			"blood_pressure": 83.632,
+			"cholesterol": 129.292,
+			"status": "Normal"
+		},
+		{
+			"bmi": 17.818,
+			"blood_pressure": 121.114,
+			"cholesterol": 206.337,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.844,
+			"blood_pressure": 121.617,
+			"cholesterol": 180.758,
+			"status": "Normal"
+		},
+		{
+			"bmi": 16.954,
+			"blood_pressure": 73.603,
+			"cholesterol": 122.452,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.251,
+			"blood_pressure": 113.178,
+			"cholesterol": 113.96,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.027,
+			"blood_pressure": 141.797,
+			"cholesterol": 200.899,
+			"status": "Critical"
+		},
+		{
+			"bmi": 25.655,
+			"blood_pressure": 129.011,
+			"cholesterol": 176.728,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.269,
+			"blood_pressure": 110.114,
+			"cholesterol": 220.024,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.509,
+			"blood_pressure": 109.068,
+			"cholesterol": 194.138,
+			"status": "Normal"
+		},
+		{
+			"bmi": 30.602,
+			"blood_pressure": 125.841,
+			"cholesterol": 255.042,
+			"status": "Critical"
+		},
+		{
+			"bmi": 24.425,
+			"blood_pressure": 123.084,
+			"cholesterol": 108.482,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.893,
+			"blood_pressure": 136.346,
+			"cholesterol": 230.097,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.063,
+			"blood_pressure": 122.875,
+			"cholesterol": 159.323,
+			"status": "Normal"
+		},
+		{
+			"bmi": 26.763,
+			"blood_pressure": 138.103,
+			"cholesterol": 153.202,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.811,
+			"blood_pressure": 128.013,
+			"cholesterol": 248.152,
+			"status": "Critical"
+		},
+		{
+			"bmi": 17.651,
+			"blood_pressure": 104.708,
+			"cholesterol": 103.606,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.419,
+			"blood_pressure": 99.66,
+			"cholesterol": 195.595,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.951,
+			"blood_pressure": 109.46,
+			"cholesterol": 181.908,
+			"status": "Normal"
+		},
+		{
+			"bmi": 15.444,
+			"blood_pressure": 128.173,
+			"cholesterol": 259.751,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.887,
+			"blood_pressure": 102.644,
+			"cholesterol": 126.925,
+			"status": "Normal"
+		},
+		{
+			"bmi": 27.597,
+			"blood_pressure": 137.836,
+			"cholesterol": 217.511,
+			"status": "Normal"
+		},
+		{
+			"bmi": 15.54,
+			"blood_pressure": 89.219,
+			"cholesterol": 223.674,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.963,
+			"blood_pressure": 114.715,
+			"cholesterol": 199.079,
+			"status": "Normal"
+		},
+		{
+			"bmi": 29.571,
+			"blood_pressure": 101.353,
+			"cholesterol": 205.384,
+			"status": "Normal"
+		},
+		{
+			"bmi": 19.516,
+			"blood_pressure": 126.258,
+			"cholesterol": 192.21,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.185,
+			"blood_pressure": 122.736,
+			"cholesterol": 126.826,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.87,
+			"blood_pressure": 116.966,
+			"cholesterol": 173.325,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.057,
+			"blood_pressure": 95.263,
+			"cholesterol": 103.382,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.589,
+			"blood_pressure": 102.35,
+			"cholesterol": 246.999,
+			"status": "Critical"
+		},
+		{
+			"bmi": 15.949,
+			"blood_pressure": 106.787,
+			"cholesterol": 247.53,
+			"status": "Critical"
+		},
+		{
+			"bmi": 18.944,
+			"blood_pressure": 139.859,
+			"cholesterol": 129.438,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.405,
+			"blood_pressure": 107.124,
+			"cholesterol": 260.237,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.731,
+			"blood_pressure": 130.023,
+			"cholesterol": 191.085,
+			"status": "Normal"
+		},
+		{
+			"bmi": 26.553,
+			"blood_pressure": 138.4,
+			"cholesterol": 123.839,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.712,
+			"blood_pressure": 103.11,
+			"cholesterol": 163.397,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.52,
+			"blood_pressure": 109.671,
+			"cholesterol": 228.758,
+			"status": "Normal"
+		},
+		{
+			"bmi": 29.398,
+			"blood_pressure": 75.863,
+			"cholesterol": 194.839,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.673,
+			"blood_pressure": 111.937,
+			"cholesterol": 146.049,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.079,
+			"blood_pressure": 134.267,
+			"cholesterol": 232.793,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.99,
+			"blood_pressure": 101.067,
+			"cholesterol": 188.766,
+			"status": "Normal"
+		},
+		{
+			"bmi": 21.07,
+			"blood_pressure": 127.027,
+			"cholesterol": 174.316,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.844,
+			"blood_pressure": 135.771,
+			"cholesterol": 137.137,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.813,
+			"blood_pressure": 127.201,
+			"cholesterol": 225.114,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.669,
+			"blood_pressure": 111.236,
+			"cholesterol": 241.96,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.462,
+			"blood_pressure": 124.567,
+			"cholesterol": 147.217,
+			"status": "Normal"
+		},
+		{
+			"bmi": 19.879,
+			"blood_pressure": 106.492,
+			"cholesterol": 184.581,
+			"status": "Normal"
+		},
+		{
+			"bmi": 27.401,
+			"blood_pressure": 111.615,
+			"cholesterol": 185.795,
+			"status": "Normal"
+		},
+		{
+			"bmi": 30.061,
+			"blood_pressure": 167.735,
+			"cholesterol": 207.502,
+			"status": "Critical"
+		},
+		{
+			"bmi": 21.77,
+			"blood_pressure": 109.833,
+			"cholesterol": 145.287,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.259,
+			"blood_pressure": 106.275,
+			"cholesterol": 299.146,
+			"status": "Critical"
+		},
+		{
+			"bmi": 23.438,
+			"blood_pressure": 123.098,
+			"cholesterol": 213.38,
+			"status": "Normal"
+		},
+		{
+			"bmi": 19.952,
+			"blood_pressure": 125.557,
+			"cholesterol": 243.923,
+			"status": "Critical"
+		},
+		{
+			"bmi": 19.907,
+			"blood_pressure": 135.094,
+			"cholesterol": 183.38,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.075,
+			"blood_pressure": 104.802,
+			"cholesterol": 304.608,
+			"status": "Critical"
+		},
+		{
+			"bmi": 14.303,
+			"blood_pressure": 98.907,
+			"cholesterol": 222.04,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.97,
+			"blood_pressure": 100.446,
+			"cholesterol": 109.399,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.814,
+			"blood_pressure": 134.947,
+			"cholesterol": 249.81,
+			"status": "Critical"
+		},
+		{
+			"bmi": 25.689,
+			"blood_pressure": 141.514,
+			"cholesterol": 197.502,
+			"status": "Critical"
+		},
+		{
+			"bmi": 21.171,
+			"blood_pressure": 104.85,
+			"cholesterol": 146.648,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.496,
+			"blood_pressure": 109.783,
+			"cholesterol": 197.037,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.56,
+			"blood_pressure": 119.487,
+			"cholesterol": 154.795,
+			"status": "Normal"
+		},
+		{
+			"bmi": 30.215,
+			"blood_pressure": 100.819,
+			"cholesterol": 235.138,
+			"status": "Critical"
+		},
+		{
+			"bmi": 18.287,
+			"blood_pressure": 110.041,
+			"cholesterol": 230.43,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.901,
+			"blood_pressure": 138.769,
+			"cholesterol": 130.324,
+			"status": "Normal"
+		},
+		{
+			"bmi": 20.251,
+			"blood_pressure": 95.538,
+			"cholesterol": 232.933,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.192,
+			"blood_pressure": 127.372,
+			"cholesterol": 252.308,
+			"status": "Critical"
+		},
+		{
+			"bmi": 18.583,
+			"blood_pressure": 143.581,
+			"cholesterol": 75.212,
+			"status": "Critical"
+		},
+		{
+			"bmi": 23.863,
+			"blood_pressure": 98.478,
+			"cholesterol": 265.218,
+			"status": "Critical"
+		},
+		{
+			"bmi": 19.116,
+			"blood_pressure": 141.886,
+			"cholesterol": 233.045,
+			"status": "Critical"
+		},
+		{
+			"bmi": 24.249,
+			"blood_pressure": 120.092,
+			"cholesterol": 241.124,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.741,
+			"blood_pressure": 109.296,
+			"cholesterol": 271.336,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.28,
+			"blood_pressure": 137.368,
+			"cholesterol": 197.565,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.26,
+			"blood_pressure": 121.46,
+			"cholesterol": 156.649,
+			"status": "Normal"
+		},
+		{
+			"bmi": 17.258,
+			"blood_pressure": 115.199,
+			"cholesterol": 218.558,
+			"status": "Normal"
+		},
+		{
+			"bmi": 18.925,
+			"blood_pressure": 108.443,
+			"cholesterol": 191.936,
+			"status": "Normal"
+		},
+		{
+			"bmi": 24.917,
+			"blood_pressure": 103.167,
+			"cholesterol": 222.476,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.064,
+			"blood_pressure": 108.932,
+			"cholesterol": 83.654,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.831,
+			"blood_pressure": 115.17,
+			"cholesterol": 179.209,
+			"status": "Normal"
+		},
+		{
+			"bmi": 13.252,
+			"blood_pressure": 135.245,
+			"cholesterol": 329.604,
+			"status": "Critical"
+		},
+		{
+			"bmi": 24.888,
+			"blood_pressure": 114.95,
+			"cholesterol": 218.738,
+			"status": "Normal"
+		},
+		{
+			"bmi": 23.395,
+			"blood_pressure": 125.833,
+			"cholesterol": 249.976,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.646,
+			"blood_pressure": 112.207,
+			"cholesterol": 216.956,
+			"status": "Normal"
+		},
+		{
+			"bmi": 14.218,
+			"blood_pressure": 129.504,
+			"cholesterol": 182.539,
+			"status": "Normal"
+		},
+		{
+			"bmi": 25.324,
+			"blood_pressure": 118.553,
+			"cholesterol": 242.192,
+			"status": "Critical"
+		},
+		{
+			"bmi": 28.997,
+			"blood_pressure": 145.381,
+			"cholesterol": 237.095,
+			"status": "Critical"
+		},
+		{
+			"bmi": 24.005,
+			"blood_pressure": 125.145,
+			"cholesterol": 182.4,
+			"status": "Normal"
+		},
+		{
+			"bmi": 27.321,
+			"blood_pressure": 86.715,
+			"cholesterol": 190.475,
+			"status": "Normal"
+		},
+		{
+			"bmi": 19.37,
+			"blood_pressure": 117.565,
+			"cholesterol": 233.614,
+			"status": "Normal"
+		},
+		{
+			"bmi": 22.74,
+			"blood_pressure": 111.17,
+			"cholesterol": 160.016,
+			"status": "Normal"
+		},
+		{
+			"bmi": 19.396,
+			"blood_pressure": 139.105,
+			"cholesterol": 157.765,
+			"status": "Normal"
+		},
+		{
+			"bmi": 17.518,
+			"blood_pressure": 120.399,
+			"cholesterol": 258.614,
+			"status": "Critical"
+		},
+		{
+			"bmi": 20.614,
+			"blood_pressure": 137.256,
+			"cholesterol": 257.453,
+			"status": "Critical"
+		}
+	],
+	"solution": "import seaborn as sns\nimport matplotlib.pyplot as plt\nsns.set(style=\"whitegrid\")\n\npairplot = sns.pairplot(df_health, hue='status', palette={'Normal': 'lightskyblue', 'Critical': 'darkred'}, markers=[\"o\", \"D\"], plot_kws={'alpha': 0.7})\npairplot.fig.suptitle('Scatter Plot Matrix of Health Metrics', y=1.02)\n\nplt.show()"
+}

@@ -1,0 +1,31 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10497-software-project-phases?code_type=2",
+	"title": "Software project phases",
+	"difficulty": "Medium",
+	"id": "ID 10497",
+	"type": "Gantt Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Develop a Gantt chart to track the deployment phases of a new software project, using 'salmon' for planning, 'lightgreen' for development, and 'lightskyblue' for testing.",
+	"data": [
+		{
+			"task": "Planning",
+			"start": "2023-01-01 00:00:00",
+			"finish": "2023-01-31 00:00:00",
+			"phase": "Planning"
+		},
+		{
+			"task": "Development",
+			"start": "2023-02-01 00:00:00",
+			"finish": "2023-04-30 00:00:00",
+			"phase": "Development"
+		},
+		{
+			"task": "Testing",
+			"start": "2023-05-01 00:00:00",
+			"finish": "2023-06-30 00:00:00",
+			"phase": "Testing"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n\ncolor_map = {'Planning': 'salmon', 'Development': 'lightgreen', 'Testing': 'lightskyblue'}\nfig, ax = plt.subplots(figsize=(12, 6))\n\nfor i, task in df.iterrows():\n    ax.barh(task['task'], (task['finish'] - task['start']).days, left=task['start'], color=color_map[task['phase']])\n\nax.set_xlabel('Date')\nax.set_ylabel('Task')\nax.set_title('Gantt Chart for Software Project Deployment Phases')\n\nax.xaxis_date()\nax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))\nplt.xticks(rotation=45)\n\nplt.show()"
+}

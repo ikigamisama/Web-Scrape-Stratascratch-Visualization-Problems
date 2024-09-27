@@ -1,0 +1,61 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10529-subscriber-growth-trend?code_type=2",
+	"title": "Subscriber growth trend",
+	"difficulty": "Easy",
+	"id": "ID 10529",
+	"type": "Line Graph",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Design a line graph to track the monthly growth rate of new subscribers to an online service, using 'blue' to represent the trend.",
+	"data": [
+		{
+			"month": "2023-01-31 00:00:00",
+			"growth_rate": 6.391
+		},
+		{
+			"month": "2023-02-28 00:00:00",
+			"growth_rate": 7.722
+		},
+		{
+			"month": "2023-03-31 00:00:00",
+			"growth_rate": 6.822
+		},
+		{
+			"month": "2023-04-30 00:00:00",
+			"growth_rate": 6.359
+		},
+		{
+			"month": "2023-05-31 00:00:00",
+			"growth_rate": 5.389
+		},
+		{
+			"month": "2023-06-30 00:00:00",
+			"growth_rate": 7.167
+		},
+		{
+			"month": "2023-07-31 00:00:00",
+			"growth_rate": 5.501
+		},
+		{
+			"month": "2023-08-31 00:00:00",
+			"growth_rate": 9.134
+		},
+		{
+			"month": "2023-09-30 00:00:00",
+			"growth_rate": 9.709
+		},
+		{
+			"month": "2023-10-31 00:00:00",
+			"growth_rate": 5.068
+		},
+		{
+			"month": "2023-11-30 00:00:00",
+			"growth_rate": 8.334
+		},
+		{
+			"month": "2023-12-31 00:00:00",
+			"growth_rate": 6.231
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['month'], df['growth_rate'], color='blue', linewidth=2, marker='o')\n\nplt.title('Monthly Growth Rate of New Subscribers')\nplt.xlabel('Month')\nplt.ylabel('Growth Rate (%)')\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()"
+}

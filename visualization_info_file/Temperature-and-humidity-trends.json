@@ -1,0 +1,133 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10480-temperature-and-humidity-trends?code_type=2",
+	"title": "Temperature and humidity trends",
+	"difficulty": "Medium",
+	"id": "ID 10480",
+	"type": "Line Plot",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Generate a line plot to track the changes in air temperature and humidity over the course of a day, using 'deepskyblue' for temperature and 'lightcoral' for humidity.",
+	"data": [
+		{
+			"hour": 0,
+			"temperature": 23.232,
+			"humidity": 45.914
+		},
+		{
+			"hour": 1,
+			"temperature": 25.728,
+			"humidity": 71.996
+		},
+		{
+			"hour": 2,
+			"temperature": 24.041,
+			"humidity": 47.168
+		},
+		{
+			"hour": 3,
+			"temperature": 23.173,
+			"humidity": 87.233
+		},
+		{
+			"hour": 4,
+			"temperature": 21.355,
+			"humidity": 66.092
+		},
+		{
+			"hour": 5,
+			"temperature": 24.688,
+			"humidity": 60.733
+		},
+		{
+			"hour": 6,
+			"temperature": 21.564,
+			"humidity": 53.228
+		},
+		{
+			"hour": 7,
+			"temperature": 28.377,
+			"humidity": 78.712
+		},
+		{
+			"hour": 8,
+			"temperature": 29.455,
+			"humidity": 62.808
+		},
+		{
+			"hour": 9,
+			"temperature": 20.752,
+			"humidity": 68.422
+		},
+		{
+			"hour": 10,
+			"temperature": 26.876,
+			"humidity": 40.939
+		},
+		{
+			"hour": 11,
+			"temperature": 22.933,
+			"humidity": 70.882
+		},
+		{
+			"hour": 12,
+			"temperature": 23.521,
+			"humidity": 70.605
+		},
+		{
+			"hour": 13,
+			"temperature": 28.884,
+			"humidity": 70.847
+		},
+		{
+			"hour": 14,
+			"temperature": 16.066,
+			"humidity": 87.187
+		},
+		{
+			"hour": 15,
+			"temperature": 16.307,
+			"humidity": 74.091
+		},
+		{
+			"hour": 16,
+			"temperature": 15.303,
+			"humidity": 57.975
+		},
+		{
+			"hour": 17,
+			"temperature": 27.489,
+			"humidity": 61.852
+		},
+		{
+			"hour": 18,
+			"temperature": 26.672,
+			"humidity": 74.882
+		},
+		{
+			"hour": 19,
+			"temperature": 28.05,
+			"humidity": 43.011
+		},
+		{
+			"hour": 20,
+			"temperature": 29.679,
+			"humidity": 73.338
+		},
+		{
+			"hour": 21,
+			"temperature": 26.987,
+			"humidity": 73.532
+		},
+		{
+			"hour": 22,
+			"temperature": 21.922,
+			"humidity": 50.519
+		},
+		{
+			"hour": 23,
+			"temperature": 26.708,
+			"humidity": 46.446
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\n#plotting the chart\nplt.figure(figsize=(12, 6))\nplt.plot(\n    df['hour'], \n    df['temperature'], \n    color='deepskyblue', \n    label='Temperature'\n)\nplt.plot(\n    df['hour'], \n    df['humidity'], \n    color='lightcoral', \n    label='Humidity'\n)\nplt.title(\n    'Changes in Air Temperature and Humidity Over the Course of a Day'\n)\nplt.xlabel('Hour of the Day')\nplt.ylabel('Value')\nplt.legend(title='Legend')\nplt.grid(True)\nplt.show()"
+}

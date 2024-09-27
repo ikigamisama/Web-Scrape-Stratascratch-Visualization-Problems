@@ -1,0 +1,38 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10472-revenue-growth-sectors?code_type=2",
+	"title": "Revenue growth sectors",
+	"difficulty": "Medium",
+	"id": "ID 10472",
+	"type": "Stacked Line Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Develop a stacked line chart to illustrate the revenue growth from different product sectors in a company over the last five years, using 'orange' for consumer electronics, 'greenyellow' for home appliances, and 'deepskyblue' for personal care products.",
+	"data": [
+		{
+			"consumer_electronics": 372,
+			"home_appliances": 295,
+			"personal_care_products": 137
+		},
+		{
+			"consumer_electronics": 247,
+			"home_appliances": 203,
+			"personal_care_products": 120
+		},
+		{
+			"consumer_electronics": 317,
+			"home_appliances": 109,
+			"personal_care_products": 138
+		},
+		{
+			"consumer_electronics": 392,
+			"home_appliances": 121,
+			"personal_care_products": 190
+		},
+		{
+			"consumer_electronics": 451,
+			"home_appliances": 136,
+			"personal_care_products": 108
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolors = {'consumer_electronics': 'orange', 'home_appliances': 'greenyellow', 'personal_care_products': 'deepskyblue'}\n\nplt.figure(figsize=(10, 6))\ndf.plot(\n    kind='line', \n    stacked=True, \n    color=[colors[col] for col in df.columns]\n)\n\nplt.title(\n    'Revenue Growth from Different Product Sectors Over the Last Five Years'\n)\nplt.xlabel('Year')\nplt.ylabel('Revenue ($ Millions)')\nplt.legend(title='Product Sectors')\nplt.grid(True)\nplt.show()"
+}

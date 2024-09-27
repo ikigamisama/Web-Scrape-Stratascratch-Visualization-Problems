@@ -1,0 +1,43 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10527-research-grants-treemap?code_type=2",
+	"title": "Research grants treemap",
+	"difficulty": "Medium",
+	"id": "ID 10527",
+	"type": "Treemap",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Develop a treemap to visualize the different types of research grants awarded by a university, using 'lavender' for science, 'lightcoral' for engineering, and 'lightgreen' for humanities.",
+	"data": [
+		{
+			"type": "Science",
+			"sub_type": "Biology",
+			"grants": "150"
+		},
+		{
+			"type": "Engineering",
+			"sub_type": "Mechanical",
+			"grants": "100"
+		},
+		{
+			"type": "Humanities",
+			"sub_type": "History",
+			"grants": "80"
+		},
+		{
+			"type": "Science",
+			"sub_type": "Physics",
+			"grants": "130"
+		},
+		{
+			"type": "Engineering",
+			"sub_type": "Electrical",
+			"grants": "90"
+		},
+		{
+			"type": "Humanities",
+			"sub_type": "Philosophy",
+			"grants": "70"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport squarify\n\ndf_agg = df.groupby('type').sum().reset_index()\ncolors = {'Science': 'lavender', 'Engineering': 'lightcoral', 'Humanities': 'lightgreen'}\ncolor_labels = [colors[key] for key in df_agg['type']]\n\nplt.figure(figsize=(12, 8))\nsquarify.plot(sizes=df_agg['grants'], label=df_agg['type'], color=color_labels, alpha=0.7)\nplt.title('Research Grants Awarded by University')\nplt.axis('off')\nplt.show()"
+}

@@ -1,0 +1,613 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10444-student-performance-comparison?code_type=2",
+	"title": "Student performance comparison",
+	"difficulty": "Medium",
+	"id": "ID 10444",
+	"type": "Box Plot",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data & Categorical Data",
+	"description": "Craft a box plot to compare the performance scores of students across various schools using 'plum' for School 1, 'peachpuff' for School 2, and 'palegreen' for School 3.",
+	"data": [
+		{
+			"school": "School 1",
+			"performance_scores": 79.412
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.691
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 99.308
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 72.479
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 76.096
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 90.825
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 65.908
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 69.084
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 76.876
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.701
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 63.072
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 72.951
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.412
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 81.035
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 58.352
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 67.998
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 86.514
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 93.573
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 59.888
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 81.448
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 65.194
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 66.431
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 66.281
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 70.775
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 84.964
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 82.124
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 75.591
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.367
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 75.033
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 73.941
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 82.931
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 68.684
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 74.938
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 73.989
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 74.477
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 77.492
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 76.977
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 88.348
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 74.131
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 90.615
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.941
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 70.223
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 76.007
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 78.554
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 77.696
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 87.92
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 86.393
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 79.944
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 71.637
+		},
+		{
+			"school": "School 1",
+			"performance_scores": 73.994
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 86.201
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 68.319
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 45.338
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 54.657
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 56.337
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 82.283
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 63.393
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 98.902
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 74.849
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 66.872
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 58.464
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 79.583
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 61.389
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 52.638
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 73.522
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 65.191
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 82.836
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 63.896
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 22.105
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 76.84
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 36.834
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 88.081
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 92.32
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 58.595
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 47.529
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 44.044
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 78.09
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 61.968
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 56.025
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 61.349
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 96.328
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 70.204
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 76.186
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 76.654
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 80.276
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 80.92
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 54.343
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 61.772
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 53.589
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 54.333
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 82.123
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 57.474
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 63.813
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 54.608
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 56.099
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 76.824
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 58.319
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 57.768
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 72.403
+		},
+		{
+			"school": "School 2",
+			"performance_scores": 72.507
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.962
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 85.854
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 76.231
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.151
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 87.492
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 90.091
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 80.768
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 97.604
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 78.838
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.635
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 85.23
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 82.564
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 89.081
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 83.593
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 73.322
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 79.164
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 87.288
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 96.19
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 77.594
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 84.915
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 92.254
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.034
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 83.122
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 77.89
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 76.094
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 81.26
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 83.158
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 73.754
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 76.532
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 86.518
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 82.955
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 81.226
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 82.962
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 80.937
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 89.638
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 93.2
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 95.368
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.549
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 88.736
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 92.315
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 93.692
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 92.326
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 91.061
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 81.827
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 77.002
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 89.386
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 84.531
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 84.722
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 80.553
+		},
+		{
+			"school": "School 3",
+			"performance_scores": 78.495
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolor_map = {'School 1': \"plum\", 'School 2': 'peachpuff', 'School 3': 'palegreen'}\ncolors = df['school'].map(color_map)\n#adding plot titles and labels\n\nplt.figure(figsize=(10, 6))\n\nbox = plt.boxplot([\n        df[df['school'] == 'School 1']['performance_scores'],\n        df[df['school'] == 'School 2']['performance_scores'],\n        df[df['school'] == 'School 3']['performance_scores']], \n        patch_artist=True, labels=['School 1', 'School 2', 'School 3'])\n    \nfor school, color in zip(box['boxes'], ['plum', 'peachpuff', 'palegreen']):\n    school.set_facecolor(color)\n    \nplt.title(\"Performance Scores of Students Across Various Schools\")\nplt.xlabel(\"School\")\nplt.ylabel('Performance Scores')\nplt.grid(True)\nplt.show()"
+}

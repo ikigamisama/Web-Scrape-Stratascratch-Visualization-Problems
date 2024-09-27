@@ -1,0 +1,76 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10511-transportation-efficiency-analysis?code_type=2",
+	"title": "Transportation efficiency analysis",
+	"difficulty": "Medium",
+	"id": "ID 10511",
+	"type": "Bubble Chart",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data & Categorical Data",
+	"description": "Construct a bubble chart to evaluate the efficiency of various transportation modes within a city, marked 'lightpink' for buses, 'lightgray' for trains, and 'lightyellow' for taxis.",
+	"data": [
+		{
+			"mode": "Bus",
+			"efficiency": 77.441,
+			"cost": 25.338,
+			"travel_time": 51.126,
+			"bubble_size": 100
+		},
+		{
+			"mode": "Train",
+			"efficiency": 85.759,
+			"cost": 41.669,
+			"travel_time": 54.8,
+			"bubble_size": 200
+		},
+		{
+			"mode": "Taxi",
+			"efficiency": 80.138,
+			"cost": 31.156,
+			"travel_time": 59.145,
+			"bubble_size": 150
+		},
+		{
+			"mode": "Bus",
+			"efficiency": 77.244,
+			"cost": 32.722,
+			"travel_time": 51.966,
+			"bubble_size": 100
+		},
+		{
+			"mode": "Train",
+			"efficiency": 71.183,
+			"cost": 47.024,
+			"travel_time": 38.459,
+			"bubble_size": 200
+		},
+		{
+			"mode": "Taxi",
+			"efficiency": 82.295,
+			"cost": 12.841,
+			"travel_time": 51.221,
+			"bubble_size": 150
+		},
+		{
+			"mode": "Bus",
+			"efficiency": 71.879,
+			"cost": 13.485,
+			"travel_time": 24.731,
+			"bubble_size": 100
+		},
+		{
+			"mode": "Train",
+			"efficiency": 94.589,
+			"cost": 10.809,
+			"travel_time": 45.597,
+			"bubble_size": 200
+		},
+		{
+			"mode": "Taxi",
+			"efficiency": 98.183,
+			"cost": 43.305,
+			"travel_time": 25.734,
+			"bubble_size": 150
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Bus': 'lightpink', 'Train': 'lightgray', 'Taxi': 'lightyellow'}\nplt.figure(figsize=(12, 8))\n\nscatter = plt.scatter(df['cost'], df['efficiency'],  s=df['bubble_size'], c=[colors[color] for color in df['mode']], alpha=0.6)\nplt.title('Efficiency of Various Transportation Modes Within a City')\nplt.xlabel('Cost ($)')\nplt.ylabel('Efficiency')\nplt.grid(True)\nplt.legend(handles=[\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='lightpink', markersize=10, label='Bus'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='lightgray', markersize=10, label='Train'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='lightyellow', markersize=10, label='Taxi')],\n           title='Transportation Mode', loc='upper left')\nplt.show()"
+}

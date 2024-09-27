@@ -1,0 +1,513 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10492-satisfaction-productivity-correlation?code_type=2",
+	"title": "Satisfaction-productivity correlation",
+	"difficulty": "Medium",
+	"id": "ID 10492",
+	"type": "Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Develop a scatter plot to visualize the correlation between employee satisfaction and productivity, with 'purple' representing high productivity and 'orange' representing low productivity.",
+	"data": [
+		{
+			"employee_satisfaction": 5.939,
+			"productivity": 117.782,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.437,
+			"productivity": 77.001,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.425,
+			"productivity": 123.519,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 5.904,
+			"productivity": 146.219,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.813,
+			"productivity": 74.875,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.813,
+			"productivity": 107.616,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.938,
+			"productivity": 109.204,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.026,
+			"productivity": 107.225,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 9.673,
+			"productivity": 72.308,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 4.451,
+			"productivity": 145.275,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.126,
+			"productivity": 94.713,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.76,
+			"productivity": 134.641,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 6.112,
+			"productivity": 119.948,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.33,
+			"productivity": 79.744,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.639,
+			"productivity": 131.38,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 1.784,
+			"productivity": 89.651,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.182,
+			"productivity": 138.11,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.494,
+			"productivity": 108.127,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.003,
+			"productivity": 138.174,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.83,
+			"productivity": 119.253,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.808,
+			"productivity": 122.525,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.192,
+			"productivity": 100.132,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.153,
+			"productivity": 145.608,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.025,
+			"productivity": 114.399,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.064,
+			"productivity": 92.386,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.759,
+			"productivity": 110.639,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.29,
+			"productivity": 51.919,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 9.502,
+			"productivity": 80.157,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.697,
+			"productivity": 116.017,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.732,
+			"productivity": 79.008,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 3.381,
+			"productivity": 111.802,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.968,
+			"productivity": 92.877,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.105,
+			"productivity": 63.547,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.116,
+			"productivity": 79.828,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.169,
+			"productivity": 106.996,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.559,
+			"productivity": 109.087,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 6.509,
+			"productivity": 107.433,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.552,
+			"productivity": 115.32,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.494,
+			"productivity": 115.21,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.136,
+			"productivity": 93.142,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 4.236,
+			"productivity": 139.655,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.933,
+			"productivity": 86.756,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 7.279,
+			"productivity": 93.586,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.542,
+			"productivity": 139.192,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.001,
+			"productivity": 130.619,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.036,
+			"productivity": 120.389,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.893,
+			"productivity": 60.023,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 2.16,
+			"productivity": 141.948,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 3.839,
+			"productivity": 121.424,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.273,
+			"productivity": 149.885,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 6.132,
+			"productivity": 64.945,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 4.947,
+			"productivity": 136.813,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.895,
+			"productivity": 66.249,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.918,
+			"productivity": 111.556,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.88,
+			"productivity": 62.382,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 2.452,
+			"productivity": 134.801,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 6.878,
+			"productivity": 130.732,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 3.28,
+			"productivity": 106.91,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.197,
+			"productivity": 90.718,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 3.2,
+			"productivity": 56.917,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 2.431,
+			"productivity": 119.743,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 1.993,
+			"productivity": 95.354,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.907,
+			"productivity": 122.206,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.244,
+			"productivity": 136.638,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.769,
+			"productivity": 147.552,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 4.319,
+			"productivity": 135.58,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 8.389,
+			"productivity": 51.171,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.874,
+			"productivity": 85.998,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 8.542,
+			"productivity": 122.999,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 1.865,
+			"productivity": 67.163,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 9.788,
+			"productivity": 102.104,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 5.218,
+			"productivity": 55.434,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 9.791,
+			"productivity": 70,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.444,
+			"productivity": 51.852,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 7.653,
+			"productivity": 129.37,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 1.353,
+			"productivity": 72.392,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 3.545,
+			"productivity": 84.535,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 2.082,
+			"productivity": 142.808,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 3.665,
+			"productivity": 120.441,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.069,
+			"productivity": 53.184,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 3.862,
+			"productivity": 66.469,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 4.728,
+			"productivity": 112.148,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 1.577,
+			"productivity": 107.723,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 7.232,
+			"productivity": 73.789,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.099,
+			"productivity": 143.421,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 3.389,
+			"productivity": 111.397,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 5.709,
+			"productivity": 103.563,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.845,
+			"productivity": 108.991,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 6.184,
+			"productivity": 123.012,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 9.364,
+			"productivity": 81.194,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 3.867,
+			"productivity": 89.822,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 7.007,
+			"productivity": 70.984,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 2.186,
+			"productivity": 68.619,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 7.447,
+			"productivity": 144.437,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 3.605,
+			"productivity": 123.955,
+			"productivity_category": "High Productivity"
+		},
+		{
+			"employee_satisfaction": 2.649,
+			"productivity": 99.046,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 6.279,
+			"productivity": 72.741,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.181,
+			"productivity": 75.436,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 8.46,
+			"productivity": 55.803,
+			"productivity_category": "Low Productivity"
+		},
+		{
+			"employee_satisfaction": 1.042,
+			"productivity": 93.442,
+			"productivity_category": "Low Productivity"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'High Productivity': 'purple', \"Low Productivity\": \"orange\"}\nplt.figure(figsize=(10,6))\n\nfor category, group in df.groupby('productivity_category'):\n    plt.scatter(group['employee_satisfaction'], group['productivity'], color=colors[category], label=category, alpha=0.7)\n    \nplt.title('Correlation between Employee Satisfaction and Productivity')\nplt.xlabel('Employee Satisfaction (1-10)')\nplt.ylabel('Productivity')\nplt.legend(title='Productivity Category')\nplt.grid(True)\nplt.show()"
+}

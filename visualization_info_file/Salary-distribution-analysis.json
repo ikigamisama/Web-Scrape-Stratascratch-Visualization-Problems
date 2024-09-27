@@ -1,0 +1,1213 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10477-salary-distribution-analysis?code_type=2",
+	"title": "Salary distribution analysis",
+	"difficulty": "Medium",
+	"id": "ID 10477",
+	"type": "Box Plot",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Construct a box plot to examine salary distributions within different departments of a corporation, using 'cornflowerblue' for Engineering, 'mediumorchid' for Marketing, and 'sandybrown' for Sales.",
+	"data": [
+		{
+			"department": "Engineering",
+			"salary": 119436.643
+		},
+		{
+			"department": "Marketing",
+			"salary": 132153.48
+		},
+		{
+			"department": "Engineering",
+			"salary": 94857.445
+		},
+		{
+			"department": "Marketing",
+			"salary": 136196.354
+		},
+		{
+			"department": "Marketing",
+			"salary": 117846.97
+		},
+		{
+			"department": "Sales",
+			"salary": 98068.477
+		},
+		{
+			"department": "Engineering",
+			"salary": 92456.86
+		},
+		{
+			"department": "Sales",
+			"salary": 89894.045
+		},
+		{
+			"department": "Engineering",
+			"salary": 72746.577
+		},
+		{
+			"department": "Engineering",
+			"salary": 122662.541
+		},
+		{
+			"department": "Engineering",
+			"salary": 85986.205
+		},
+		{
+			"department": "Sales",
+			"salary": 64633.042
+		},
+		{
+			"department": "Marketing",
+			"salary": 106808.346
+		},
+		{
+			"department": "Sales",
+			"salary": 114584.834
+		},
+		{
+			"department": "Sales",
+			"salary": 78232.924
+		},
+		{
+			"department": "Engineering",
+			"salary": 42444.425
+		},
+		{
+			"department": "Marketing",
+			"salary": 86770.446
+		},
+		{
+			"department": "Marketing",
+			"salary": 114118.568
+		},
+		{
+			"department": "Marketing",
+			"salary": 92828.043
+		},
+		{
+			"department": "Marketing",
+			"salary": 114639.649
+		},
+		{
+			"department": "Engineering",
+			"salary": 99272.669
+		},
+		{
+			"department": "Marketing",
+			"salary": 111778.284
+		},
+		{
+			"department": "Engineering",
+			"salary": 84407.304
+		},
+		{
+			"department": "Engineering",
+			"salary": 109526.734
+		},
+		{
+			"department": "Marketing",
+			"salary": 116677.602
+		},
+		{
+			"department": "Sales",
+			"salary": 126275.854
+		},
+		{
+			"department": "Engineering",
+			"salary": 87965.828
+		},
+		{
+			"department": "Sales",
+			"salary": 89056.724
+		},
+		{
+			"department": "Engineering",
+			"salary": 112193.016
+		},
+		{
+			"department": "Marketing",
+			"salary": 115178.643
+		},
+		{
+			"department": "Marketing",
+			"salary": 76281.616
+		},
+		{
+			"department": "Sales",
+			"salary": 118587.989
+		},
+		{
+			"department": "Engineering",
+			"salary": 110939.04
+		},
+		{
+			"department": "Marketing",
+			"salary": 82608.153
+		},
+		{
+			"department": "Marketing",
+			"salary": 124468.558
+		},
+		{
+			"department": "Marketing",
+			"salary": 97351.393
+		},
+		{
+			"department": "Engineering",
+			"salary": 89902.076
+		},
+		{
+			"department": "Sales",
+			"salary": 91104.844
+		},
+		{
+			"department": "Engineering",
+			"salary": 107542.724
+		},
+		{
+			"department": "Sales",
+			"salary": 87257.87
+		},
+		{
+			"department": "Sales",
+			"salary": 97904.936
+		},
+		{
+			"department": "Engineering",
+			"salary": 96979.16
+		},
+		{
+			"department": "Sales",
+			"salary": 116892.521
+		},
+		{
+			"department": "Engineering",
+			"salary": 118172.848
+		},
+		{
+			"department": "Engineering",
+			"salary": 119648.431
+		},
+		{
+			"department": "Engineering",
+			"salary": 76380.982
+		},
+		{
+			"department": "Marketing",
+			"salary": 101798.876
+		},
+		{
+			"department": "Marketing",
+			"salary": 85875.101
+		},
+		{
+			"department": "Sales",
+			"salary": 101044.5
+		},
+		{
+			"department": "Engineering",
+			"salary": 73168.417
+		},
+		{
+			"department": "Engineering",
+			"salary": 127658.847
+		},
+		{
+			"department": "Marketing",
+			"salary": 107738.257
+		},
+		{
+			"department": "Engineering",
+			"salary": 73350.936
+		},
+		{
+			"department": "Marketing",
+			"salary": 110076.35
+		},
+		{
+			"department": "Sales",
+			"salary": 120658.314
+		},
+		{
+			"department": "Sales",
+			"salary": 97555.527
+		},
+		{
+			"department": "Engineering",
+			"salary": 136652.757
+		},
+		{
+			"department": "Marketing",
+			"salary": 98685.337
+		},
+		{
+			"department": "Marketing",
+			"salary": 137275.535
+		},
+		{
+			"department": "Marketing",
+			"salary": 97526.184
+		},
+		{
+			"department": "Marketing",
+			"salary": 124407.974
+		},
+		{
+			"department": "Sales",
+			"salary": 99868.253
+		},
+		{
+			"department": "Sales",
+			"salary": 111874.903
+		},
+		{
+			"department": "Sales",
+			"salary": 86720.413
+		},
+		{
+			"department": "Engineering",
+			"salary": 87851.545
+		},
+		{
+			"department": "Sales",
+			"salary": 68712.595
+		},
+		{
+			"department": "Marketing",
+			"salary": 65325.161
+		},
+		{
+			"department": "Engineering",
+			"salary": 87688.714
+		},
+		{
+			"department": "Marketing",
+			"salary": 80907.322
+		},
+		{
+			"department": "Sales",
+			"salary": 95023.901
+		},
+		{
+			"department": "Engineering",
+			"salary": 98898.248
+		},
+		{
+			"department": "Engineering",
+			"salary": 105641.398
+		},
+		{
+			"department": "Sales",
+			"salary": 62113.639
+		},
+		{
+			"department": "Engineering",
+			"salary": 116766.216
+		},
+		{
+			"department": "Engineering",
+			"salary": 91673.757
+		},
+		{
+			"department": "Engineering",
+			"salary": 127138.559
+		},
+		{
+			"department": "Engineering",
+			"salary": 76046.811
+		},
+		{
+			"department": "Engineering",
+			"salary": 66459.087
+		},
+		{
+			"department": "Engineering",
+			"salary": 120224.667
+		},
+		{
+			"department": "Sales",
+			"salary": 85437.44
+		},
+		{
+			"department": "Engineering",
+			"salary": 95655.295
+		},
+		{
+			"department": "Sales",
+			"salary": 110600.335
+		},
+		{
+			"department": "Marketing",
+			"salary": 62080.938
+		},
+		{
+			"department": "Marketing",
+			"salary": 106493.708
+		},
+		{
+			"department": "Marketing",
+			"salary": 93446.502
+		},
+		{
+			"department": "Engineering",
+			"salary": 110061.351
+		},
+		{
+			"department": "Marketing",
+			"salary": 120110.984
+		},
+		{
+			"department": "Marketing",
+			"salary": 111493.716
+		},
+		{
+			"department": "Marketing",
+			"salary": 131133.601
+		},
+		{
+			"department": "Engineering",
+			"salary": 91621.633
+		},
+		{
+			"department": "Marketing",
+			"salary": 91805.662
+		},
+		{
+			"department": "Sales",
+			"salary": 122327.491
+		},
+		{
+			"department": "Engineering",
+			"salary": 94980.414
+		},
+		{
+			"department": "Marketing",
+			"salary": 91695.438
+		},
+		{
+			"department": "Sales",
+			"salary": 87218.277
+		},
+		{
+			"department": "Engineering",
+			"salary": 149955.352
+		},
+		{
+			"department": "Sales",
+			"salary": 39897.437
+		},
+		{
+			"department": "Engineering",
+			"salary": 82520.055
+		},
+		{
+			"department": "Marketing",
+			"salary": 46996.215
+		},
+		{
+			"department": "Sales",
+			"salary": 122480.109
+		},
+		{
+			"department": "Sales",
+			"salary": 76795.445
+		},
+		{
+			"department": "Marketing",
+			"salary": 96977.473
+		},
+		{
+			"department": "Engineering",
+			"salary": 80558.496
+		},
+		{
+			"department": "Marketing",
+			"salary": 99541.255
+		},
+		{
+			"department": "Marketing",
+			"salary": 83748.507
+		},
+		{
+			"department": "Engineering",
+			"salary": 70311.984
+		},
+		{
+			"department": "Sales",
+			"salary": 87067.94
+		},
+		{
+			"department": "Sales",
+			"salary": 74028.451
+		},
+		{
+			"department": "Sales",
+			"salary": 65611.772
+		},
+		{
+			"department": "Sales",
+			"salary": 88113.096
+		},
+		{
+			"department": "Marketing",
+			"salary": 78826.318
+		},
+		{
+			"department": "Sales",
+			"salary": 107506.891
+		},
+		{
+			"department": "Sales",
+			"salary": 95370.399
+		},
+		{
+			"department": "Sales",
+			"salary": 78774.989
+		},
+		{
+			"department": "Sales",
+			"salary": 40586.834
+		},
+		{
+			"department": "Sales",
+			"salary": 74653.134
+		},
+		{
+			"department": "Engineering",
+			"salary": 78520.957
+		},
+		{
+			"department": "Marketing",
+			"salary": 60494.069
+		},
+		{
+			"department": "Sales",
+			"salary": 84331.094
+		},
+		{
+			"department": "Sales",
+			"salary": 101770.663
+		},
+		{
+			"department": "Marketing",
+			"salary": 77331.227
+		},
+		{
+			"department": "Sales",
+			"salary": 77451.397
+		},
+		{
+			"department": "Marketing",
+			"salary": 88251.907
+		},
+		{
+			"department": "Engineering",
+			"salary": 111444.211
+		},
+		{
+			"department": "Sales",
+			"salary": 66847.956
+		},
+		{
+			"department": "Sales",
+			"salary": 73505.122
+		},
+		{
+			"department": "Engineering",
+			"salary": 67311.517
+		},
+		{
+			"department": "Sales",
+			"salary": 82455.991
+		},
+		{
+			"department": "Engineering",
+			"salary": 84475.981
+		},
+		{
+			"department": "Engineering",
+			"salary": 83565.044
+		},
+		{
+			"department": "Sales",
+			"salary": 77662.928
+		},
+		{
+			"department": "Engineering",
+			"salary": 67107.321
+		},
+		{
+			"department": "Sales",
+			"salary": 117935.186
+		},
+		{
+			"department": "Sales",
+			"salary": 67332.726
+		},
+		{
+			"department": "Sales",
+			"salary": 93359.931
+		},
+		{
+			"department": "Engineering",
+			"salary": 91580.056
+		},
+		{
+			"department": "Engineering",
+			"salary": 80304.705
+		},
+		{
+			"department": "Engineering",
+			"salary": 56251.248
+		},
+		{
+			"department": "Marketing",
+			"salary": 81131.67
+		},
+		{
+			"department": "Sales",
+			"salary": 88881.703
+		},
+		{
+			"department": "Engineering",
+			"salary": 83611.743
+		},
+		{
+			"department": "Marketing",
+			"salary": 68051.793
+		},
+		{
+			"department": "Sales",
+			"salary": 79079.066
+		},
+		{
+			"department": "Sales",
+			"salary": 80976.494
+		},
+		{
+			"department": "Sales",
+			"salary": 83729.747
+		},
+		{
+			"department": "Marketing",
+			"salary": 68679.041
+		},
+		{
+			"department": "Engineering",
+			"salary": 105491.47
+		},
+		{
+			"department": "Engineering",
+			"salary": 74108.8
+		},
+		{
+			"department": "Engineering",
+			"salary": 67062.572
+		},
+		{
+			"department": "Engineering",
+			"salary": 96236.839
+		},
+		{
+			"department": "Sales",
+			"salary": 77753.267
+		},
+		{
+			"department": "Sales",
+			"salary": 64778.115
+		},
+		{
+			"department": "Engineering",
+			"salary": 90334.29
+		},
+		{
+			"department": "Engineering",
+			"salary": 44883.375
+		},
+		{
+			"department": "Engineering",
+			"salary": 81892.104
+		},
+		{
+			"department": "Marketing",
+			"salary": 98014.086
+		},
+		{
+			"department": "Sales",
+			"salary": 94444.954
+		},
+		{
+			"department": "Engineering",
+			"salary": 103850.995
+		},
+		{
+			"department": "Engineering",
+			"salary": 89258.468
+		},
+		{
+			"department": "Marketing",
+			"salary": 72832.755
+		},
+		{
+			"department": "Engineering",
+			"salary": 106044.191
+		},
+		{
+			"department": "Sales",
+			"salary": 124560.498
+		},
+		{
+			"department": "Marketing",
+			"salary": 89227.018
+		},
+		{
+			"department": "Marketing",
+			"salary": 111004.153
+		},
+		{
+			"department": "Marketing",
+			"salary": 81163.148
+		},
+		{
+			"department": "Engineering",
+			"salary": 73215.214
+		},
+		{
+			"department": "Engineering",
+			"salary": 71036.677
+		},
+		{
+			"department": "Engineering",
+			"salary": 99631.505
+		},
+		{
+			"department": "Marketing",
+			"salary": 85788.157
+		},
+		{
+			"department": "Marketing",
+			"salary": 79892.139
+		},
+		{
+			"department": "Sales",
+			"salary": 70055.214
+		},
+		{
+			"department": "Marketing",
+			"salary": 59794.306
+		},
+		{
+			"department": "Engineering",
+			"salary": 78572.011
+		},
+		{
+			"department": "Engineering",
+			"salary": 76584.083
+		},
+		{
+			"department": "Marketing",
+			"salary": 86486.55
+		},
+		{
+			"department": "Sales",
+			"salary": 87004.095
+		},
+		{
+			"department": "Marketing",
+			"salary": 59895.779
+		},
+		{
+			"department": "Marketing",
+			"salary": 101342.895
+		},
+		{
+			"department": "Marketing",
+			"salary": 94906.959
+		},
+		{
+			"department": "Engineering",
+			"salary": 70752.337
+		},
+		{
+			"department": "Engineering",
+			"salary": 83074.066
+		},
+		{
+			"department": "Engineering",
+			"salary": 72806.817
+		},
+		{
+			"department": "Marketing",
+			"salary": 102685.793
+		},
+		{
+			"department": "Sales",
+			"salary": 59797.414
+		},
+		{
+			"department": "Marketing",
+			"salary": 38288.934
+		},
+		{
+			"department": "Marketing",
+			"salary": 78657.893
+		},
+		{
+			"department": "Engineering",
+			"salary": 88372.123
+		},
+		{
+			"department": "Engineering",
+			"salary": 91335.878
+		},
+		{
+			"department": "Marketing",
+			"salary": 87173.226
+		},
+		{
+			"department": "Sales",
+			"salary": 79191.412
+		},
+		{
+			"department": "Engineering",
+			"salary": 61371.479
+		},
+		{
+			"department": "Sales",
+			"salary": 55122.57
+		},
+		{
+			"department": "Sales",
+			"salary": 74699.425
+		},
+		{
+			"department": "Marketing",
+			"salary": 104847.616
+		},
+		{
+			"department": "Marketing",
+			"salary": 102678.692
+		},
+		{
+			"department": "Marketing",
+			"salary": 66397.936
+		},
+		{
+			"department": "Sales",
+			"salary": 68341.74
+		},
+		{
+			"department": "Engineering",
+			"salary": 68911.579
+		},
+		{
+			"department": "Engineering",
+			"salary": 94819.836
+		},
+		{
+			"department": "Marketing",
+			"salary": 79602.909
+		},
+		{
+			"department": "Engineering",
+			"salary": 57373.307
+		},
+		{
+			"department": "Sales",
+			"salary": 54388.349
+		},
+		{
+			"department": "Sales",
+			"salary": 60606.461
+		},
+		{
+			"department": "Engineering",
+			"salary": 73354.529
+		},
+		{
+			"department": "Sales",
+			"salary": 55102.484
+		},
+		{
+			"department": "Sales",
+			"salary": 59330.893
+		},
+		{
+			"department": "Sales",
+			"salary": 80358.629
+		},
+		{
+			"department": "Marketing",
+			"salary": 76313.133
+		},
+		{
+			"department": "Marketing",
+			"salary": 51056.333
+		},
+		{
+			"department": "Engineering",
+			"salary": 70365.714
+		},
+		{
+			"department": "Engineering",
+			"salary": 66874.978
+		},
+		{
+			"department": "Engineering",
+			"salary": 78142.477
+		},
+		{
+			"department": "Sales",
+			"salary": 73824.044
+		},
+		{
+			"department": "Sales",
+			"salary": 86466.659
+		},
+		{
+			"department": "Marketing",
+			"salary": 72275.534
+		},
+		{
+			"department": "Marketing",
+			"salary": 56001.254
+		},
+		{
+			"department": "Engineering",
+			"salary": 48386.87
+		},
+		{
+			"department": "Engineering",
+			"salary": 72807.502
+		},
+		{
+			"department": "Sales",
+			"salary": 74027.64
+		},
+		{
+			"department": "Marketing",
+			"salary": 62868.48
+		},
+		{
+			"department": "Marketing",
+			"salary": 78144.402
+		},
+		{
+			"department": "Sales",
+			"salary": 85237.507
+		},
+		{
+			"department": "Engineering",
+			"salary": 64092.956
+		},
+		{
+			"department": "Marketing",
+			"salary": 89347.989
+		},
+		{
+			"department": "Marketing",
+			"salary": 60727.07
+		},
+		{
+			"department": "Marketing",
+			"salary": 84943.308
+		},
+		{
+			"department": "Marketing",
+			"salary": 61744.694
+		},
+		{
+			"department": "Marketing",
+			"salary": 62997.582
+		},
+		{
+			"department": "Sales",
+			"salary": 73731.913
+		},
+		{
+			"department": "Sales",
+			"salary": 70626.852
+		},
+		{
+			"department": "Sales",
+			"salary": 59741.208
+		},
+		{
+			"department": "Engineering",
+			"salary": 79630.158
+		},
+		{
+			"department": "Marketing",
+			"salary": 55077.108
+		},
+		{
+			"department": "Sales",
+			"salary": 80999.011
+		},
+		{
+			"department": "Marketing",
+			"salary": 67113.404
+		},
+		{
+			"department": "Marketing",
+			"salary": 76814.593
+		},
+		{
+			"department": "Marketing",
+			"salary": 70319.686
+		},
+		{
+			"department": "Marketing",
+			"salary": 79993.242
+		},
+		{
+			"department": "Engineering",
+			"salary": 45764.907
+		},
+		{
+			"department": "Sales",
+			"salary": 72276.099
+		},
+		{
+			"department": "Sales",
+			"salary": 76764.141
+		},
+		{
+			"department": "Engineering",
+			"salary": 70457.662
+		},
+		{
+			"department": "Marketing",
+			"salary": 73169.048
+		},
+		{
+			"department": "Marketing",
+			"salary": 77029.351
+		},
+		{
+			"department": "Engineering",
+			"salary": 77266.191
+		},
+		{
+			"department": "Engineering",
+			"salary": 90888.576
+		},
+		{
+			"department": "Engineering",
+			"salary": 62928.52
+		},
+		{
+			"department": "Sales",
+			"salary": 65429.845
+		},
+		{
+			"department": "Marketing",
+			"salary": 73695.055
+		},
+		{
+			"department": "Sales",
+			"salary": 79748.187
+		},
+		{
+			"department": "Marketing",
+			"salary": 66314.865
+		},
+		{
+			"department": "Sales",
+			"salary": 51439.534
+		},
+		{
+			"department": "Engineering",
+			"salary": 70502.134
+		},
+		{
+			"department": "Sales",
+			"salary": 65888.222
+		},
+		{
+			"department": "Engineering",
+			"salary": 70441.654
+		},
+		{
+			"department": "Marketing",
+			"salary": 47367.75
+		},
+		{
+			"department": "Marketing",
+			"salary": 67531.882
+		},
+		{
+			"department": "Marketing",
+			"salary": 58523.817
+		},
+		{
+			"department": "Engineering",
+			"salary": 67060.27
+		},
+		{
+			"department": "Engineering",
+			"salary": 64398.323
+		},
+		{
+			"department": "Engineering",
+			"salary": 87482.735
+		},
+		{
+			"department": "Engineering",
+			"salary": 73047.598
+		},
+		{
+			"department": "Engineering",
+			"salary": 56531.055
+		},
+		{
+			"department": "Engineering",
+			"salary": 64515.388
+		},
+		{
+			"department": "Marketing",
+			"salary": 74579.269
+		},
+		{
+			"department": "Engineering",
+			"salary": 69562.134
+		},
+		{
+			"department": "Sales",
+			"salary": 63196.162
+		},
+		{
+			"department": "Sales",
+			"salary": 89182.607
+		},
+		{
+			"department": "Marketing",
+			"salary": 80807.333
+		},
+		{
+			"department": "Marketing",
+			"salary": 83461.464
+		},
+		{
+			"department": "Marketing",
+			"salary": 72370.486
+		},
+		{
+			"department": "Sales",
+			"salary": 70204.918
+		},
+		{
+			"department": "Marketing",
+			"salary": 82125.892
+		},
+		{
+			"department": "Marketing",
+			"salary": 65377.817
+		},
+		{
+			"department": "Engineering",
+			"salary": 82841.343
+		},
+		{
+			"department": "Marketing",
+			"salary": 68467.908
+		},
+		{
+			"department": "Sales",
+			"salary": 79957.794
+		},
+		{
+			"department": "Marketing",
+			"salary": 71005.853
+		},
+		{
+			"department": "Marketing",
+			"salary": 66494.235
+		},
+		{
+			"department": "Engineering",
+			"salary": 77761.159
+		},
+		{
+			"department": "Engineering",
+			"salary": 80558.988
+		},
+		{
+			"department": "Marketing",
+			"salary": 47396.738
+		},
+		{
+			"department": "Marketing",
+			"salary": 55428.978
+		},
+		{
+			"department": "Sales",
+			"salary": 84697.715
+		},
+		{
+			"department": "Marketing",
+			"salary": 59657.496
+		},
+		{
+			"department": "Sales",
+			"salary": 71149.423
+		},
+		{
+			"department": "Sales",
+			"salary": 58362.02
+		},
+		{
+			"department": "Marketing",
+			"salary": 79878.54
+		},
+		{
+			"department": "Sales",
+			"salary": 66826.504
+		},
+		{
+			"department": "Sales",
+			"salary": 63193.938
+		},
+		{
+			"department": "Engineering",
+			"salary": 73875.699
+		},
+		{
+			"department": "Marketing",
+			"salary": 54353.201
+		},
+		{
+			"department": "Marketing",
+			"salary": 71678.665
+		},
+		{
+			"department": "Marketing",
+			"salary": 78515.278
+		},
+		{
+			"department": "Sales",
+			"salary": 55720.485
+		},
+		{
+			"department": "Marketing",
+			"salary": 75338.631
+		},
+		{
+			"department": "Marketing",
+			"salary": 58978.691
+		},
+		{
+			"department": "Marketing",
+			"salary": 72517.392
+		},
+		{
+			"department": "Sales",
+			"salary": 81405.114
+		},
+		{
+			"department": "Engineering",
+			"salary": 55065.899
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolor_map = {'Engineering': 'cornflowerblue', 'Marketing': 'mediumorchid', 'Sales': 'sandybrown'}\ncolors = df['department'].map(color_map)\nplt.figure(figsize=(10,6))\n\nbox = plt.boxplot([\n        df[df['department'] == 'Engineering']['salary'],\n        df[df['department'] == 'Marketing']['salary'],\n        df[df['department'] == 'Sales']['salary']\n    ], patch_artist=True, labels=['Engineering','Marketing','Sales'])\n    \nfor dept, color in zip(box['boxes'], ['cornflowerblue', 'mediumorchid', 'sandybrown']):\n    dept.set_facecolor(color)\n    \nplt.title('Salary Distributions by Department')\nplt.xlabel('Department')\nplt.ylabel('Salary')\nplt.grid(True)\nplt.show()"
+}

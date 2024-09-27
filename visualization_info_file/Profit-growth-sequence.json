@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10460-profit-growth-sequence?code_type=2",
+	"title": "Profit growth sequence",
+	"difficulty": "Medium",
+	"id": "ID 10460",
+	"type": "Waterfall Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Create a waterfall chart to show the sequential profit growth of a company over the fiscal year, with 'seagreen' indicating growth and 'crimson' indicating loss.",
+	"data": [
+		{ "month": "Jan", "profit_change": -13300 },
+		{ "month": "Feb", "profit_change": -30900 },
+		{ "month": "Mar", "profit_change": -58600 },
+		{ "month": "Apr", "profit_change": 132500 },
+		{ "month": "May", "profit_change": 131300 },
+		{ "month": "Jun", "profit_change": 171400 },
+		{ "month": "Jul", "profit_change": -71700 },
+		{ "month": "Aug", "profit_change": -1300 },
+		{ "month": "Sep", "profit_change": 191600 },
+		{ "month": "Oct", "profit_change": -156800 },
+		{ "month": "Nov", "profit_change": -172200 },
+		{ "month": "Dec", "profit_change": -195100 }
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = ['seagreen' if x >= 0 else 'crimson' for x in df_profit['profit_change']]\nfig, ax = plt.subplots(figsize=(12, 6))\nprofit_levels = df_profit['profit_change'].cumsum()\nprofit_levels = profit_levels.shift(1).fillna(0)\n\nfor i, (month, change, level) in enumerate(zip(months, df_profit['profit_change'], profit_levels)):\n    plt.bar(month, change, bottom=level, color=colors[i])\n\nax.set_xlabel('Month')\nax.set_ylabel('Profit Change ($)')\nax.set_title('Monthly Profit Charges Over the Year')\nplt.xticks(rotation=45)\nplt.grid(True, which='both', linestyle='--', linewidth=0.5)\nplt.show()"
+}

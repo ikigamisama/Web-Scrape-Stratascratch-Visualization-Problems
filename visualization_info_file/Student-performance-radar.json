@@ -1,0 +1,38 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10475-student-performance-radar?code_type=2",
+	"title": "Student performance radar",
+	"difficulty": "Hard",
+	"id": "ID 10475",
+	"type": "Radar Chart",
+	"analysis": "Comparison",
+	"data_type": "Categorical Data",
+	"description": "Create a radar chart to compare the performance of students in different subjects, using 'blueviolet' for Mathematics, 'chartreuse' for Science, and 'tomato' for History.",
+	"data": [
+		{
+			"mathematics": 85,
+			"science": 90,
+			"history": 75
+		},
+		{
+			"mathematics": 78,
+			"science": 85,
+			"history": 80
+		},
+		{
+			"mathematics": 92,
+			"science": 88,
+			"history": 85
+		},
+		{
+			"mathematics": 88,
+			"science": 92,
+			"history": 70
+		},
+		{
+			"mathematics": 76,
+			"science": 80,
+			"history": 90
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\ncolors = {'mathematics': 'blueviolet', 'science': 'chartreuse', 'history': 'tomato'}\n\ncategories = df.columns\nN = len(categories)\n\nangles = [n / float(N) * 2 * np.pi for n in range(N)]\nangles += angles[:1]\n\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\nplt.xticks(angles[:-1], categories, color='grey', size=8)\n\nax.set_rlabel_position(0)\nplt.yticks([20, 40, 60, 80, 100], [\"20\", \"40\", \"60\", \"80\", \"100\"], color=\"grey\", size=7)\nplt.ylim(0, 100)\n\n\nfor idx, row in df.iterrows():\n    values = row.values.flatten().tolist()\n    values += values[:1]  # Complete the loop in radar chart\n    ax.plot(angles, values, label=idx)\n    ax.fill(angles, values, alpha=0.1)\n\nfor subject, color in colors.items():\n    ax.plot([], [], color=color, label=subject)\n\nplt.legend(loc='upper right', bbox_to_anchor=(0.1, 0.1))\nplt.title('Student Performance in Different Subjects', size=15, color='black', y=1.1)\nplt.show()"
+}

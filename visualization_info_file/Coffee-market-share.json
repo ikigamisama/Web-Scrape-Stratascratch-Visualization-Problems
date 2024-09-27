@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10450-coffee-market-share?code_type=2",
+	"title": "Coffee market share",
+	"difficulty": "Easy",
+	"id": "ID 10450",
+	"type": "Donut Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Design a donut chart to show the market share of various coffee brands in a region, color-coded with 'maroon' for Brand X, 'navy' for Brand Y, and 'olive' for Brand Z.",
+	"data": [
+		{
+			"brand": "Brand X",
+			"market_share": 40
+		},
+		{
+			"brand": "Brand Y",
+			"market_share": 35
+		},
+		{
+			"brand": "Brand Z",
+			"market_share": 25
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolors = ['maroon', 'navy', 'olive']\nplt.pie(df['market_share'], colors=colors, labels=df['brand'],\n        autopct='%1.1f%%', startangle=90)\n\nmy_circle = plt.Circle((0, 0), 0.7, color='white')\np = plt.gcf()\np.gca().add_artist(my_circle)\nplt.title('Market Share of Coffee Brands')\nplt.show()"
+}

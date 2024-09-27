@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10478-annual-revenue-comparison?code_type=2",
+	"title": "Annual revenue comparison",
+	"difficulty": "Easy",
+	"id": "ID 10478",
+	"type": "Bar Chart",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data",
+	"description": "Create a bar chart to compare the annual revenue of different retail brands, using 'gold' for Brand A, 'silver' for Brand B, and 'bronze' for Brand C.",
+	"data": [
+		{
+			"brand": "Brand A",
+			"annual_revenue": 500
+		},
+		{
+			"brand": "Brand B",
+			"annual_revenue": 300
+		},
+		{
+			"brand": "Brand C",
+			"annual_revenue": 200
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\n#plotting the chart\n\n#adding plot titles and labels\ncolors = {'Brand A': 'gold', 'Brand B': 'silver', 'Brand C': '#cd7f32'} \nplt.figure(figsize=(10, 6))\nbars = plt.bar(df['brand'], df['annual_revenue'], color=[colors[brand] for brand in df['brand']])\nplt.title('Annual Revenue of Different Retail Brands')\nplt.xlabel('Brand')\nplt.ylabel('Annual Revenue ($ Millions)')\nplt.grid(axis='y')\nplt.show()\n"
+}

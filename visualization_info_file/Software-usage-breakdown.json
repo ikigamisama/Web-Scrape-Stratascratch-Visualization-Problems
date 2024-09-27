@@ -1,0 +1,48 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10502-software-usage-breakdown?code_type=2",
+	"title": "Software usage breakdown",
+	"difficulty": "Hard",
+	"id": "ID 10502",
+	"type": "Sunburst Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Develop a sunburst chart to break down the software usage statistics within a company, using 'orchid' for design software, 'olivedrab' for productivity tools, and 'orange' for communication tools.",
+	"data": [
+		{
+			"category": "Design",
+			"subcategory": "Photoshop",
+			"usage": 120
+		},
+		{
+			"category": "Design",
+			"subcategory": "Illustrator",
+			"usage": 80
+		},
+		{
+			"category": "Design",
+			"subcategory": "InDesign",
+			"usage": 50
+		},
+		{
+			"category": "Productivity",
+			"subcategory": "Word",
+			"usage": 150
+		},
+		{
+			"category": "Productivity",
+			"subcategory": "Excel",
+			"usage": 200
+		},
+		{
+			"category": "Communication",
+			"subcategory": "Slack",
+			"usage": 100
+		},
+		{
+			"category": "Communication",
+			"subcategory": "Teams",
+			"usage": 90
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport squarify\n\n# Data preparation for hierarchical structure\nsizes = df['usage']\nlabels = df['subcategory']\ncolors = df['category'].map({'Design': 'orchid', 'Productivity': 'olivedrab', 'Communication': 'orange'})\n\n# Plotting\nplt.figure(figsize=(12, 8))\nsquarify.plot(sizes=sizes, label=labels, color=colors, alpha=0.7)\n\nplt.title('Software Usage Statistics Within a Company')\nplt.axis('off')\nplt.show()"
+}

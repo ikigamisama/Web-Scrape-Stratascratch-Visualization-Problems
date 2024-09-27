@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10471-smartphone-os-market-share?code_type=2",
+	"title": "Smartphone OS market share",
+	"difficulty": "Medium",
+	"id": "ID 10471",
+	"type": "Treemap",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Construct a treemap to display the market share of different smartphone operating systems, with 'midnightblue' for Android, 'silver' for iOS, and 'khaki' for others.",
+	"data": [
+		{
+			"os": "Android",
+			"market_share": 72.3
+		},
+		{
+			"os": "iOS",
+			"market_share": 26.7
+		},
+		{
+			"os": "Others",
+			"market_share": 1
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport squarify\n\ncolors = {'Android': 'midnightblue', 'iOS': 'silver', 'Others': 'khaki'}\nplt.figure(figsize=(12, 8))\n\nsquarify.plot(sizes=df['market_share'], label=df['os'], color=[colors[os] for os in df['os']], alpha=0.7)\nplt.title('Market Share of Smartphone OS')\nplt.axis('off')\nplt.show()"
+}

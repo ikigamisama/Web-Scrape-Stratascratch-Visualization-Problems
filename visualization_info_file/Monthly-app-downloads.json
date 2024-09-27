@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10484-monthly-app-downloads?code_type=2",
+	"title": "Monthly app downloads",
+	"difficulty": "Medium",
+	"id": "ID 10484",
+	"type": "Stacked Area Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data & Categorical Data",
+	"description": "Deploy a stacked area chart to illustrate the monthly downloads of various app categories over the last year, using 'lightgreen' for gaming, 'lightblue' for productivity, and 'lightcoral' for entertainment.",
+	"data": [
+		{ "gaming": 7732, "productivity": 9744, "entertainment": 10921 },
+		{ "gaming": 15799, "productivity": 6468, "entertainment": 10036 },
+		{ "gaming": 14845, "productivity": 3705, "entertainment": 6163 },
+		{ "gaming": 8264, "productivity": 5599, "entertainment": 9072 },
+		{ "gaming": 18123, "productivity": 13327, "entertainment": 8851 },
+		{ "gaming": 9859, "productivity": 5222, "entertainment": 11877 },
+		{ "gaming": 19019, "productivity": 10768, "entertainment": 6046 },
+		{ "gaming": 14225, "productivity": 5897, "entertainment": 5871 },
+		{ "gaming": 12891, "productivity": 12893, "entertainment": 11599 },
+		{ "gaming": 9373, "productivity": 3537, "entertainment": 6496 },
+		{ "gaming": 10874, "productivity": 14085, "entertainment": 12291 },
+		{ "gaming": 19116, "productivity": 9216, "entertainment": 14200 }
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolors = {'gaming': 'lightgreen', 'productivity': 'lightblue', 'entertainment': 'lightcoral'}\nplt.figure(figsize=(8, 6))\ndf.plot(kind='area', stacked=True, color=[colors[col] for col in df.columns])\nplt.title('Monthly Downloads of Various App Categories Over the Last Year')\nplt.xlabel('Year')\nplt.ylabel('Month')\nplt.legend(title='App Categories')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+}

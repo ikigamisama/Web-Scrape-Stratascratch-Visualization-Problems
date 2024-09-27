@@ -1,0 +1,613 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10470-age-income-savings-3d-plot?code_type=2",
+	"title": "Age-income-savings 3D plot",
+	"difficulty": "Hard",
+	"id": "ID 10470",
+	"type": "3D Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Generate a 3D scatter plot to explore the relationship between age, income, and personal savings among individuals, using 'lightcoral' for below average savings and 'darkgreen' for above average savings.",
+	"data": [
+		{
+			"age": 64,
+			"income": 80624,
+			"savings": 13389,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 67,
+			"income": 70133,
+			"savings": 5894,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 20,
+			"income": 85153,
+			"savings": 35142,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 23,
+			"income": 92756,
+			"savings": 37904,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 23,
+			"income": 78682,
+			"savings": 31813,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 59,
+			"income": 96509,
+			"savings": 44041,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 29,
+			"income": 54777,
+			"savings": 30968,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 39,
+			"income": 43824,
+			"savings": 18688,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 41,
+			"income": 32418,
+			"savings": 8419,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 56,
+			"income": 42843,
+			"savings": 21552,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 43,
+			"income": 66223,
+			"savings": 11004,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 26,
+			"income": 91570,
+			"savings": 40620,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 44,
+			"income": 36521,
+			"savings": 47521,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 44,
+			"income": 86894,
+			"savings": 25803,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 32,
+			"income": 44254,
+			"savings": 20139,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 21,
+			"income": 81939,
+			"savings": 40954,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 58,
+			"income": 67073,
+			"savings": 27302,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 59,
+			"income": 53310,
+			"savings": 26533,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 43,
+			"income": 61785,
+			"savings": 23161,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 66,
+			"income": 94570,
+			"savings": 46106,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 44,
+			"income": 86356,
+			"savings": 19676,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 37,
+			"income": 53306,
+			"savings": 25989,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 57,
+			"income": 66950,
+			"savings": 7562,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 45,
+			"income": 63920,
+			"savings": 27597,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 33,
+			"income": 63538,
+			"savings": 30484,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 28,
+			"income": 38286,
+			"savings": 42420,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 29,
+			"income": 48728,
+			"savings": 18173,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 40,
+			"income": 43640,
+			"savings": 32389,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 36,
+			"income": 98627,
+			"savings": 33271,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 25,
+			"income": 75663,
+			"savings": 16605,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 35,
+			"income": 33912,
+			"savings": 38191,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 67,
+			"income": 80586,
+			"savings": 33310,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 20,
+			"income": 51752,
+			"savings": 38735,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 38,
+			"income": 89715,
+			"savings": 42138,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 55,
+			"income": 37997,
+			"savings": 46820,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 44,
+			"income": 83006,
+			"savings": 27571,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 69,
+			"income": 70800,
+			"savings": 38201,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 49,
+			"income": 45620,
+			"savings": 18097,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 39,
+			"income": 84268,
+			"savings": 27621,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 39,
+			"income": 99069,
+			"savings": 22813,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 34,
+			"income": 98473,
+			"savings": 49889,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 59,
+			"income": 72512,
+			"savings": 23930,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 52,
+			"income": 49608,
+			"savings": 36200,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 21,
+			"income": 47340,
+			"savings": 19299,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 29,
+			"income": 31913,
+			"savings": 21713,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 52,
+			"income": 82086,
+			"savings": 24996,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 51,
+			"income": 43429,
+			"savings": 21363,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 30,
+			"income": 43907,
+			"savings": 29785,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 43,
+			"income": 65489,
+			"savings": 41736,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 55,
+			"income": 40088,
+			"savings": 29534,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 31,
+			"income": 45588,
+			"savings": 37319,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 48,
+			"income": 68395,
+			"savings": 6040,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 54,
+			"income": 90155,
+			"savings": 11250,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 20,
+			"income": 68214,
+			"savings": 30182,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 20,
+			"income": 30469,
+			"savings": 12704,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 56,
+			"income": 73295,
+			"savings": 11772,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 25,
+			"income": 64488,
+			"savings": 43079,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 58,
+			"income": 68040,
+			"savings": 47179,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 60,
+			"income": 46975,
+			"savings": 30907,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 37,
+			"income": 45912,
+			"savings": 14144,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 35,
+			"income": 58086,
+			"savings": 32741,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 24,
+			"income": 45115,
+			"savings": 43779,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 61,
+			"income": 82573,
+			"savings": 46120,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 62,
+			"income": 94223,
+			"savings": 7195,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 51,
+			"income": 41052,
+			"savings": 9680,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 21,
+			"income": 45741,
+			"savings": 30687,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 21,
+			"income": 87368,
+			"savings": 37058,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 59,
+			"income": 73986,
+			"savings": 43008,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 61,
+			"income": 35103,
+			"savings": 15100,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 55,
+			"income": 65050,
+			"savings": 20168,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 58,
+			"income": 31740,
+			"savings": 48723,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 31,
+			"income": 85270,
+			"savings": 38500,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 66,
+			"income": 42579,
+			"savings": 28978,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 38,
+			"income": 77805,
+			"savings": 17046,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 47,
+			"income": 50165,
+			"savings": 25950,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 20,
+			"income": 32775,
+			"savings": 14500,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 34,
+			"income": 60752,
+			"savings": 45212,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 55,
+			"income": 63930,
+			"savings": 37722,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 32,
+			"income": 76774,
+			"savings": 28418,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 62,
+			"income": 58651,
+			"savings": 38415,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 40,
+			"income": 92885,
+			"savings": 17232,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 31,
+			"income": 45997,
+			"savings": 21957,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 24,
+			"income": 95180,
+			"savings": 44565,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 26,
+			"income": 93003,
+			"savings": 43405,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 24,
+			"income": 64009,
+			"savings": 32784,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 67,
+			"income": 73671,
+			"savings": 49239,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 23,
+			"income": 99939,
+			"savings": 37693,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 32,
+			"income": 47582,
+			"savings": 43027,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 56,
+			"income": 59844,
+			"savings": 46988,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 60,
+			"income": 68429,
+			"savings": 44335,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 34,
+			"income": 90809,
+			"savings": 42212,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 35,
+			"income": 32121,
+			"savings": 38354,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 40,
+			"income": 75353,
+			"savings": 19132,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 55,
+			"income": 33886,
+			"savings": 12601,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 43,
+			"income": 71690,
+			"savings": 32867,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 35,
+			"income": 35181,
+			"savings": 16059,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 33,
+			"income": 73349,
+			"savings": 5739,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 41,
+			"income": 72914,
+			"savings": 34545,
+			"savings_category": "Above Average"
+		},
+		{
+			"age": 68,
+			"income": 93720,
+			"savings": 26266,
+			"savings_category": "Below Average"
+		},
+		{
+			"age": 69,
+			"income": 77394,
+			"savings": 33021,
+			"savings_category": "Above Average"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nfrom mpl_toolkits.mplot3d import Axes3D\n\ncolors = {'Below Average': 'lightcoral', 'Above Average': 'darkgreen'}\n\nfig = plt.figure(figsize=(10, 7))\nax = fig.add_subplot(111, projection='3d')\n\nfor category, group in df.groupby('savings_category'):\n    ax.scatter(group['age'], group['income'], group['savings'], color=colors[category], label=category)\n\nax.set_title('3D Scatter Plot of Age, Income, and Personal Savings')\nax.set_xlabel('Age')\nax.set_ylabel('Income ($)')\nax.set_zlabel('Savings ($)')\nax.legend(title='Savings Category')\nplt.show()"
+}

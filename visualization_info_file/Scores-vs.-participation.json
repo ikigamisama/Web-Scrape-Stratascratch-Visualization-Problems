@@ -1,0 +1,513 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10522-scores-vs-participation?code_type=2",
+	"title": "Scores vs. participation",
+	"difficulty": "Medium",
+	"id": "ID 10522",
+	"type": "Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Develop a scatter plot to examine the relationship between academic scores and extracurricular participation among students, using 'blue' for participants and 'red' for non-participants.",
+	"data": [
+		{
+			"academic_score": 94,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 97,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 50,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 53,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 53,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 89,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 59,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 69,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 71,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 86,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 73,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 56,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 74,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 74,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 62,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 51,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 88,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 89,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 73,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 96,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 74,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 67,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 87,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 75,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 63,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 58,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 59,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 70,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 66,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 55,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 65,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 97,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 50,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 68,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 85,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 74,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 99,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 79,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 69,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 69,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 64,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 89,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 82,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 51,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 59,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 82,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 81,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 60,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 73,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 85,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 61,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 78,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 84,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 50,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 50,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 86,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 55,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 88,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 90,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 67,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 65,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 54,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 91,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 92,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 81,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 51,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 51,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 89,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 91,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 85,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 88,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 61,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 96,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 68,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 77,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 50,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 64,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 85,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 62,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 92,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 70,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 61,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 54,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 56,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 54,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 97,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 53,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 62,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 86,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 90,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 64,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 65,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 70,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 85,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 73,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 65,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		},
+		{
+			"academic_score": 63,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 71,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 98,
+			"extracurricular_participation": "FALSE",
+			"participation_label": "Non-Participant"
+		},
+		{
+			"academic_score": 99,
+			"extracurricular_participation": "TRUE",
+			"participation_label": "Participant"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Participant': 'blue', 'Non-Participant': 'red'}\nplt.figure(figsize=(10,6))\n\nfor label, group in df.groupby('participation_label'):\n    plt.scatter(group['academic_score'], group.index, color=colors[label], label=label)\n\nplt.title('Relationship between Academic Scores and Extracurricular Participation')\nplt.xlabel('Academic Score')\nplt.ylabel('Student Index')\nplt.legend(title='Participation')\nplt.grid(True)\nplt.show()"
+}

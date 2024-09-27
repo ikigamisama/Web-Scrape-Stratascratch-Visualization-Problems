@@ -1,0 +1,31 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10451-team-skills-comparison?code_type=2",
+	"title": "Team skills comparison",
+	"difficulty": "Hard",
+	"id": "ID 10451",
+	"type": "Radar Chart",
+	"analysis": "Comparison",
+	"data_type": "Categorical Data",
+	"description": "Generate a radar chart to compare the skill levels of different sports teams in attributes like speed, strength, and strategy, using 'teal' for Team A, 'tomato' for Team B, and 'violet' for Team C.",
+	"data": [
+		{
+			"attribute": "Speed",
+			"team_a": 80,
+			"team_b": 90,
+			"team_c": 70
+		},
+		{
+			"attribute": "Strength",
+			"team_a": 70,
+			"team_b": 85,
+			"team_c": 90
+		},
+		{
+			"attribute": "Strategy",
+			"team_a": 90,
+			"team_b": 75,
+			"team_c": 80
+		}
+	],
+	"solution": "import plotly.graph_objects as go\n\nfig = go.Figure()\n\nfig.add_trace(go.Scatterpolar(\n    r=df['team_a'],\n    theta=df['attribute'],\n    fill='toself',\n    name='Team A',\n    marker_color='teal'\n))\n\nfig.add_trace(go.Scatterpolar(\n    r=df['team_b'],\n    theta=df['attribute'],\n    fill='toself',\n    name='Team B',\n    marker_color='tomato'\n))\n\nfig.add_trace(go.Scatterpolar(\n    r=df['team_c'],\n    theta=df['attribute'],\n    fill='toself',\n    name='Team C',\n    marker_color='violet'\n))\n\nfig.update_layout(\n    polar=dict(\n        radialaxis=dict(\n            visible=True,\n            range=[0, 100]\n        )\n    ),\n    title=\"Skill Levels of Sports Teams\",\n    showlegend=True\n)\n\nfig.show()"
+}

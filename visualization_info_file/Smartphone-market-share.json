@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10505-smartphone-market-share?code_type=2",
+	"title": "Smartphone market share",
+	"difficulty": "Medium",
+	"id": "ID 10505",
+	"type": "Tree Map",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Create a tree map to visualize the market share of different brands in the smartphone industry, using 'rosybrown' for Brand A, 'royalblue' for Brand B, and 'saddlebrown' for Brand C.",
+	"data": [
+		{
+			"brand": "Brand A",
+			"market_share": 35
+		},
+		{
+			"brand": "Brand B",
+			"market_share": 45
+		},
+		{
+			"brand": "Brand C",
+			"market_share": 20
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport squarify\n\ncolors = {'Brand A': 'rosybrown', 'Brand B': 'royalblue', 'Brand C': 'saddlebrown'}\ncolor_labels = [colors[key] for key in df['brand']]\nplt.figure(figsize=(12,8))\n\nsquarify.plot(sizes=df['market_share'], label=df['brand'], color=color_labels, alpha=0.7)\nplt.title('Market Share of Different brand in the Smartphone Industry')\nplt.axis('off')\nplt.show()"
+}

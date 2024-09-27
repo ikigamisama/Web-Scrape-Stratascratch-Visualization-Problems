@@ -1,0 +1,37 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10499-quarterly-earnings-comparison?code_type=2",
+	"title": "Quarterly earnings comparison",
+	"difficulty": "Medium",
+	"id": "ID 10499",
+	"type": "Stacked Column Chart",
+	"analysis": "Comparison",
+	"data_type": "Time Series Data & Categorical Data",
+	"description": "Design a stacked column chart to compare the quarterly earnings of four major tech companies, using 'lavenderblush' for Company A, 'lemonchiffon' for Company B, 'palegreen' for Company C, and 'papayawhip' for Company D.",
+	"data": [
+		{
+			"company_a": "3195.254",
+			"company_b": "2694.619",
+			"company_c": "4854.651",
+			"company_d": "3272.178"
+		},
+		{
+			"company_a": "3860.757",
+			"company_b": "3583.576",
+			"company_c": "2533.766",
+			"company_d": "4702.387"
+		},
+		{
+			"company_a": "3411.054",
+			"company_b": "2750.349",
+			"company_c": "4166.9",
+			"company_d": "1284.144"
+		},
+		{
+			"company_a": "3179.533",
+			"company_b": "4567.092",
+			"company_c": "3115.58",
+			"company_d": "1348.517"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolors = {'company_a': 'lavenderblush', 'company_b': 'lemonchiffon', 'company_c': 'palegreen', 'company_d': 'papayawhip'}\n\ndf.plot(kind=\"bar\", stacked=True, color=[colors[col] for col in df.columns], figsize=(12, 8))\nplt.title('Quarterly Earnings of Major Tech Companies')\nplt.xlabel('Quarter')\nplt.ylabel('Earnings ($ Millons)')\nplt.legend(title='Product Line')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+}

@@ -1,0 +1,41 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10462-order-fulfillment-process?code_type=2",
+	"title": "Order fulfillment process",
+	"difficulty": "Medium",
+	"id": "ID 10462",
+	"type": "Flow Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Categorical Data",
+	"description": "Develop a flow chart to describe the process of order fulfillment in a distribution center, using 'goldenrod' for ongoing processes and 'cornflowerblue' for completed stages.",
+	"data": [
+		{
+			"name": "Receive Order",
+			"status": "completed"
+		},
+		{
+			"name": "Process Order",
+			"status": "ongoing"
+		},
+		{
+			"name": "Pick Items",
+			"status": "ongoing"
+		},
+		{
+			"name": "Pack Items",
+			"status": "ongoing"
+		},
+		{
+			"name": "Ship Order",
+			"status": "ongoing"
+		},
+		{
+			"name": "Deliver Order",
+			"status": "ongoing"
+		},
+		{
+			"name": "Order Complete",
+			"status": "completed"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.patches as patches\n\nfig, ax = plt.subplots(figsize=(10, 5))\nax.set_xlim(0, 10)\nax.set_ylim(0, len(steps) + 1)\nax.axis('off')  # Hide the axes\n\ncolors = {'ongoing': 'goldenrod', 'completed': 'cornflowerblue'}\n\nfor i, step in enumerate(steps):\n    rect = patches.Rectangle((1, len(steps) - i), 8, 0.6, linewidth=1, edgecolor='black', facecolor=colors[step['status']])\n    ax.add_patch(rect)\n    ax.text(1.5, len(steps) - i + 0.3, step['name'], verticalalignment='center', fontsize=12, color='white')\n    \n    if i < len(steps) - 1:\n        arrow = patches.FancyArrow(5, len(steps) - i, 0, -0.7, width=0.1, head_width=0.5, head_length=0.2, color='gray')\n        ax.add_patch(arrow)\n\nplt.title('Order Fulfillment Process Flowchart', fontsize=16, color='black')\nplt.show()"
+}

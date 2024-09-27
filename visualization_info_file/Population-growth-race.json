@@ -1,0 +1,67 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10465-population-growth-race?code_type=2",
+	"title": "Population growth race",
+	"difficulty": "Hard",
+	"id": "ID 10465",
+	"type": "Bar Chart Race",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data & Categorical Data",
+	"description": "Create a bar chart race to visualize the population growth of different countries over the past decade, using 'dodgerblue' for Country A, 'mediumvioletred' for Country B, and 'olivedrab' for Country C.",
+	"data": [
+		{
+			"year": 2010,
+			"country_a": 50000000.0,
+			"country_b": 30000000.0,
+			"country_c": 20000000.0
+		},
+		{
+			"year": 2011,
+			"country_a": 52500000.0,
+			"country_b": 33125000.0,
+			"country_c": 22500000.0
+		},
+		{
+			"year": 2012,
+			"country_a": 55000000.0,
+			"country_b": 36250000.0,
+			"country_c": 25000000.0
+		},
+		{
+			"year": 2013,
+			"country_a": 57500000.0,
+			"country_b": 39375000.0,
+			"country_c": 27500000.0
+		},
+		{
+			"year": 2014,
+			"country_a": 60000000.0,
+			"country_b": 42500000.0,
+			"country_c": 30000000.0
+		},
+		{
+			"year": 2015,
+			"country_a": 62500000.0,
+			"country_b": 45625000.0,
+			"country_c": 32500000.0
+		},
+		{
+			"year": 2016,
+			"country_a": 65000000.0,
+			"country_b": 48750000.0,
+			"country_c": 35000000.0
+		},
+		{
+			"year": 2017,
+			"country_a": 67500000.0,
+			"country_b": 51875000.0,
+			"country_c": 37500000.0
+		},
+		{
+			"year": 2018,
+			"country_a": 70000000.0,
+			"country_b": 55000000.0,
+			"country_c": 40000000.0
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.animation as animation\n\ndef update(num, df, bar_container):\n    bars = bar_container.patches\n    for bar, new_height in zip(bars, df.iloc[num].values):\n        bar.set_height(new_height)\n    return bars\n\nfig, ax = plt.subplots(figsize=(10, 6))\ncolors = ['dodgerblue', 'mediumvioletred', 'olivedrab']\nbar_container = ax.bar(df_population.columns, df_population.iloc[0], color=colors)\n\nax.set_ylim([0, max(df_population.max()) * 1.1])\nax.set_ylabel('Population')\nax.set_title('Population Growth (2010-2019)')\n\nani = animation.FuncAnimation(fig, update, frames=len(df_population), fargs=(df_population, bar_container), repeat=False, blit=False)\n\nplt.show()"
+}

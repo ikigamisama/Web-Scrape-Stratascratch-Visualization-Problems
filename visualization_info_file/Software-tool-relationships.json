@@ -1,0 +1,12 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10445-software-tool-relationships?code_type=2",
+	"title": "Software tool relationships",
+	"difficulty": "Hard",
+	"id": "ID 10445",
+	"type": "Network Graph",
+	"analysis": "Relationships",
+	"data_type": "Categorical Data",
+	"description": "Assemble a network graph to illustrate the relationships between different software tools used within a tech company, with 'olive' for core tools and 'orange' for auxiliary tools.",
+	"data": [],
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.patches as mpatches\n\ntools = ['Tool A', 'Tool B', 'Tool C', 'Tool D', 'Tool E', 'Tool F', 'Tool G']\ncategories = ['core', 'core', 'auxiliary', 'auxiliary', 'core', 'auxiliary', 'auxiliary']\npositions = {\n    'Tool A': (0.5, 1),\n    'Tool B': (1, 0.8),\n    'Tool C': (0, 0.8),\n    'Tool D': (1, 0.5),\n    'Tool E': (0, 0.5),\n    'Tool F': (0, 0.2),\n    'Tool G': (1, 0.2)\n}\nrelationships = [\n    ('Tool A', 'Tool B'),\n    ('Tool A', 'Tool C'),\n    ('Tool B', 'Tool D'),\n    ('Tool C', 'Tool E'),\n    ('Tool E', 'Tool F'),\n    ('Tool E', 'Tool G'),\n    ('Tool G', 'Tool B')\n]\ncolor_map = {'core': 'olive', 'auxiliary': 'orange'}\n\nfig, ax = plt.subplots(figsize=(10, 6))\n\nfor tool, pos in positions.items():\n    node_color = color_map['core'] if 'core' in categories[tools.index(tool)] else color_map['auxiliary']\n    circle = plt.Circle(pos, 0.05, color=node_color, ec='black', lw=1.5)\n    ax.add_patch(circle)\n    ax.text(pos[0], pos[1], tool, fontsize=12, ha='center', va='center')\n\nfor rel in relationships:\n    start, end = rel\n    line = plt.Line2D((positions[start][0], positions[end][0]), (positions[start][1], positions[end][1]), lw=1, color='gray', linestyle='--')\n    ax.add_line(line)\n\nax.set_xlim(-0.1, 1.1)\nax.set_ylim(-0.1, 1.1)\nax.set_aspect('equal')\n\nax.axis('off')\n\ncore_patch = mpatches.Patch(color='olive', label='Core Tools')\naux_patch = mpatches.Patch(color='orange', label='Auxiliary Tools')\nplt.legend(handles=[core_patch, aux_patch], loc='upper left')\n\n# Display\nplt.title('Network Graph of Software Tools')\nplt.show()"
+}

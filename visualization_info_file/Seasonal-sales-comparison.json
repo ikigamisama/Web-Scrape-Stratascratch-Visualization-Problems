@@ -1,0 +1,29 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10501-seasonal-sales-comparison?code_type=2",
+	"title": "Seasonal sales comparison",
+	"difficulty": "Hard",
+	"id": "ID 10501",
+	"type": "Polar Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Construct a polar chart to display the seasonal sales data of a clothing retailer, with 'orchid' for spring, 'olivedrab' for summer, 'orangered' for autumn, and 'navy' for winter.",
+	"data": [
+		{
+			"season": "Spring",
+			"sales": 25000
+		},
+		{
+			"season": "Summer",
+			"sales": 40000
+		},
+		{
+			"season": "Autumn",
+			"sales": 30000
+		},
+		{
+			"season": "Winter",
+			"sales": 20000
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\ncolors = {'Spring': 'orchid', 'Summer': 'olivedrab', 'Autumn': 'orangered', 'Winter': 'navy'}\n\nlabels = df['season']\nsales = df['sales']\nangles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False).tolist()\n\nsales = np.concatenate((sales, [sales[0]]))\nangles += angles[:1]\n\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\nax.fill(angles, sales, color=colors['Spring'], alpha=0.25)\nax.plot(angles, sales, color=colors['Spring'], linewidth=2, linestyle='solid')\n\nax.set_yticklabels([])\nax.set_xticks(angles[:-1])\nax.set_xticklabels(labels)\nax.set_rlabel_position(30)\n\nlegend_elements = [\n    plt.Line2D([0], [0], color='orchid', lw=2, label='Spring'),\n    plt.Line2D([0], [0], color='olivedrab', lw=2, label='Summer'),\n    plt.Line2D([0], [0], color='orangered', lw=2, label='Autumn'),\n    plt.Line2D([0], [0], color='navy', lw=2, label='Winter')\n]\nplt.legend(handles=legend_elements, title='Season', loc='upper right')\nplt.title('Seasonal Sales Data of Clothing Retailer')\nplt.show()"
+}

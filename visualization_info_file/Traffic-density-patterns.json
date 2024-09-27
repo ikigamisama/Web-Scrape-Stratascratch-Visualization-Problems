@@ -1,0 +1,229 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10479-traffic-density-patterns?code_type=2",
+	"title": "Traffic density patterns",
+	"difficulty": "Medium",
+	"id": "ID 10479",
+	"type": "Heat Map",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Design a heat map to visualize hourly traffic patterns on major city roads, using a color gradient from 'lightblue' to 'darkblue' based on traffic density.",
+	"data": [
+		{
+			"monday": 222,
+			"tuesday": 97,
+			"wednesday": 167,
+			"thursday": 242,
+			"friday": 373,
+			"saturday": 301,
+			"sunday": 245
+		},
+		{
+			"monday": 409,
+			"tuesday": 59,
+			"wednesday": 261,
+			"thursday": 327,
+			"friday": 292,
+			"saturday": 342,
+			"sunday": 137
+		},
+		{
+			"monday": 120,
+			"tuesday": 138,
+			"wednesday": 446,
+			"thursday": 364,
+			"friday": 243,
+			"saturday": 89,
+			"sunday": 137
+		},
+		{
+			"monday": 224,
+			"tuesday": 138,
+			"wednesday": 387,
+			"thursday": 215,
+			"friday": 75,
+			"saturday": 383,
+			"sunday": 122
+		},
+		{
+			"monday": 315,
+			"tuesday": 454,
+			"wednesday": 165,
+			"thursday": 293,
+			"friday": 247,
+			"saturday": 385,
+			"sunday": 481
+		},
+		{
+			"monday": 498,
+			"tuesday": 388,
+			"wednesday": 149,
+			"thursday": 227,
+			"friday": 293,
+			"saturday": 335,
+			"sunday": 197
+		},
+		{
+			"monday": 197,
+			"tuesday": 448,
+			"wednesday": 473,
+			"thursday": 338,
+			"friday": 499,
+			"saturday": 315,
+			"sunday": 235
+		},
+		{
+			"monday": 177,
+			"tuesday": 82,
+			"wednesday": 81,
+			"thursday": 252,
+			"friday": 294,
+			"saturday": 201,
+			"sunday": 213
+		},
+		{
+			"monday": 420,
+			"tuesday": 233,
+			"wednesday": 78,
+			"thursday": 340,
+			"friday": 178,
+			"saturday": 178,
+			"sunday": 470
+		},
+		{
+			"monday": 103,
+			"tuesday": 439,
+			"wednesday": 88,
+			"thursday": 294,
+			"friday": 323,
+			"saturday": 385,
+			"sunday": 438
+		},
+		{
+			"monday": 155,
+			"tuesday": 92,
+			"wednesday": 492,
+			"thursday": 81,
+			"friday": 426,
+			"saturday": 307,
+			"sunday": 371
+		},
+		{
+			"monday": 475,
+			"tuesday": 107,
+			"wednesday": 341,
+			"thursday": 408,
+			"friday": 169,
+			"saturday": 317,
+			"sunday": 480
+		},
+		{
+			"monday": 132,
+			"tuesday": 141,
+			"wednesday": 434,
+			"thursday": 448,
+			"friday": 149,
+			"saturday": 103,
+			"sunday": 446
+		},
+		{
+			"monday": 171,
+			"tuesday": 476,
+			"wednesday": 134,
+			"thursday": 253,
+			"friday": 374,
+			"saturday": 312,
+			"sunday": 97
+		},
+		{
+			"monday": 177,
+			"tuesday": 181,
+			"wednesday": 406,
+			"thursday": 230,
+			"friday": 384,
+			"saturday": 193,
+			"sunday": 198
+		},
+		{
+			"monday": 277,
+			"tuesday": 492,
+			"wednesday": 329,
+			"thursday": 257,
+			"friday": 447,
+			"saturday": 423,
+			"sunday": 391
+		},
+		{
+			"monday": 98,
+			"tuesday": 355,
+			"wednesday": 119,
+			"thursday": 219,
+			"friday": 213,
+			"saturday": 498,
+			"sunday": 145
+		},
+		{
+			"monday": 247,
+			"tuesday": 144,
+			"wednesday": 306,
+			"thursday": 419,
+			"friday": 228,
+			"saturday": 342,
+			"sunday": 468
+		},
+		{
+			"monday": 354,
+			"tuesday": 399,
+			"wednesday": 437,
+			"thursday": 148,
+			"friday": 92,
+			"saturday": 418,
+			"sunday": 455
+		},
+		{
+			"monday": 251,
+			"tuesday": 433,
+			"wednesday": 50,
+			"thursday": 444,
+			"friday": 420,
+			"saturday": 93,
+			"sunday": 492
+		},
+		{
+			"monday": 433,
+			"tuesday": 73,
+			"wednesday": 237,
+			"thursday": 180,
+			"friday": 427,
+			"saturday": 148,
+			"sunday": 112
+		},
+		{
+			"monday": 469,
+			"tuesday": 272,
+			"wednesday": 173,
+			"thursday": 132,
+			"friday": 480,
+			"saturday": 277,
+			"sunday": 198
+		},
+		{
+			"monday": 259,
+			"tuesday": 100,
+			"wednesday": 461,
+			"thursday": 320,
+			"friday": 91,
+			"saturday": 108,
+			"sunday": 243
+		},
+		{
+			"monday": 86,
+			"tuesday": 316,
+			"wednesday": 136,
+			"thursday": 93,
+			"friday": 410,
+			"saturday": 61,
+			"sunday": 308
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport seaborn as sns\n\nplt.figure(figsize=(12, 8))\nsns.heatmap(df, cmap='Blues', cbar_kws={'label': 'Traffic Density'})\n\nplt.title('Hourly Traffic Patterns on Major City Roads')\nplt.xlabel('Day of the Week')\nplt.ylabel('Hour of the Day')\nplt.show()"
+}

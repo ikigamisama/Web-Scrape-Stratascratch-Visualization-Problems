@@ -1,0 +1,4013 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10469-satisfaction-vs-product?code_type=2",
+	"title": "Satisfaction vs. product",
+	"difficulty": "Hard",
+	"id": "ID 10469",
+	"type": "Mosaic Plot",
+	"analysis": "Relationships",
+	"data_type": "Categorical Data",
+	"description": "Design a mosaic plot to examine the correlation between consumer satisfaction and product type for an electronics company, using 'powderblue' for high satisfaction and 'rosybrown' for low satisfaction.",
+	"data": [
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Laptop",
+			"satisfaction": "Low"
+		},
+		{
+			"product_type": "Smartphone",
+			"satisfaction": "High"
+		},
+		{
+			"product_type": "Tablet",
+			"satisfaction": "High"
+		}
+	],
+	"solution": "import plotly.graph_objects as go\nimport pandas as pd\n\ncount_df = df.groupby(['product_type', 'satisfaction']).size().reset_index(name='counts')\ntotal_counts = count_df.groupby('product_type')['counts'].sum().reset_index(name='total')\ncount_df = count_df.merge(total_counts, on='product_type')\ncount_df['proportion'] = count_df['counts'] / count_df['total']\n\nfig = go.Figure()\n\n\nproduct_types = count_df['product_type'].unique()\nfor product_type in product_types:\n    subset = count_df[count_df['product_type'] == product_type]\n    for _, row in subset.iterrows():\n        fig.add_trace(go.Bar(\n            x=[product_type],\n            y=[row['proportion']],\n            name=row['satisfaction'],\n            marker_color='powderblue' if row['satisfaction'] == 'High' else 'rosybrown',\n            text=str(row['counts']),  # Adding raw count on bar\n            hoverinfo='text+name'\n        ))\n\nfig.update_layout(\n    title='Simulated Mosaic Plot: Consumer Satisfaction by Product Type',\n    barmode='stack',\n    xaxis_title='Product Type',\n    yaxis=dict(title='Proportion', tickformat=',.0%'),\n    legend_title='Satisfaction'\n)\n\nfig.show()"
+}

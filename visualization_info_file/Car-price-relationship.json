@@ -1,0 +1,513 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10438-car-price-relationship?code_type=2",
+	"title": "Car price relationship",
+	"difficulty": "Medium",
+	"id": "ID 10438",
+	"type": "Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Create a scatter plot to analyze the relationship between the age of a car and its selling price at different dealerships. Use colors 'lightblue' for Dealership A, 'coral' for Dealership B, and 'limegreen' for Dealership C.",
+	"data": [
+		{
+			"age": 6,
+			"selling_price": 11521,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 1,
+			"selling_price": 27626,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 4,
+			"selling_price": 29126,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 4,
+			"selling_price": 14123,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 8,
+			"selling_price": 15179,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 4,
+			"selling_price": 28122,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 6,
+			"selling_price": 19254,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 24171,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 5,
+			"selling_price": 28700,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 8,
+			"selling_price": 9305,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 7,
+			"selling_price": 23994,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 9,
+			"selling_price": 10531,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 9,
+			"selling_price": 28310,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 2,
+			"selling_price": 20041,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 7,
+			"selling_price": 28588,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 8,
+			"selling_price": 28306,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 8,
+			"selling_price": 9182,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 9,
+			"selling_price": 20403,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 2,
+			"selling_price": 18160,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 20106,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 9,
+			"selling_price": 5307,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 18392,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 4,
+			"selling_price": 19368,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 10302,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 6152,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 28334,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 13467,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 10294,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 4,
+			"selling_price": 18866,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 9,
+			"selling_price": 18683,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 2,
+			"selling_price": 22592,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 4,
+			"selling_price": 7492,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 20949,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 4,
+			"selling_price": 19622,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 8,
+			"selling_price": 18592,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 5770,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 2,
+			"selling_price": 20875,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 13286,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 5,
+			"selling_price": 16490,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 8,
+			"selling_price": 10995,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 4,
+			"selling_price": 23728,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 3,
+			"selling_price": 18640,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 8,
+			"selling_price": 8091,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 17895,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 1,
+			"selling_price": 8912,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 1,
+			"selling_price": 22818,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 5,
+			"selling_price": 11594,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 6,
+			"selling_price": 26752,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 29756,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 7,
+			"selling_price": 28532,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 9,
+			"selling_price": 12997,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 25238,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 2,
+			"selling_price": 13032,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 20620,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 9,
+			"selling_price": 13131,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 2,
+			"selling_price": 9845,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 2,
+			"selling_price": 26500,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 8,
+			"selling_price": 15838,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 4,
+			"selling_price": 8533,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 7,
+			"selling_price": 7937,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 8,
+			"selling_price": 9939,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 3,
+			"selling_price": 14744,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 1,
+			"selling_price": 24608,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 4,
+			"selling_price": 10021,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 6134,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 5,
+			"selling_price": 21409,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 14680,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 7,
+			"selling_price": 22340,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 5,
+			"selling_price": 6913,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 5,
+			"selling_price": 24318,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 18429,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 18907,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 5,
+			"selling_price": 7721,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 9,
+			"selling_price": 15088,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 5,
+			"selling_price": 22312,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 20588,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 8,
+			"selling_price": 10627,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 27649,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 10446,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 1,
+			"selling_price": 5469,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 2,
+			"selling_price": 15527,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 13717,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 23247,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 1,
+			"selling_price": 6720,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 10272,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 1,
+			"selling_price": 21975,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 2,
+			"selling_price": 11185,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 23706,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 5,
+			"selling_price": 20912,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 3,
+			"selling_price": 21591,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 1,
+			"selling_price": 20115,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 4,
+			"selling_price": 25646,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 19447,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 24805,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 8,
+			"selling_price": 26633,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 6,
+			"selling_price": 15102,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 1,
+			"selling_price": 16052,
+			"dealership": "Dealership B"
+		},
+		{
+			"age": 3,
+			"selling_price": 29792,
+			"dealership": "Dealership C"
+		},
+		{
+			"age": 8,
+			"selling_price": 20741,
+			"dealership": "Dealership A"
+		},
+		{
+			"age": 3,
+			"selling_price": 29600,
+			"dealership": "Dealership B"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolor_map = {'Dealership A': 'lightblue', 'Dealership B': 'coral', 'Dealership C': 'limegreen'}\nplt.figure(figsize=(10,6))\n#adding plot titles and labels\nfor car, group in df.groupby('dealership'):\n    plt.scatter(group['age'], group['selling_price'], label=car, color=color_map[car])\n    \nplt.title(\"Relationship between Age of Car and Selling Price by Dealership\")\nplt.xlabel(\"Age of Car (years)\")\nplt.ylabel(\"Selling Price ($)\")\nplt.grid(True)\nplt.legend(handles=[\n        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='lightblue', markersize=10, label='Dealership A'),\n        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='coral', markersize=10, label='Dealership B'),\n        plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='limegreen', markersize=10, label='Dealership C')],\n           title='Dealership', loc='upper center')\nplt.show()"
+}

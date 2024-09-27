@@ -1,0 +1,45 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10500-startup-partnerships?code_type=2",
+	"title": "Startup partnerships",
+	"difficulty": "Hard",
+	"id": "ID 10500",
+	"type": "Network Graph",
+	"analysis": "Relationships",
+	"data_type": "Categorical Data",
+	"description": "Generate a network graph to illustrate the partnerships between different tech startups, using 'seashell' for nascent startups and 'sienna' for established ones.",
+	"data": [
+		{
+			"startup": "A",
+			"status": "Nascent"
+		},
+		{
+			"startup": "B",
+			"status": "Established"
+		},
+		{
+			"startup": "C",
+			"status": "Established"
+		},
+		{
+			"startup": "D",
+			"status": "Nascent"
+		},
+		{
+			"startup": "E",
+			"status": "Established"
+		},
+		{
+			"startup": "F",
+			"status": "Nascent"
+		},
+		{
+			"startup": "G",
+			"status": "Established"
+		},
+		{
+			"startup": "H",
+			"status": "Nascent"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport networkx as nx\ncolors = {'Nascent': 'seashell', 'Established': 'sienna'}\n\nplt.figure(figsize=(12, 8))\n\nnode_colors = [colors[G.nodes[node]['status']] for node in G.nodes]\n\npos = nx.spring_layout(G)\nnx.draw(G, pos, with_labels=True, node_color=node_colors, node_size=5000, edge_color='gray', font_size=10, font_color='black', font_weight='bold')\n\nlegend_elements = [\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='seashell', markersize=10, label='Nascent'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='sienna', markersize=10, label='Established')\n]\nplt.legend(handles=legend_elements, title='Startup Status')\n\nplt.title('Partnerships Between Tech Startups')\nplt.show()"
+}

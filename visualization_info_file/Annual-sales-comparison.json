@@ -1,0 +1,25 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10526-annual-sales-comparison?code_type=2",
+	"title": "Annual sales comparison",
+	"difficulty": "Hard",
+	"id": "ID 10526",
+	"type": "Radial Bar Chart",
+	"analysis": "Comparison",
+	"data_type": "Categorical Data",
+	"description": "Construct a radial bar chart to compare annual sales performance of different automotive brands, using 'gold' for Brand A, 'silver' for Brand B, and 'bronze' for Brand C.",
+	"data": [
+		{
+			"brand": "Brand A",
+			"sales": 350000
+		},
+		{
+			"brand": "Brand B",
+			"sales": 450000
+		},
+		{
+			"brand": "Brand C",
+			"sales": 300000
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\n# Data preparation\nlabels = df['brand']\nsales = df['sales']\nnum_vars = len(labels)\n\n# Compute angle for each bar\nangles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()\n\n# Repeat the first value to close the circle for the sales data\nsales = np.concatenate((sales, [sales[0]]))\nangles += angles[:1]\n\n# Create the figure\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\ncolors = ['gold', 'silver', '#cd7f32']  # '#cd7f32' is the hex code for bronze\n\n# Plot bars\nbars = ax.bar(angles, sales, color=colors, edgecolor='black', linewidth=2, alpha=0.75)\n\n# Add labels\nax.set_yticklabels([])\nax.set_xticks(angles[:-1])\nax.set_xticklabels(labels)\n\n# Add a title\nplt.title('Annual Sales Performance of Automotive Brands', size=20, color='black', y=1.1)\n\nplt.show()\n"
+}

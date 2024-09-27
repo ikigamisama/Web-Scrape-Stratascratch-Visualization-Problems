@@ -1,0 +1,43 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10504-ev-efficiency-comparison?code_type=2",
+	"title": "EV efficiency comparison",
+	"difficulty": "Hard",
+	"id": "ID 10504",
+	"type": "Radial Bar Chart",
+	"analysis": "Comparison",
+	"data_type": "Numerical Data",
+	"description": "Deploy a radial bar chart to compare the energy efficiency of different models of electric vehicles, using 'powderblue' for low efficiency, 'purple' for medium, and 'red' for high efficiency.",
+	"data": [
+		{
+			"model": "Model X",
+			"efficiency": 80,
+			"efficiency_category": "Medium"
+		},
+		{
+			"model": "Model Y",
+			"efficiency": 60,
+			"efficiency_category": "Medium"
+		},
+		{
+			"model": "Model Z",
+			"efficiency": 90,
+			"efficiency_category": "High"
+		},
+		{
+			"model": "Model A",
+			"efficiency": 70,
+			"efficiency_category": "Medium"
+		},
+		{
+			"model": "Model B",
+			"efficiency": 50,
+			"efficiency_category": "Low"
+		},
+		{
+			"model": "Model C",
+			"efficiency": 95,
+			"efficiency_category": "High"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\ncolors = {'Low': 'powderblue', 'Medium': 'purple', 'High': 'red'}\n\nnum_models = len(df['model'])\nangles = np.linspace(0, 2 * np.pi, num_models, endpoint=False).tolist()\n\n\ndf = df.set_index('model')\ndf = df.reindex(index=df.index.tolist() + [df.index[0]])\nvalues = df['efficiency'].tolist()\nangles += angles[:1]\n\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\nbars = ax.bar(angles, values, color=[colors[cat] for cat in df['efficiency_category']], alpha=0.7)\n\nax.set_yticklabels([])\nax.set_xticks(angles[:-1])\nax.set_xticklabels(df.index[:-1])\n\nplt.title('Energy Efficiency of Different Electric Vehicle Models', size=15, color='black', y=1.1)\nplt.show()"
+}

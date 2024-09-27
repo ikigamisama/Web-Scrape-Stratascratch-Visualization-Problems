@@ -1,0 +1,1613 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10507-emergency-response-times?code_type=2",
+	"title": "Emergency response times",
+	"difficulty": "Medium",
+	"id": "ID 10507",
+	"type": "Box Plot",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Develop a box plot to examine the response times of different emergency departments, using 'springgreen' for the fastest and 'steelblue' for the slowest.",
+	"data": [
+		{
+			"department": "Department A",
+			"response_time": 6.127
+		},
+		{
+			"department": "Department D",
+			"response_time": 3.92
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.853
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.562
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.502
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.93
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.949
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.088
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.775
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.844
+		},
+		{
+			"department": "Department B",
+			"response_time": 4
+		},
+		{
+			"department": "Department C",
+			"response_time": 3.455
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.188
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.317
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.921
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.319
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.857
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.349
+		},
+		{
+			"department": "Department C",
+			"response_time": 3.966
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.682
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.197
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.31
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.544
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.017
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.646
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.625
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.356
+		},
+		{
+			"department": "Department B",
+			"response_time": 2.777
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.625
+		},
+		{
+			"department": "Department A",
+			"response_time": 3.398
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.896
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.052
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.26
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.543
+		},
+		{
+			"department": "Department D",
+			"response_time": 3.707
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.267
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.961
+		},
+		{
+			"department": "Department D",
+			"response_time": 3.832
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.523
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.828
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.772
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.824
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.163
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.337
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.631
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.761
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.1
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.655
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.64
+		},
+		{
+			"department": "Department D",
+			"response_time": 3.383
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.976
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.262
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.28
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.902
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.91
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.317
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.786
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.534
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.056
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.59
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.983
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.379
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.259
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.958
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.044
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.654
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.536
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.481
+		},
+		{
+			"department": "Department A",
+			"response_time": 3.459
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.063
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.157
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.232
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.403
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.762
+		},
+		{
+			"department": "Department A",
+			"response_time": 3.576
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.507
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.457
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.416
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.844
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.781
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.494
+		},
+		{
+			"department": "Department D",
+			"response_time": 2.93
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.426
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.677
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.363
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.603
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.867
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.702
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.691
+		},
+		{
+			"department": "Department C",
+			"response_time": 3.324
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.152
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.08
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.187
+		},
+		{
+			"department": "Department C",
+			"response_time": 3.534
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.521
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.424
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.142
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.681
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.692
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.695
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.912
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.925
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.626
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.916
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.217
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.24
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.106
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.921
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.096
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.283
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.786
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.133
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.534
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.146
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.599
+		},
+		{
+			"department": "Department C",
+			"response_time": 2.841
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.934
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.585
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.021
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.414
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.741
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.826
+		},
+		{
+			"department": "Department B",
+			"response_time": 3.954
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.097
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.834
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.53
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.962
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.305
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.43
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.913
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.432
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.817
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.035
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.953
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.058
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.278
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.456
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.41
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.796
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.705
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.147
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.874
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.401
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.555
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.04
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.487
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.823
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.98
+		},
+		{
+			"department": "Department B",
+			"response_time": 8
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.309
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.999
+		},
+		{
+			"department": "Department C",
+			"response_time": 4.98
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.041
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.761
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.799
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.617
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.31
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.904
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.423
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.142
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.937
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.57
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.908
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.839
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.921
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.781
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.412
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.664
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.264
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.532
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.763
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.385
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.943
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.415
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.121
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.217
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.16
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.224
+		},
+		{
+			"department": "Department C",
+			"response_time": 3.011
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.909
+		},
+		{
+			"department": "Department D",
+			"response_time": 4.366
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.676
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.974
+		},
+		{
+			"department": "Department C",
+			"response_time": 9.489
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.603
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.32
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.968
+		},
+		{
+			"department": "Department C",
+			"response_time": 5.179
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.339
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.579
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.453
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.235
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.868
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.524
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.854
+		},
+		{
+			"department": "Department A",
+			"response_time": 4.843
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.047
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.966
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.022
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.218
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.314
+		},
+		{
+			"department": "Department C",
+			"response_time": 9.044
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.041
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.241
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.397
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.008
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.864
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.68
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.969
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.322
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.619
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.21
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.465
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.744
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.561
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.014
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.683
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.501
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.099
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.988
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.287
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.859
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.586
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.76
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.604
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.775
+		},
+		{
+			"department": "Department A",
+			"response_time": 5.489
+		},
+		{
+			"department": "Department C",
+			"response_time": 7.955
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.077
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.687
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.029
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.056
+		},
+		{
+			"department": "Department A",
+			"response_time": 13.296
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.328
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.135
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.555
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.293
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.767
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.416
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.477
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.716
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.282
+		},
+		{
+			"department": "Department C",
+			"response_time": 12.933
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.705
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.803
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.768
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.533
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.713
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.463
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.711
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.629
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.118
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.63
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.385
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.107
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.601
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.382
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.533
+		},
+		{
+			"department": "Department A",
+			"response_time": 13.465
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.369
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.742
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.284
+		},
+		{
+			"department": "Department C",
+			"response_time": 13.04
+		},
+		{
+			"department": "Department A",
+			"response_time": 13.439
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.859
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.164
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.811
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.247
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.74
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.188
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.886
+		},
+		{
+			"department": "Department B",
+			"response_time": 4.521
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.861
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.54
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.066
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.166
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.738
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.554
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.058
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.63
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.643
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.011
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.601
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.157
+		},
+		{
+			"department": "Department C",
+			"response_time": 9.21
+		},
+		{
+			"department": "Department D",
+			"response_time": 7.681
+		},
+		{
+			"department": "Department C",
+			"response_time": 9.828
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.389
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.752
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.77
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.915
+		},
+		{
+			"department": "Department D",
+			"response_time": 8.071
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.435
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.779
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.891
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.64
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.926
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.558
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.678
+		},
+		{
+			"department": "Department B",
+			"response_time": 14.042
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.828
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.496
+		},
+		{
+			"department": "Department D",
+			"response_time": 12.498
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.873
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.706
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.553
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.902
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.453
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.743
+		},
+		{
+			"department": "Department B",
+			"response_time": 18.031
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.599
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.017
+		},
+		{
+			"department": "Department A",
+			"response_time": 6.278
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.629
+		},
+		{
+			"department": "Department B",
+			"response_time": 6.959
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.651
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.311
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.226
+		},
+		{
+			"department": "Department B",
+			"response_time": 16.347
+		},
+		{
+			"department": "Department B",
+			"response_time": 14.486
+		},
+		{
+			"department": "Department B",
+			"response_time": 15.298
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.794
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.821
+		},
+		{
+			"department": "Department C",
+			"response_time": 13.24
+		},
+		{
+			"department": "Department C",
+			"response_time": 13.929
+		},
+		{
+			"department": "Department C",
+			"response_time": 14.574
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.728
+		},
+		{
+			"department": "Department D",
+			"response_time": 10.939
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.156
+		},
+		{
+			"department": "Department B",
+			"response_time": 5.361
+		},
+		{
+			"department": "Department C",
+			"response_time": 15.783
+		},
+		{
+			"department": "Department D",
+			"response_time": 13.383
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.886
+		},
+		{
+			"department": "Department D",
+			"response_time": 12.551
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.425
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.125
+		},
+		{
+			"department": "Department B",
+			"response_time": 14.751
+		},
+		{
+			"department": "Department B",
+			"response_time": 15.245
+		},
+		{
+			"department": "Department A",
+			"response_time": 18.741
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.815
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.354
+		},
+		{
+			"department": "Department A",
+			"response_time": 10.714
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.455
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.805
+		},
+		{
+			"department": "Department A",
+			"response_time": 12.957
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.914
+		},
+		{
+			"department": "Department A",
+			"response_time": 14.741
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.414
+		},
+		{
+			"department": "Department D",
+			"response_time": 11.131
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.547
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.918
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.081
+		},
+		{
+			"department": "Department B",
+			"response_time": 9.052
+		},
+		{
+			"department": "Department C",
+			"response_time": 15.254
+		},
+		{
+			"department": "Department A",
+			"response_time": 14.238
+		},
+		{
+			"department": "Department C",
+			"response_time": 15.437
+		},
+		{
+			"department": "Department A",
+			"response_time": 8.669
+		},
+		{
+			"department": "Department B",
+			"response_time": 7.078
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.35
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.44
+		},
+		{
+			"department": "Department A",
+			"response_time": 13.247
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.62
+		},
+		{
+			"department": "Department A",
+			"response_time": 12.711
+		},
+		{
+			"department": "Department D",
+			"response_time": 16.357
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.443
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.717
+		},
+		{
+			"department": "Department A",
+			"response_time": 7.797
+		},
+		{
+			"department": "Department A",
+			"response_time": 9.778
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.605
+		},
+		{
+			"department": "Department D",
+			"response_time": 9.778
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.342
+		},
+		{
+			"department": "Department A",
+			"response_time": 15.531
+		},
+		{
+			"department": "Department D",
+			"response_time": 6.076
+		},
+		{
+			"department": "Department C",
+			"response_time": 14.16
+		},
+		{
+			"department": "Department C",
+			"response_time": 6.401
+		},
+		{
+			"department": "Department B",
+			"response_time": 13.004
+		},
+		{
+			"department": "Department B",
+			"response_time": 15.062
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.162
+		},
+		{
+			"department": "Department C",
+			"response_time": 8.801
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.536
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.346
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.544
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.493
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.725
+		},
+		{
+			"department": "Department B",
+			"response_time": 12.534
+		},
+		{
+			"department": "Department B",
+			"response_time": 8.979
+		},
+		{
+			"department": "Department A",
+			"response_time": 11.395
+		},
+		{
+			"department": "Department A",
+			"response_time": 15.796
+		},
+		{
+			"department": "Department B",
+			"response_time": 11.038
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.89
+		},
+		{
+			"department": "Department C",
+			"response_time": 14.695
+		},
+		{
+			"department": "Department D",
+			"response_time": 5.602
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.953
+		},
+		{
+			"department": "Department B",
+			"response_time": 10.42
+		},
+		{
+			"department": "Department D",
+			"response_time": 12.41
+		},
+		{
+			"department": "Department D",
+			"response_time": 12.241
+		},
+		{
+			"department": "Department D",
+			"response_time": 14.356
+		},
+		{
+			"department": "Department C",
+			"response_time": 11.331
+		},
+		{
+			"department": "Department C",
+			"response_time": 10.305
+		},
+		{
+			"department": "Department B",
+			"response_time": 15.245
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Department A': 'springgreen', 'Department B': 'lightblue', 'Department C': 'coral', 'Department D': 'steelblue'}\n\nplt.figure(figsize=(10, 6))\nbox = plt.boxplot([df[df['department'] == dept]['response_time'] for dept in colors.keys()],\n                  patch_artist=True, labels=colors.keys())\n\nfor patch, color in zip(box['boxes'], colors.values()):\n    patch.set_facecolor(color)\n\nplt.title('Response Times of Different Emergency Departments')\nplt.xlabel('Department')\nplt.ylabel('Response Time (minutes)')\nplt.grid(True)\nplt.show()"
+}

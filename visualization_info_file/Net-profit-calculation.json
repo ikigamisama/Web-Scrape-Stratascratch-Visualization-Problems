@@ -1,0 +1,33 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10535-net-profit-calculation?code_type=2",
+	"title": "Net profit calculation",
+	"difficulty": "Medium",
+	"id": "ID 10535",
+	"type": "Waterfall Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Create a waterfall chart to show the step-by-step calculation of net profit for a business quarter, using 'green' for profits and 'red' for losses.",
+	"data": [
+		{
+			"category": "Revenue",
+			"amount": 150000
+		},
+		{
+			"category": "COGS",
+			"amount": -70000
+		},
+		{
+			"category": "Operating Expenses",
+			"amount": -20000
+		},
+		{
+			"category": "Other Income",
+			"amount": 5000
+		},
+		{
+			"category": "Taxes",
+			"amount": -15000
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ndf['cumulative'] = df['amount'].cumsum()\ndf['color'] = df['amount'].apply(lambda x: 'green' if x >= 0 else 'red')\nplt.figure(figsize=(10, 6))\nbars = plt.bar(df['category'], df['amount'], color=df['color'])\nfor i in range(1, len(df)):\n    plt.plot([i-1, i], [df['cumulative'][i-1], df['cumulative'][i]], color='black')\n    \nplt.bar('Net Profit', df['cumulative'].iloc[-1], color='blue')\nplt.plot([len(df)-1, len(df)], [df['cumulative'].iloc[-2], df['cumulative'].iloc[-1]], color='black')\n\nplt.title('Step-by-Step Calculation of Net Profit for a Business Quarter')\nplt.xlabel('Category')\nplt.ylabel('Amount ($)')\nplt.grid(axis='y', linestyle='--', alpha=0.7)\nplt.show()"
+}

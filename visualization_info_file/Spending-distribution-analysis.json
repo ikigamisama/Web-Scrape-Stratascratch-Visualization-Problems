@@ -1,0 +1,4013 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10498-spending-distribution-analysis?code_type=2",
+	"title": "Spending distribution analysis",
+	"difficulty": "Medium",
+	"id": "ID 10498",
+	"type": "Histogram",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Create a histogram to analyze the distribution of customer spending per visit at a shopping mall, using 'mintcream' for low spenders, 'salmon' for medium spenders, and 'darkcyan' for high spenders.",
+	"data": [
+		{
+			"customer_spend": 278.919,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 360.443,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 305.354,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 276.993,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 217.591,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 326.488,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 224.418,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 446.969,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 482.195,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 197.886,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 397.945,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 269.159,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 288.342,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 463.542,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 44.808,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 52.693,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 19.907,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 417.984,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 391.297,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 436.306,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 489.523,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 401.588,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 236.125,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 392.459,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 67.954,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 323.561,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 80.243,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 472.888,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 265.706,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 213.184,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 139.632,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 389.375,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 233.514,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 288.533,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 19.207,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 312.641,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 309.927,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 312.298,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 472.437,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 344.092,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 186.159,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 224.146,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 351.839,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 39.51,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 336.716,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 338.613,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 113.087,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 73.174,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 164.56,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 188.218,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 289.396,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 224.915,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 494.303,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 60.002,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 112.35,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 89.042,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 330.023,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 134.113,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 238.492,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 129.769,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 87.895,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 64.084,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 331.601,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 77.71,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 106.325,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 190.675,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 412.287,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.58,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 420.593,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.088,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 488.465,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 239.639,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 488.613,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 306.374,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 372.239,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 29.202,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 148.575,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 68.896,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 155.109,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 68.177,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 165.812,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 212.989,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 41.432,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 349.311,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 287.635,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 140.041,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 266.392,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 56.031,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 292.214,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 465.355,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 166.099,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 337.031,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 74.581,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 361,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 151.809,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 99.764,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 297.391,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 19.853,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 416.181,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 12.301,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 342.13,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 142.304,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 370.245,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 481.472,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 131.889,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 292.317,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 300.101,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 290.403,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 119.31,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 476.847,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 229.091,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 424.74,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 352.745,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 155.744,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 408.761,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 204.288,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 441.741,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 294.824,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 442.05,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 349.34,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 365.375,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 255.649,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 478.481,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 325.555,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 217.689,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 307.133,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 19.405,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 157.772,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 333.485,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 152.138,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 312.828,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 220.097,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 76.382,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 156.158,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 289.283,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 299.528,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 291.419,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 330.068,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 329.531,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 221.395,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 449.308,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 190.105,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 223.574,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 447.042,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 405.035,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 354.905,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 59.111,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 460.546,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 359.978,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 499.435,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 83.23,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 435.382,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 89.622,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 311.624,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 70.672,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 425.524,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 405.586,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 288.859,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 209.52,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 43.892,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 351.74,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 232.236,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 363.807,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 434.527,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 488.006,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 429.344,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 15.74,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 186.389,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 367.695,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 94.099,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 265.308,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 36.626,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 107.998,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 19.076,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 398.912,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 119.723,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 179.222,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 464.76,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 355.163,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 25.601,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 90.7,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 314.524,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 292.842,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 126.567,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 467.765,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 310.843,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 272.46,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 299.056,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 367.76,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 162.853,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 205.128,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 112.823,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 101.235,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 472.742,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 372.38,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 250.325,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 121.433,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 134.635,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 38.434,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 222.864,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 162.78,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 351.208,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 195.098,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 98.006,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 22.093,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 42.952,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 342.902,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 232.311,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 272.924,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 449.369,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 495.266,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 116.28,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 334.908,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 139.028,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 20.119,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 381.606,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 166.808,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 197.897,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 298.275,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 417.214,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 318.201,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 437.599,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 144.036,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 401.043,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 100.962,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 476.868,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 346.869,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 115.599,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 474.212,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 368.119,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 134.431,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 114.523,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 263.918,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 22.575,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 111.66,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 218.096,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 193.343,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 237.152,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 146.038,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 297.524,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 433.289,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 67.591,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 263.516,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 74.713,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 361.261,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 204.069,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 287.056,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 99.807,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 80.975,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 249.148,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 184.25,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 470.812,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 385.009,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 376.845,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 452.823,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 50.877,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 280.574,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 296.393,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 481.349,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 153.152,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 128.006,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 59.144,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 18.051,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 465.469,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 338.259,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 394.725,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 148.048,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 297.341,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 41.338,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 247.958,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 488.973,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 439.488,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 175.698,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 481.169,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 123.534,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 475.166,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 471.275,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 401.609,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 318.919,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 438.401,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 153.58,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 425.982,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 312.76,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 16.486,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 180.144,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 82.589,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 491.096,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 244.401,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 253.722,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 323.342,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 190.606,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 77.081,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 412.838,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 103.025,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 260.546,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 119.915,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 57.944,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 432.474,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 486.731,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 480.809,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 454.212,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 389.283,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 173.241,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 49.74,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 209.548,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 123.795,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 74.919,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 36.179,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 365.541,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 15.599,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 387.585,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 82.004,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 48.966,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 53.905,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 339.303,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 130.23,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 216.064,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 283.111,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 431.67,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 366.252,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 142.461,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 74.427,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 37.133,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 157.783,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 138.438,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 233.509,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 344.808,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 350.856,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 148.924,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 196.164,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 98.764,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 396.387,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 37.856,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 351.529,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 391.561,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 390.93,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 137.117,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 193.168,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 297.924,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 143.683,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 191.718,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 106.557,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 235.329,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 31.86,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 401.9,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 47.709,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 264.229,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 160.337,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 292.996,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 480.122,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 326.329,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 27.328,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 220.897,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 259.908,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 272.727,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 343.882,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 146.022,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 73.142,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 202.411,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 478.639,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 101.694,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 452.952,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 276.465,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 233.887,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 442.2,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 234.716,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 364.842,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 205.522,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 452.982,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 348.112,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 352.815,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 170.583,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 380.822,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 321.67,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 127.61,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 88.664,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 400.232,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 479.992,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 234.488,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 299.582,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 430.284,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 234.039,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 476.418,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 292.118,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 412.176,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 455.333,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 409.607,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 88.113,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 318.16,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 205.233,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 40.729,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 217.776,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 136.755,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 426.029,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 26.319,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 479.902,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 184.131,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 184.786,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 18.001,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 100.764,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 206.617,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 465.353,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 58.811,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 473.198,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 436.049,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 232.54,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 170.083,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 124.045,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 311.088,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 26.207,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 17.647,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 220.11,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 43.356,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 133.451,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 118.369,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 134.064,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 74.217,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 15.898,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 66.587,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 313.055,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 487.386,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 495.269,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 210.437,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 89.848,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 322.993,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 250.25,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 494.811,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 41.999,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 393.785,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 151.315,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 128.295,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 334.627,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 130.571,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 336.271,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 263.481,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 217.804,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 281.797,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 150.655,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 356.222,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 213.28,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 186.667,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 416.042,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 463.234,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 32.544,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 123.987,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 180.774,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 409.334,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 492.891,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 484.796,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 453.425,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 155.313,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 496.086,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 132.216,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 61.894,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 475.967,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 124.376,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 347.986,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 38.595,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 368.047,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 442.043,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 143.494,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 195.738,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 193.405,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 376.906,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 126.526,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 94.208,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 230.153,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 159.19,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 421.203,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 126.493,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 256.171,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 471.866,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 320.659,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 434.972,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 470.703,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 377.875,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 352.792,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 484.303,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 497.256,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 231.393,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 44.726,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 153.469,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 84.654,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 214.568,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 74.332,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 306.018,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 197.576,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 448.739,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 484.219,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 277.974,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 144.664,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 300.193,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 449.413,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 209.299,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 280.518,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 143.11,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 233.168,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 206.84,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 131.723,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 257.875,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 162.087,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 192.787,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 267.236,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 377.792,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 173.419,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 462.838,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 432.536,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 33.858,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 134.285,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 228.606,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 61.268,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 180.753,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 372.648,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 343.452,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 314.968,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 358.159,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 110.413,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 177.432,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 341.359,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 440.825,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 276.402,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 148.523,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 24.815,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 358.065,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 13.863,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 192.613,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 269.963,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 461.835,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 53.852,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 208.912,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 21.913,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 177.879,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 314.893,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 146.743,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 112.777,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 66.695,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 292.799,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 350.682,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 339.259,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 474.942,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 11.325,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 327.126,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 304.192,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 298.482,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 481.757,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 18.267,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 351.276,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 408.703,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 259.806,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 173.643,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 397.512,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.649,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 226.597,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 264.777,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 350.039,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 54.534,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 121.602,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 211.048,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 315.414,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 444.611,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 313.225,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 75.396,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 490.484,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 437.175,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 256.333,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 461.951,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 275.277,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 462.42,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 416.65,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 484.46,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 460.694,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 27.657,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 95.638,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 200.676,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 476.55,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 157.014,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 88.629,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 444.289,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 228.733,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 454.859,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 88.513,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 333.948,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 225.729,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 47.479,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 351.267,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 131.225,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 29.412,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 39.373,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 39.928,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 454.789,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 372.543,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 450.051,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 339.565,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 269.181,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 159.179,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 499.002,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 187.473,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 240.618,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 195.34,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 489.968,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 95.583,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 170.714,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 343.371,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 40.972,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 307.552,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 244.047,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 149.16,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 126.823,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 262.111,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 190.285,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 233.695,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 175.364,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 485.542,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 75.385,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 57.434,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 178.262,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 299.603,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 332.996,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 204.656,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 499.646,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 182.428,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 363.489,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 322.416,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 408.396,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 488.351,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 445.999,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 384.635,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 352.142,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 174.394,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 82.366,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 40.692,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 128.532,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 221.818,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 265.778,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 388.811,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 479.783,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 67.487,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 62.432,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 298.95,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 375.245,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 425.594,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 468.558,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 491.879,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 205.903,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 196.364,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 82.426,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 345.618,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 331.813,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 432.411,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.656,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 253.911,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 294.73,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 128.363,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 92.822,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 431.195,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 38.682,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 240.604,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 66.759,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 233.959,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 490.182,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 217.616,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 429.991,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 67.485,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 142.914,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 207.858,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 205.908,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 338.978,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 178.912,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 359.746,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 323.202,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 205.589,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 221.562,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 311.119,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 44.321,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 412.979,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 330.176,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 365.908,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 273.092,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 64.134,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 208.467,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 208.633,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 167.311,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 24.676,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 371.255,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 63.794,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 307.091,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 354.577,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 321.045,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 479.98,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 60.616,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 434.912,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 24.303,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 272.109,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 208.079,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 266.85,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 188.899,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 103.378,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 19.37,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 263.893,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 422.961,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 192.876,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 119.203,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 49.461,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 51.802,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 118.484,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 59.007,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 139.869,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 42.413,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 42.146,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 429.575,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 89.439,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 284.244,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 388.993,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 233.641,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 85.151,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 107.802,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 222.162,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 268.835,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 181.226,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 392.925,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 378.001,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 464.334,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 24.187,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 448.889,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 202.359,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 440.403,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 348.485,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 493.801,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 382.048,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 188.627,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 255.521,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 194.431,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 188.807,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 137.843,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 253.025,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 344.053,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 145.897,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 266.946,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 67.516,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 88.324,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 32.935,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 485.658,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 11.892,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 97.504,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 310.305,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 49.871,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 442.129,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 362.614,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 483.531,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 258.741,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 157.198,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 279.255,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 466.101,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 265.173,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 140.931,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 439.925,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 192.24,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 10.678,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 131.366,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 165.934,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 430.801,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 234.667,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 227.848,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 174.69,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 441.532,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 473.063,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 496.026,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 194.603,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 483.412,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 398.021,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 341.088,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 129.996,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 116.064,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 91.363,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 462.151,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 154.098,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 232.016,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 252.039,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 391.304,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 423.675,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 78.146,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 219.183,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 422.999,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 410.836,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 60.183,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 86.628,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 159.057,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 46.926,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 218.085,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 62.733,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 288.427,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 130.813,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 302.252,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 67.588,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 488.183,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 466.955,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 201.98,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 128.668,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 132.695,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 246.863,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 29.596,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 323.456,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 210.068,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 194.929,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 406.589,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 357.427,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 477.624,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 182.449,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 449.796,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 387.284,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 185.138,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 314.616,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 151.399,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 438.456,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 65.089,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 114.093,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 99.686,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 207.483,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 375.164,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 268.185,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 248.961,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 10.268,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 218.447,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 41.141,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 112.044,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 466.873,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 115.545,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 430.585,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 403.418,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 87.982,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 306.799,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 66.674,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 366.665,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 322.357,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 407.85,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 244.898,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 458.283,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 34.181,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 153.515,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 360.376,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 214.874,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 94.746,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 62.533,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 410.496,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 241.84,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 442.319,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 369.312,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 210.766,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 193.02,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 262.663,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 445.639,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 371.267,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 12.525,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 350.137,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 460.559,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 358.123,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 96.733,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 246.924,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 78.755,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 185.908,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 469.187,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 462.42,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 148.59,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 176.419,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 304.104,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 481.967,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 82.423,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 135.889,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 438.043,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 251.027,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 450.491,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 100.904,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 271.008,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 169.872,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 165.106,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 228.97,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 222.208,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 185.1,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 458.336,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 368.555,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 366.498,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 152.058,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 293.078,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 391.798,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 399.839,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 178.82,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 387.728,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 370.588,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 79.338,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 434.313,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 226.248,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 248.341,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 229.701,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 288.245,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 314.373,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 254.108,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 434.726,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 317.59,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 206.7,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 214.179,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 407.311,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 180.614,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 113.613,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 39.098,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 439.253,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 460.088,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 68.859,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 173.892,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 95.932,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 66.79,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 450.935,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 37.87,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 490.438,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.261,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 433.101,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 287.588,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 190.28,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 177.748,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 381.108,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 164.141,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 332.086,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 263.49,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 247.633,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 451.569,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 281.776,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 415.162,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 365.531,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 28.893,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 388.824,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 116.266,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 452.543,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 31.033,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 173.205,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 58.869,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 243.039,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 411.811,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 156.112,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 83.958,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 171.831,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 408.801,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 78.788,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 121.408,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 43.737,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 355.798,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 203.664,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 162.312,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 362.127,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 174.629,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 366.608,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 409.448,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 116.655,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 487.171,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 89.555,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 152.512,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 98.1,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 179.298,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 245.23,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 265.866,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 428.267,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 445.829,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 117.851,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 315.218,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 64.633,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 234.895,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 167.943,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 165.085,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 246.466,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 367.616,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 43.9,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 440.795,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 370.059,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 96.485,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 470.189,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 258.093,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 499.906,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 106.657,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 272.105,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 152.222,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 159.045,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 299.622,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 461.642,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 404.579,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 364.731,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 283.995,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 461.926,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 251.257,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 438.178,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 418.651,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 114.779,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 387.9,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 15.964,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 168.186,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 122.488,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 258.363,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 371.058,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 57.861,
+			"spender_category": "Low Spenders"
+		},
+		{
+			"customer_spend": 262.312,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 469.822,
+			"spender_category": "High Spenders"
+		},
+		{
+			"customer_spend": 122.037,
+			"spender_category": "Medium Spenders"
+		},
+		{
+			"customer_spend": 341.799,
+			"spender_category": "High Spenders"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Low Spenders': 'mintcream', 'Medium Spenders': 'salmon', 'High Spenders': 'darkcyan'}\nplt.figure(figsize=(12, 6))\n\nfor group, color in colors.items():\n    plt.hist(df[df['spender_category'] == group]['customer_spend'], bins=20, alpha=0.7, label=group, color=color)\n    \nplt.title('Distribution of Customer Spending Per Visit at a Shopping Mall')\nplt.xlabel('Customer Spending ($)')\nplt.ylabel('Frequency')\nplt.legend(title='Spender Category')\nplt.grid(True)\nplt.show()"
+}

@@ -1,0 +1,273 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10488-stock-portfolio-performance?code_type=2",
+	"title": "Stock portfolio performance",
+	"difficulty": "Medium",
+	"id": "ID 10488",
+	"type": "Line Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Create a line chart to track the weekly performance of different stock portfolios, using 'red' for Portfolio A, 'blue' for Portfolio B, and 'green' for Portfolio C.",
+	"data": [
+		{
+			"portfolio_a": 154.881,
+			"portfolio_b": 178.837,
+			"portfolio_c": 114.875
+		},
+		{
+			"portfolio_a": 171.519,
+			"portfolio_b": 90.204,
+			"portfolio_c": 147.616
+		},
+		{
+			"portfolio_a": 160.276,
+			"portfolio_b": 100.888,
+			"portfolio_c": 149.204
+		},
+		{
+			"portfolio_a": 154.488,
+			"portfolio_b": 96.131,
+			"portfolio_c": 147.225
+		},
+		{
+			"portfolio_a": 142.365,
+			"portfolio_b": 145.311,
+			"portfolio_c": 112.308
+		},
+		{
+			"portfolio_a": 164.589,
+			"portfolio_b": 105.329,
+			"portfolio_c": 185.275
+		},
+		{
+			"portfolio_a": 143.759,
+			"portfolio_b": 126.631,
+			"portfolio_c": 134.713
+		},
+		{
+			"portfolio_a": 189.177,
+			"portfolio_b": 104.443,
+			"portfolio_c": 174.641
+		},
+		{
+			"portfolio_a": 196.366,
+			"portfolio_b": 95.897,
+			"portfolio_c": 159.948
+		},
+		{
+			"portfolio_a": 138.344,
+			"portfolio_b": 91.038,
+			"portfolio_c": 119.744
+		},
+		{
+			"portfolio_a": 179.173,
+			"portfolio_b": 145.633,
+			"portfolio_c": 171.38
+		},
+		{
+			"portfolio_a": 152.889,
+			"portfolio_b": 93.818,
+			"portfolio_c": 129.651
+		},
+		{
+			"portfolio_a": 156.804,
+			"portfolio_b": 99.658,
+			"portfolio_c": 178.11
+		},
+		{
+			"portfolio_a": 192.56,
+			"portfolio_b": 116.873,
+			"portfolio_c": 148.127
+		},
+		{
+			"portfolio_a": 107.104,
+			"portfolio_b": 162.099,
+			"portfolio_c": 178.174
+		},
+		{
+			"portfolio_a": 108.713,
+			"portfolio_b": 89.71,
+			"portfolio_c": 159.253
+		},
+		{
+			"portfolio_a": 102.022,
+			"portfolio_b": 163.794,
+			"portfolio_c": 162.525
+		},
+		{
+			"portfolio_a": 183.262,
+			"portfolio_b": 89.61,
+			"portfolio_c": 140.132
+		},
+		{
+			"portfolio_a": 177.816,
+			"portfolio_b": 177.646,
+			"portfolio_c": 185.608
+		},
+		{
+			"portfolio_a": 187.001,
+			"portfolio_b": 126.865,
+			"portfolio_c": 154.399
+		},
+		{
+			"portfolio_a": 197.862,
+			"portfolio_b": 177.676,
+			"portfolio_c": 132.386
+		},
+		{
+			"portfolio_a": 179.916,
+			"portfolio_b": 140.485,
+			"portfolio_c": 150.639
+		},
+		{
+			"portfolio_a": 146.148,
+			"portfolio_b": 153.926,
+			"portfolio_c": 91.919
+		},
+		{
+			"portfolio_a": 178.053,
+			"portfolio_b": 83.919,
+			"portfolio_c": 120.157
+		},
+		{
+			"portfolio_a": 111.827,
+			"portfolio_b": 108.281,
+			"portfolio_c": 156.017
+		},
+		{
+			"portfolio_a": 163.992,
+			"portfolio_b": 92.02,
+			"portfolio_c": 119.008
+		},
+		{
+			"portfolio_a": 114.335,
+			"portfolio_b": 109.614,
+			"portfolio_c": 151.802
+		},
+		{
+			"portfolio_a": 194.467,
+			"portfolio_b": 91.873,
+			"portfolio_c": 132.877
+		},
+		{
+			"portfolio_a": 152.185,
+			"portfolio_b": 111.798,
+			"portfolio_c": 103.547
+		},
+		{
+			"portfolio_a": 141.466,
+			"portfolio_b": 121.426,
+			"portfolio_c": 119.828
+		},
+		{
+			"portfolio_a": 126.456,
+			"portfolio_b": 86.415,
+			"portfolio_c": 146.996
+		},
+		{
+			"portfolio_a": 177.423,
+			"portfolio_b": 149.247,
+			"portfolio_c": 149.087
+		},
+		{
+			"portfolio_a": 145.615,
+			"portfolio_b": 136.66,
+			"portfolio_c": 147.433
+		},
+		{
+			"portfolio_a": 156.843,
+			"portfolio_b": 106.539,
+			"portfolio_c": 155.32
+		},
+		{
+			"portfolio_a": 101.879,
+			"portfolio_b": 132.325,
+			"portfolio_c": 155.21
+		},
+		{
+			"portfolio_a": 161.764,
+			"portfolio_b": 89.394,
+			"portfolio_c": 133.142
+		},
+		{
+			"portfolio_a": 161.21,
+			"portfolio_b": 137.595,
+			"portfolio_c": 179.655
+		},
+		{
+			"portfolio_a": 161.693,
+			"portfolio_b": 172.93,
+			"portfolio_c": 126.756
+		},
+		{
+			"portfolio_a": 194.375,
+			"portfolio_b": 111.857,
+			"portfolio_c": 133.586
+		},
+		{
+			"portfolio_a": 168.182,
+			"portfolio_b": 146.741,
+			"portfolio_c": 179.192
+		},
+		{
+			"portfolio_a": 135.951,
+			"portfolio_b": 93.18,
+			"portfolio_c": 170.619
+		},
+		{
+			"portfolio_a": 143.703,
+			"portfolio_b": 151.633,
+			"portfolio_c": 160.389
+		},
+		{
+			"portfolio_a": 169.763,
+			"portfolio_b": 108.941,
+			"portfolio_c": 100.023
+		},
+		{
+			"portfolio_a": 106.023,
+			"portfolio_b": 98.319,
+			"portfolio_c": 181.948
+		},
+		{
+			"portfolio_a": 166.677,
+			"portfolio_b": 138.651,
+			"portfolio_c": 161.424
+		},
+		{
+			"portfolio_a": 167.064,
+			"portfolio_b": 82.011,
+			"portfolio_c": 189.885
+		},
+		{
+			"portfolio_a": 121.038,
+			"portfolio_b": 162.894,
+			"portfolio_c": 104.945
+		},
+		{
+			"portfolio_a": 112.893,
+			"portfolio_b": 80.47,
+			"portfolio_c": 176.813
+		},
+		{
+			"portfolio_a": 131.543,
+			"portfolio_b": 147.782,
+			"portfolio_c": 106.249
+		},
+		{
+			"portfolio_a": 136.371,
+			"portfolio_b": 107.001,
+			"portfolio_c": 151.556
+		},
+		{
+			"portfolio_a": 157.02,
+			"portfolio_b": 153.519,
+			"portfolio_c": 102.382
+		},
+		{
+			"portfolio_a": 143.86,
+			"portfolio_b": 176.219,
+			"portfolio_c": 174.801
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\n#plotting the chart\ncolors = {'portfolio_a': 'red', 'portfolio_b': 'blue', 'portfolio_c': 'green'}\nplt.figure(figsize=(14, 7))\n\nfor portfolio, color in colors.items():\n    plt.plot(df.index, df[portfolio], label=portfolio, color=color)\n    \nplt.title('Weekly Performance of Different Stock Portfolios')\nplt.xlabel('Year')\nplt.ylabel('Performance')\nplt.legend(title='Product Sectors')\nplt.grid(True)\nplt.show()"
+}

@@ -1,0 +1,73 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10495-water-quality-trends?code_type=2",
+	"title": "Water quality trends",
+	"difficulty": "Medium",
+	"id": "ID 10495",
+	"type": "Line Graph",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Create a line graph to monitor the change in water quality over time at different test sites, using 'lightseagreen' for Site A, 'plum' for Site B, and 'tan' for Site C.",
+	"data": [
+		{
+			"site_a": 77.441,
+			"site_b": 68.402,
+			"site_c": 35.914
+		},
+		{
+			"site_a": 85.759,
+			"site_b": 86.28,
+			"site_c": 61.996
+		},
+		{
+			"site_a": 80.138,
+			"site_b": 43.552,
+			"site_c": 37.168
+		},
+		{
+			"site_a": 77.244,
+			"site_b": 44.356,
+			"site_c": 77.233
+		},
+		{
+			"site_a": 71.183,
+			"site_b": 41.011,
+			"site_c": 56.092
+		},
+		{
+			"site_a": 82.295,
+			"site_b": 81.631,
+			"site_c": 50.733
+		},
+		{
+			"site_a": 71.879,
+			"site_b": 78.908,
+			"site_c": 43.228
+		},
+		{
+			"site_a": 94.589,
+			"site_b": 83.501,
+			"site_c": 68.712
+		},
+		{
+			"site_a": 98.183,
+			"site_b": 88.931,
+			"site_c": 52.808
+		},
+		{
+			"site_a": 69.172,
+			"site_b": 79.958,
+			"site_c": 58.422
+		},
+		{
+			"site_a": 89.586,
+			"site_b": 63.074,
+			"site_c": 30.939
+		},
+		{
+			"site_a": 76.445,
+			"site_b": 79.026,
+			"site_c": 60.882
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'site_a': 'lightseagreen', 'site_b': 'plum', 'site_c': 'tan'}\nplt.figure(figsize=(12,6))\n\nplt.plot(df.index, df['site_a'], label=\"Site A\", color=\"lightseagreen\")\nplt.plot(df.index, df['site_b'], label=\"Site B\", color=\"plum\")\nplt.plot(df.index, df['site_c'], label=\"Site C\", color=\"tan\")\n\nplt.title(\"Change in Water Quality Over Time at Different Test Sales\")\nplt.ylabel(\"WAter QUality Index\")\nplt.legend()\nplt.grid(True)\nplt.show()"
+}

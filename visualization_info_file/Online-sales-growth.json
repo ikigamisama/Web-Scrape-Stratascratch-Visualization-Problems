@@ -1,0 +1,33 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10455-online-sales-growth?code_type=2",
+	"title": "Online sales growth",
+	"difficulty": "Easy",
+	"id": "ID 10455",
+	"type": "Area Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Create an area chart to depict the growth of online sales over the past five years, using 'lightgreen' for the growth trajectory.",
+	"data": [
+		{
+			"year": "2019",
+			"sales": "482000"
+		},
+		{
+			"year": "2020",
+			"sales": "448000"
+		},
+		{
+			"year": "2021",
+			"sales": "226000"
+		},
+		{
+			"year": "2022",
+			"sales": "156000"
+		},
+		{
+			"year": "2023",
+			"sales": "351000"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nplt.fill_between(df_sales['year'], df_sales['sales'], color='lightgreen', step='pre', alpha=0.6)\nplt.plot(df_sales['year'], df_sales['sales'], color='green')  # add line chart on top for clarity\n\nplt.title('Growth of Online Sales Over the Past Five Years')\nplt.xlabel('Year')\nplt.ylabel('Sales ($)')\nplt.grid(True)\nplt.xticks(df_sales['year'])\nplt.show()"
+}

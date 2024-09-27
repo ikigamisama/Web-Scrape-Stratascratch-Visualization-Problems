@@ -1,0 +1,229 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10454-electricity-consumption-variation?code_type=2",
+	"title": "Electricity consumption variation",
+	"difficulty": "Medium",
+	"id": "ID 10454",
+	"type": "Violin Plot",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Use a violin plot to analyze the variation in electricity consumption during different times of the year, with 'springgreen' for winter and 'deepskyblue' for summer.",
+	"data": [
+		{
+			"month": "January",
+			"electricity_consumption": 328.744,
+			"year": "2023",
+			"season": "Winter"
+		},
+		{
+			"month": "February",
+			"electricity_consumption": 241.854,
+			"year": "2023",
+			"season": "Winter"
+		},
+		{
+			"month": "March",
+			"electricity_consumption": 263.205,
+			"year": "2023",
+			"season": "Spring"
+		},
+		{
+			"month": "April",
+			"electricity_consumption": 170.888,
+			"year": "2023",
+			"season": "Spring"
+		},
+		{
+			"month": "May",
+			"electricity_consumption": 293.9,
+			"year": "2023",
+			"season": "Spring"
+		},
+		{
+			"month": "June",
+			"electricity_consumption": 334.814,
+			"year": "2023",
+			"season": "Summer"
+		},
+		{
+			"month": "July",
+			"electricity_consumption": 264.031,
+			"year": "2023",
+			"season": "Summer"
+		},
+		{
+			"month": "August",
+			"electricity_consumption": 167.287,
+			"year": "2023",
+			"season": "Summer"
+		},
+		{
+			"month": "September",
+			"electricity_consumption": 182.409,
+			"year": "2023",
+			"season": "Fall"
+		},
+		{
+			"month": "October",
+			"electricity_consumption": 289.51,
+			"year": "2023",
+			"season": "Fall"
+		},
+		{
+			"month": "November",
+			"electricity_consumption": 324.748,
+			"year": "2023",
+			"season": "Fall"
+		},
+		{
+			"month": "December",
+			"electricity_consumption": 114.009,
+			"year": "2023",
+			"season": "Winter"
+		},
+		{
+			"month": "January",
+			"electricity_consumption": 211.488,
+			"year": "2024",
+			"season": "Winter"
+		},
+		{
+			"month": "February",
+			"electricity_consumption": 273.024,
+			"year": "2024",
+			"season": "Winter"
+		},
+		{
+			"month": "March",
+			"electricity_consumption": 235.708,
+			"year": "2024",
+			"season": "Spring"
+		},
+		{
+			"month": "April",
+			"electricity_consumption": 229.022,
+			"year": "2024",
+			"season": "Spring"
+		},
+		{
+			"month": "May",
+			"electricity_consumption": 240.826,
+			"year": "2024",
+			"season": "Spring"
+		},
+		{
+			"month": "June",
+			"electricity_consumption": 229.828,
+			"year": "2024",
+			"season": "Summer"
+		},
+		{
+			"month": "July",
+			"electricity_consumption": 296.83,
+			"year": "2024",
+			"season": "Summer"
+		},
+		{
+			"month": "August",
+			"electricity_consumption": 141.453,
+			"year": "2024",
+			"season": "Summer"
+		},
+		{
+			"month": "September",
+			"electricity_consumption": 229.96,
+			"year": "2024",
+			"season": "Fall"
+		},
+		{
+			"month": "October",
+			"electricity_consumption": 288.894,
+			"year": "2024",
+			"season": "Fall"
+		},
+		{
+			"month": "November",
+			"electricity_consumption": 327.083,
+			"year": "2024",
+			"season": "Fall"
+		},
+		{
+			"month": "December",
+			"electricity_consumption": 183.923,
+			"year": "2024",
+			"season": "Winter"
+		},
+		{
+			"month": "January",
+			"electricity_consumption": 262.422,
+			"year": "2025",
+			"season": "Winter"
+		},
+		{
+			"month": "February",
+			"electricity_consumption": 310.438,
+			"year": "2025",
+			"season": "Winter"
+		},
+		{
+			"month": "March",
+			"electricity_consumption": 247.621,
+			"year": "2025",
+			"season": "Spring"
+		},
+		{
+			"month": "April",
+			"electricity_consumption": 226.123,
+			"year": "2025",
+			"season": "Spring"
+		},
+		{
+			"month": "May",
+			"electricity_consumption": 187.476,
+			"year": "2025",
+			"season": "Spring"
+		},
+		{
+			"month": "June",
+			"electricity_consumption": 287.719,
+			"year": "2025",
+			"season": "Summer"
+		},
+		{
+			"month": "July",
+			"electricity_consumption": 248.768,
+			"year": "2025",
+			"season": "Summer"
+		},
+		{
+			"month": "August",
+			"electricity_consumption": 326.097,
+			"year": "2025",
+			"season": "Summer"
+		},
+		{
+			"month": "September",
+			"electricity_consumption": 200.848,
+			"year": "2025",
+			"season": "Fall"
+		},
+		{
+			"month": "October",
+			"electricity_consumption": 180.402,
+			"year": "2025",
+			"season": "Fall"
+		},
+		{
+			"month": "November",
+			"electricity_consumption": 268.902,
+			"year": "2025",
+			"season": "Fall"
+		},
+		{
+			"month": "December",
+			"electricity_consumption": 193.289,
+			"year": "2025",
+			"season": "Winter"
+		}
+	],
+	"solution": "import seaborn as sns\nimport matplotlib.pyplot as plt\n\n\nplt.figure(figsize=(10, 6))\nsns.set(style=\"whitegrid\")\n\npalette = {'Winter': 'springgreen', 'Summer': 'deepskyblue'}\n\nseason_data = df[df['season'].isin(['Winter', 'Summer'])]\n\nax = sns.violinplot(x='month', y='electricity_consumption', hue='season',\n                    data=season_data, palette=palette, split=True)\n\n# Customize the plot\nplt.title('Electricity Consumption Variation by Season')\nplt.xlabel('Month')\nplt.ylabel('Electricity Consumption (kWh)')\nplt.legend(title='Season')\n\n# Show the plot\nplt.show()"
+}

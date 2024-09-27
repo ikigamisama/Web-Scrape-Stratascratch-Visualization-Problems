@@ -1,0 +1,69 @@
+{
+	"link": "https://platform.stratascratch.com/visualizations/10532-seasonal-booking-rates?code_type=2",
+	"title": "Seasonal booking rates",
+	"difficulty": "Medium",
+	"id": "ID 10532",
+	"type": "Heat Map",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Develop a heat map to visualize the seasonal variation in hotel booking rates across different regions, using a color gradient from 'lightblue' for low season to 'darkblue' for peak season.",
+	"data": [
+		{
+			"january": 64,
+			"february": 67,
+			"march": 84,
+			"april": 87,
+			"may": 87,
+			"june": 29,
+			"july": 41,
+			"august": 56,
+			"september": 90,
+			"october": 32,
+			"november": 78,
+			"december": 85
+		},
+		{
+			"january": 59,
+			"february": 66,
+			"march": 57,
+			"april": 45,
+			"may": 97,
+			"june": 92,
+			"july": 29,
+			"august": 40,
+			"september": 89,
+			"october": 99,
+			"november": 67,
+			"december": 84
+		},
+		{
+			"january": 69,
+			"february": 49,
+			"march": 39,
+			"april": 39,
+			"may": 34,
+			"june": 59,
+			"july": 52,
+			"august": 85,
+			"september": 29,
+			"october": 77,
+			"november": 52,
+			"december": 51
+		},
+		{
+			"january": 94,
+			"february": 43,
+			"march": 55,
+			"april": 95,
+			"may": 75,
+			"june": 48,
+			"july": 54,
+			"august": 20,
+			"september": 20,
+			"october": 56,
+			"november": 73,
+			"december": 25
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport seaborn as sns\n\nplt.figure(figsize=(12, 8))\nsns.heatmap(df, cmap='Blues', annot=True, linewidths=.5, linecolor='gray', cbar_kws={'label': 'Booking Rate (%)'})\n\nplt.title('Seasonal Variation in Hotel Booking Rates Across Different Regions')\nplt.xlabel('Month')\nplt.ylabel('Region')\nplt.show()"
+}
