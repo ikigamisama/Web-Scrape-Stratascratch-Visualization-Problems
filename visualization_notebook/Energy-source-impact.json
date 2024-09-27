@@ -1,1 +1,43 @@
-{"link": "https://platform.stratascratch.com/visualizations/10533-energy-source-impact?code_type=2", "title": "Energy source impact", "difficulty": "Hard", "id": "ID 10533", "type": "Radar Chart", "analysis": "Comparison", "data_type": "Categorical Data", "description": "Use a radar chart to compare the ecological impact of different energy sources, with 'green' for solar, 'brown' for coal, and 'gray' for nuclear.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10533-energy-source-impact?code_type=2",
+	"title": "Energy source impact",
+	"difficulty": "Hard",
+	"id": "ID 10533",
+	"type": "Radar Chart",
+	"analysis": "Comparison",
+	"data_type": "Categorical Data",
+	"description": "Use a radar chart to compare the ecological impact of different energy sources, with 'green' for solar, 'brown' for coal, and 'gray' for nuclear.",
+	"data": [
+		{
+			"metric": "Carbon Emissions",
+			"solar": "2",
+			"coal": "10",
+			"nuclear": "3"
+		},
+		{
+			"metric": "Land Use",
+			"solar": "4",
+			"coal": "3",
+			"nuclear": "2"
+		},
+		{
+			"metric": "Water Use",
+			"solar": "3",
+			"coal": "8",
+			"nuclear": "5"
+		},
+		{
+			"metric": "Air Pollution",
+			"solar": "1",
+			"coal": "10",
+			"nuclear": "3"
+		},
+		{
+			"metric": "Waste Generation",
+			"solar": "2",
+			"coal": "9",
+			"nuclear": "7"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport numpy as np\n\nlabels = df['metric']\nnum_vars = len(labels)\n\nangles = np.linspace(0, 2 * np.pi, num_vars, endpoint=False).tolist()\n\nangles += angles[:1]\n\ndef create_plot_data(column_name):\n    values = df[column_name].tolist()\n    values += values[:1]  # Close the loop by repeating the first value\n    return values\n\nsolar_data = create_plot_data('solar')\ncoal_data = create_plot_data('coal')\nnuclear_data = create_plot_data('nuclear')\n\nfig, ax = plt.subplots(figsize=(8, 8), subplot_kw=dict(polar=True))\n\nax.set_theta_offset(np.pi / 2)\nax.set_theta_direction(-1)\n\nax.set_rlabel_position(0)\nplt.yticks([2, 4, 6, 8, 10], [\"2\", \"4\", \"6\", \"8\", \"10\"], color=\"grey\", size=7)\nplt.ylim(0, 10)\n\nax.plot(angles, solar_data, color='green', linewidth=2, linestyle='solid', label='solar')\nax.fill(angles, solar_data, color='green', alpha=0.25)\nax.plot(angles, coal_data, color='brown', linewidth=2, linestyle='solid', label='coal')\nax.fill(angles, coal_data, color='brown', alpha=0.25)\nax.plot(angles, nuclear_data, color='gray', linewidth=2, linestyle='solid', label='nuclear')\nax.fill(angles, nuclear_data, color='gray', alpha=0.25)\n\nplt.title('Ecological Impact of Different Energy Sources', size=20, color='black')\n\nplt.show()"
+}

@@ -1,1 +1,513 @@
-{"link": "https://platform.stratascratch.com/visualizations/10510-house-price-factors?code_type=2", "title": "House price factors", "difficulty": "Medium", "id": "ID 10510", "type": "Scatter Plot", "analysis": "Relationships", "data_type": "Numerical Data", "description": "Generate a scatter plot to analyze the impact of different factors on house prices, using 'skyblue' for lot size and 'gold' for house age.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10510-house-price-factors?code_type=2",
+	"title": "House price factors",
+	"difficulty": "Medium",
+	"id": "ID 10510",
+	"type": "Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Generate a scatter plot to analyze the impact of different factors on house prices, using 'skyblue' for lot size and 'gold' for house age.",
+	"data": [
+		{
+			"house_price": "319525.402",
+			"lot_size": "6939.257",
+			"house_age": "70"
+		},
+		{
+			"house_price": "386075.747",
+			"lot_size": "3065.076",
+			"house_age": "71"
+		},
+		{
+			"house_price": "341105.35",
+			"lot_size": "7484.343",
+			"house_age": "18"
+		},
+		{
+			"house_price": "317953.273",
+			"lot_size": "9640.791",
+			"house_age": "92"
+		},
+		{
+			"house_price": "269461.92",
+			"lot_size": "2863.155",
+			"house_age": "43"
+		},
+		{
+			"house_price": "358357.645",
+			"lot_size": "5973.495",
+			"house_age": "83"
+		},
+		{
+			"house_price": "275034.885",
+			"lot_size": "6124.398",
+			"house_age": "49"
+		},
+		{
+			"house_price": "456709.2",
+			"lot_size": "5936.393",
+			"house_age": "41"
+		},
+		{
+			"house_price": "485465.104",
+			"lot_size": "2619.276",
+			"house_age": "93"
+		},
+		{
+			"house_price": "253376.608",
+			"lot_size": "9551.116",
+			"house_age": "46"
+		},
+		{
+			"house_price": "416690.015",
+			"lot_size": "4747.691",
+			"house_age": "21"
+		},
+		{
+			"house_price": "311557.968",
+			"lot_size": "8540.882",
+			"house_age": "73"
+		},
+		{
+			"house_price": "327217.824",
+			"lot_size": "7145.053",
+			"house_age": "89"
+		},
+		{
+			"house_price": "470238.655",
+			"lot_size": "3325.651",
+			"house_age": "96"
+		},
+		{
+			"house_price": "128414.423",
+			"lot_size": "8231.079",
+			"house_age": "91"
+		},
+		{
+			"house_price": "134851.72",
+			"lot_size": "4266.805",
+			"house_age": "73"
+		},
+		{
+			"house_price": "108087.359",
+			"lot_size": "8870.48",
+			"house_age": "28"
+		},
+		{
+			"house_price": "433047.938",
+			"lot_size": "6022.092",
+			"house_age": "81"
+		},
+		{
+			"house_price": "411262.7",
+			"lot_size": "8876.486",
+			"house_age": "58"
+		},
+		{
+			"house_price": "448004.859",
+			"lot_size": "7079.05",
+			"house_age": "0"
+		},
+		{
+			"house_price": "491447.337",
+			"lot_size": "7389.916",
+			"house_age": "86"
+		},
+		{
+			"house_price": "419663.426",
+			"lot_size": "5262.582",
+			"house_age": "63"
+		},
+		{
+			"house_price": "284591.745",
+			"lot_size": "9582.795",
+			"house_age": "16"
+		},
+		{
+			"house_price": "412211.671",
+			"lot_size": "6617.907",
+			"house_age": "36"
+		},
+		{
+			"house_price": "147309.77",
+			"lot_size": "4526.623",
+			"house_age": "94"
+		},
+		{
+			"house_price": "355968.409",
+			"lot_size": "6260.736",
+			"house_age": "24"
+		},
+		{
+			"house_price": "157341.315",
+			"lot_size": "682.335",
+			"house_age": "63"
+		},
+		{
+			"house_price": "477867.567",
+			"lot_size": "3364.961",
+			"house_age": "67"
+		},
+		{
+			"house_price": "308739.329",
+			"lot_size": "6771.649",
+			"house_age": "51"
+		},
+		{
+			"house_price": "265864.776",
+			"lot_size": "3255.737",
+			"house_age": "8"
+		},
+		{
+			"house_price": "205822.245",
+			"lot_size": "6371.147",
+			"house_age": "56"
+		},
+		{
+			"house_price": "409693.476",
+			"lot_size": "4573.303",
+			"house_age": "91"
+		},
+		{
+			"house_price": "282460.133",
+			"lot_size": "1787.004",
+			"house_age": "93"
+		},
+		{
+			"house_price": "327373.58",
+			"lot_size": "3333.682",
+			"house_age": "87"
+		},
+		{
+			"house_price": "107515.92",
+			"lot_size": "5914.667",
+			"house_age": "32"
+		},
+		{
+			"house_price": "347054.199",
+			"lot_size": "6113.291",
+			"house_age": "19"
+		},
+		{
+			"house_price": "344838.289",
+			"lot_size": "5956.09",
+			"house_age": "72"
+		},
+		{
+			"house_price": "346773.599",
+			"lot_size": "6705.408",
+			"house_age": "71"
+		},
+		{
+			"house_price": "477499.231",
+			"lot_size": "6694.981",
+			"house_age": "87"
+		},
+		{
+			"house_price": "372728.12",
+			"lot_size": "4598.475",
+			"house_age": "13"
+		},
+		{
+			"house_price": "243803.16",
+			"lot_size": "9017.193",
+			"house_age": "58"
+		},
+		{
+			"house_price": "274812.782",
+			"lot_size": "3991.838",
+			"house_age": "81"
+		},
+		{
+			"house_price": "379052.478",
+			"lot_size": "4640.717",
+			"house_age": "55"
+		},
+		{
+			"house_price": "124090.189",
+			"lot_size": "8973.272",
+			"house_age": "64"
+		},
+		{
+			"house_price": "366706.686",
+			"lot_size": "8158.843",
+			"house_age": "75"
+		},
+		{
+			"house_price": "368255.148",
+			"lot_size": "7186.942",
+			"house_age": "92"
+		},
+		{
+			"house_price": "184153.024",
+			"lot_size": "1452.155",
+			"house_age": "36"
+		},
+		{
+			"house_price": "151570.519",
+			"lot_size": "9235.085",
+			"house_age": "25"
+		},
+		{
+			"house_price": "226171.34",
+			"lot_size": "7285.292",
+			"house_age": "32"
+		},
+		{
+			"house_price": "245484.308",
+			"lot_size": "9989.047",
+			"house_age": "42"
+		},
+		{
+			"house_price": "328078.708",
+			"lot_size": "1919.759",
+			"house_age": "14"
+		},
+		{
+			"house_price": "275440.605",
+			"lot_size": "8747.198",
+			"house_age": "86"
+		},
+		{
+			"house_price": "495349.535",
+			"lot_size": "2043.683",
+			"house_age": "28"
+		},
+		{
+			"house_price": "140817.924",
+			"lot_size": "6347.816",
+			"house_age": "20"
+		},
+		{
+			"house_price": "183550.702",
+			"lot_size": "1676.29",
+			"house_age": "82"
+		},
+		{
+			"house_price": "164523.807",
+			"lot_size": "8556.078",
+			"house_age": "68"
+		},
+		{
+			"house_price": "361243.33",
+			"lot_size": "8169.53",
+			"house_age": "22"
+		},
+		{
+			"house_price": "201316.641",
+			"lot_size": "5906.457",
+			"house_age": "99"
+		},
+		{
+			"house_price": "286524.309",
+			"lot_size": "4368.241",
+			"house_age": "83"
+		},
+		{
+			"house_price": "197770.237",
+			"lot_size": "1157.086",
+			"house_age": "7"
+		},
+		{
+			"house_price": "163587.833",
+			"lot_size": "7125.573",
+			"house_age": "72"
+		},
+		{
+			"house_price": "144150.056",
+			"lot_size": "4808.655",
+			"house_age": "61"
+		},
+		{
+			"house_price": "362531.836",
+			"lot_size": "7359.528",
+			"house_age": "13"
+		},
+		{
+			"house_price": "155273.181",
+			"lot_size": "8730.632",
+			"house_age": "5"
+		},
+		{
+			"house_price": "178632.945",
+			"lot_size": "9767.454",
+			"house_age": "0"
+		},
+		{
+			"house_price": "247490.068",
+			"lot_size": "8630.132",
+			"house_age": "8"
+		},
+		{
+			"house_price": "428397.292",
+			"lot_size": "611.284",
+			"house_age": "79"
+		},
+		{
+			"house_price": "138840.51",
+			"lot_size": "3919.792",
+			"house_age": "79"
+		},
+		{
+			"house_price": "435177.963",
+			"lot_size": "7434.91",
+			"house_age": "53"
+		},
+		{
+			"house_price": "138439.363",
+			"lot_size": "2130.482",
+			"house_age": "11"
+		},
+		{
+			"house_price": "490583.786",
+			"lot_size": "5449.848",
+			"house_age": "4"
+		},
+		{
+			"house_price": "287460.481",
+			"lot_size": "1016.211",
+			"house_age": "39"
+		},
+		{
+			"house_price": "490704.435",
+			"lot_size": "2399.967",
+			"house_age": "92"
+		},
+		{
+			"house_price": "341938.208",
+			"lot_size": "675.957",
+			"house_age": "45"
+		},
+		{
+			"house_price": "395705.432",
+			"lot_size": "8040.128",
+			"house_age": "26"
+		},
+		{
+			"house_price": "115675.117",
+			"lot_size": "2627.285",
+			"house_age": "74"
+		},
+		{
+			"house_price": "213122.785",
+			"lot_size": "3780.841",
+			"house_age": "52"
+		},
+		{
+			"house_price": "148078.624",
+			"lot_size": "9316.772",
+			"house_age": "49"
+		},
+		{
+			"house_price": "218456.079",
+			"lot_size": "7191.937",
+			"house_age": "91"
+		},
+		{
+			"house_price": "147491.088",
+			"lot_size": "802.47",
+			"house_age": "51"
+		},
+		{
+			"house_price": "227193.272",
+			"lot_size": "2064.594",
+			"house_age": "99"
+		},
+		{
+			"house_price": "265705.198",
+			"lot_size": "6404.045",
+			"house_age": "18"
+		},
+		{
+			"house_price": "125658.999",
+			"lot_size": "5983.672",
+			"house_age": "34"
+		},
+		{
+			"house_price": "376988.848",
+			"lot_size": "2759.982",
+			"house_age": "51"
+		},
+		{
+			"house_price": "326640.582",
+			"lot_size": "9375.033",
+			"house_age": "30"
+		},
+		{
+			"house_price": "206155.796",
+			"lot_size": "6332.677",
+			"house_age": "53"
+		},
+		{
+			"house_price": "309299.221",
+			"lot_size": "5588.512",
+			"house_age": "58"
+		},
+		{
+			"house_price": "137576.204",
+			"lot_size": "6104.145",
+			"house_age": "43"
+		},
+		{
+			"house_price": "330378.598",
+			"lot_size": "7436.159",
+			"house_age": "55"
+		},
+		{
+			"house_price": "471718.479",
+			"lot_size": "3463.477",
+			"house_age": "18"
+		},
+		{
+			"house_price": "227427.581",
+			"lot_size": "4283.1",
+			"house_age": "45"
+		},
+		{
+			"house_price": "366964.152",
+			"lot_size": "2493.516",
+			"house_age": "87"
+		},
+		{
+			"house_price": "152719.145",
+			"lot_size": "2268.834",
+			"house_age": "65"
+		},
+		{
+			"house_price": "386530.882",
+			"lot_size": "9471.538",
+			"house_age": "70"
+		},
+		{
+			"house_price": "215762.437",
+			"lot_size": "7525.733",
+			"house_age": "53"
+		},
+		{
+			"house_price": "173276.545",
+			"lot_size": "5159.359",
+			"house_age": "48"
+		},
+		{
+			"house_price": "334605.174",
+			"lot_size": "2660.439",
+			"house_age": "94"
+		},
+		{
+			"house_price": "108043.018",
+			"lot_size": "2916.387",
+			"house_age": "59"
+		},
+		{
+			"house_price": "431576.012",
+			"lot_size": "1051.277",
+			"house_age": "80"
+		},
+		{
+			"house_price": "101878.19",
+			"lot_size": "4626.958",
+			"house_age": "26"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(14, 6))\n#adding plot titles and labels\nplt.subplot(1, 2, 1)\nplt.scatter(df['lot_size'], df['house_price'], color='skyblue', alpha=0.6)\nplt.title('Impact of Lot Size on House Prices')\nplt.xlabel('Lot Size (sq ft)')\nplt.ylabel('House Price ($)')\nplt.grid(True)\n\nplt.subplot(1, 2, 2)\nplt.scatter(df['house_age'], df['house_price'], color='gold', alpha=0.6)\nplt.title('Impact of House Age on House Prices')\nplt.xlabel('House Age (years)')\nplt.ylabel('House Price ($)')\nplt.grid(True)\n\nplt.tight_layout()\nplt.show()"
+}

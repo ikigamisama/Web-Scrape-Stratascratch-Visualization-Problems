@@ -1,1 +1,513 @@
-{"link": "https://platform.stratascratch.com/visualizations/10476-marketing-impact-analysis?code_type=2", "title": "Marketing impact analysis", "difficulty": "Medium", "id": "ID 10476", "type": "Scatter Plot", "analysis": "Relationships", "data_type": "Numerical Data", "description": "Develop a scatter plot to analyze the impact of marketing spend on customer acquisition costs, using 'seagreen' for low costs and 'crimson' for high costs.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10476-marketing-impact-analysis?code_type=2",
+	"title": "Marketing impact analysis",
+	"difficulty": "Medium",
+	"id": "ID 10476",
+	"type": "Scatter Plot",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data",
+	"description": "Develop a scatter plot to analyze the impact of marketing spend on customer acquisition costs, using 'seagreen' for low costs and 'crimson' for high costs.",
+	"data": [
+		{
+			"marketing_spend": "7732",
+			"customer_acquisition_cost": "455",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "48567",
+			"customer_acquisition_cost": "251",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "47613",
+			"customer_acquisition_cost": "433",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "26243",
+			"customer_acquisition_cost": "50",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "35403",
+			"customer_acquisition_cost": "444",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "37103",
+			"customer_acquisition_cost": "420",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "46993",
+			"customer_acquisition_cost": "93",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "25757",
+			"customer_acquisition_cost": "492",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "19935",
+			"customer_acquisition_cost": "433",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "20430",
+			"customer_acquisition_cost": "73",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "44512",
+			"customer_acquisition_cost": "237",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "19650",
+			"customer_acquisition_cost": "180",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "22089",
+			"customer_acquisition_cost": "427",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "37230",
+			"customer_acquisition_cost": "148",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "23983",
+			"customer_acquisition_cost": "112",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "48095",
+			"customer_acquisition_cost": "469",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "29152",
+			"customer_acquisition_cost": "272",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "40665",
+			"customer_acquisition_cost": "173",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "21921",
+			"customer_acquisition_cost": "132",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "32469",
+			"customer_acquisition_cost": "480",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "43984",
+			"customer_acquisition_cost": "277",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "11921",
+			"customer_acquisition_cost": "198",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "43804",
+			"customer_acquisition_cost": "259",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "7163",
+			"customer_acquisition_cost": "100",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "10072",
+			"customer_acquisition_cost": "461",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "42619",
+			"customer_acquisition_cost": "320",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "12877",
+			"customer_acquisition_cost": "91",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "23430",
+			"customer_acquisition_cost": "108",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "6871",
+			"customer_acquisition_cost": "243",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "12599",
+			"customer_acquisition_cost": "86",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "7496",
+			"customer_acquisition_cost": "316",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "29675",
+			"customer_acquisition_cost": "136",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "47968",
+			"customer_acquisition_cost": "93",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "36921",
+			"customer_acquisition_cost": "410",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "38523",
+			"customer_acquisition_cost": "61",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "5797",
+			"customer_acquisition_cost": "308",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "8219",
+			"customer_acquisition_cost": "357",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "20246",
+			"customer_acquisition_cost": "130",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "29999",
+			"customer_acquisition_cost": "82",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "21321",
+			"customer_acquisition_cost": "232",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "24129",
+			"customer_acquisition_cost": "178",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "46504",
+			"customer_acquisition_cost": "344",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "23676",
+			"customer_acquisition_cost": "325",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "36230",
+			"customer_acquisition_cost": "224",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "16723",
+			"customer_acquisition_cost": "92",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "48890",
+			"customer_acquisition_cost": "421",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "22591",
+			"customer_acquisition_cost": "234",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "48136",
+			"customer_acquisition_cost": "494",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "31752",
+			"customer_acquisition_cost": "127",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "28605",
+			"customer_acquisition_cost": "336",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "11021",
+			"customer_acquisition_cost": "330",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "25006",
+			"customer_acquisition_cost": "175",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "8560",
+			"customer_acquisition_cost": "308",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "30332",
+			"customer_acquisition_cost": "53",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "36055",
+			"customer_acquisition_cost": "144",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "26368",
+			"customer_acquisition_cost": "276",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "25737",
+			"customer_acquisition_cost": "413",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "33647",
+			"customer_acquisition_cost": "319",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "31681",
+			"customer_acquisition_cost": "418",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "19627",
+			"customer_acquisition_cost": "346",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "17134",
+			"customer_acquisition_cost": "378",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "46390",
+			"customer_acquisition_cost": "69",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "25571",
+			"customer_acquisition_cost": "145",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "14781",
+			"customer_acquisition_cost": "378",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "24340",
+			"customer_acquisition_cost": "460",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "32257",
+			"customer_acquisition_cost": "298",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "21298",
+			"customer_acquisition_cost": "230",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "17372",
+			"customer_acquisition_cost": "373",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "9420",
+			"customer_acquisition_cost": "367",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "44876",
+			"customer_acquisition_cost": "320",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "22455",
+			"customer_acquisition_cost": "402",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "19324",
+			"customer_acquisition_cost": "310",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "43019",
+			"customer_acquisition_cost": "287",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "12012",
+			"customer_acquisition_cost": "189",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "14396",
+			"customer_acquisition_cost": "136",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "8918",
+			"customer_acquisition_cost": "427",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "14359",
+			"customer_acquisition_cost": "159",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "49259",
+			"customer_acquisition_cost": "381",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "28482",
+			"customer_acquisition_cost": "234",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "20127",
+			"customer_acquisition_cost": "66",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "48727",
+			"customer_acquisition_cost": "202",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "40725",
+			"customer_acquisition_cost": "463",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "42237",
+			"customer_acquisition_cost": "199",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "19165",
+			"customer_acquisition_cost": "160",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "13752",
+			"customer_acquisition_cost": "75",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "47565",
+			"customer_acquisition_cost": "494",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "19505",
+			"customer_acquisition_cost": "427",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "10795",
+			"customer_acquisition_cost": "424",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "28647",
+			"customer_acquisition_cost": "167",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "45133",
+			"customer_acquisition_cost": "495",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "33254",
+			"customer_acquisition_cost": "133",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "46216",
+			"customer_acquisition_cost": "211",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "41530",
+			"customer_acquisition_cost": "410",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "30392",
+			"customer_acquisition_cost": "466",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "21221",
+			"customer_acquisition_cost": "278",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "23819",
+			"customer_acquisition_cost": "301",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "39402",
+			"customer_acquisition_cost": "171",
+			"cost_category": "Low Cost"
+		},
+		{
+			"marketing_spend": "5973",
+			"customer_acquisition_cost": "376",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "25848",
+			"customer_acquisition_cost": "337",
+			"cost_category": "High Cost"
+		},
+		{
+			"marketing_spend": "15215",
+			"customer_acquisition_cost": "63",
+			"cost_category": "Low Cost"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolor_map =  {'Low Cost': 'seagreen', 'High Cost': 'crimson'}\n#marketing_spend, customer_acuisition_cost cost_category\nplt.figure(figsize=(10,6))\n\nfor cost, group in df.groupby('cost_category'):\n    plt.scatter(group['marketing_spend'], group['customer_acquisition_cost'], color=color_map[cost], label=cost, alpha=0.7)\n    \nplt.title('Impact of marketing Spend on Customer Acquisition Cost')\n\nplt.legend(handles=[\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='crimson', markersize=10, label='High Cost'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='seagreen', markersize=10, label='Low Cost')],\n           title='Cost Category', loc='lower left')\nplt.grid(True)\nplt.show()"
+}

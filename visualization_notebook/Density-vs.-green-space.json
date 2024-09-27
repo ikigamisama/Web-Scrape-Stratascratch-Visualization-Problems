@@ -1,1 +1,53 @@
-{"link": "https://platform.stratascratch.com/visualizations/10525-density-vs-green-space?code_type=2", "title": "Density vs. green space", "difficulty": "Medium", "id": "ID 10525", "type": "Bubble Chart", "analysis": "Relationships", "data_type": "Numerical Data & Spatial Data", "description": "Create a bubble chart to explore the correlation between population density and urban green space in various cities, using 'forestgreen' for high green space and 'saddlebrown' for low green space.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10525-density-vs-green-space?code_type=2",
+	"title": "Density vs. green space",
+	"difficulty": "Medium",
+	"id": "ID 10525",
+	"type": "Bubble Chart",
+	"analysis": "Relationships",
+	"data_type": "Numerical Data & Spatial Data",
+	"description": "Create a bubble chart to explore the correlation between population density and urban green space in various cities, using 'forestgreen' for high green space and 'saddlebrown' for low green space.",
+	"data": [
+		{
+			"city": "City A",
+			"population_density": "3232",
+			"green_space_percentage": "26.825"
+		},
+		{
+			"city": "City B",
+			"population_density": "11299",
+			"green_space_percentage": "18.453"
+		},
+		{
+			"city": "City C",
+			"population_density": "10345",
+			"green_space_percentage": "15.414"
+		},
+		{
+			"city": "City D",
+			"population_density": "3764",
+			"green_space_percentage": "6.985"
+		},
+		{
+			"city": "City E",
+			"population_density": "13623",
+			"green_space_percentage": "14.543"
+		},
+		{
+			"city": "City F",
+			"population_density": "5359",
+			"green_space_percentage": "21.718"
+		},
+		{
+			"city": "City G",
+			"population_density": "14519",
+			"green_space_percentage": "33.426"
+		},
+		{
+			"city": "City H",
+			"population_density": "9725",
+			"green_space_percentage": "21.799"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolors = ['forestgreen' if x > 20 else 'saddlebrown' for x in df['green_space_percentage']]\nplt.figure(figsize=(12, 8))\nscatter = plt.scatter(df['population_density'], df['green_space_percentage'],  s=df['green_space_percentage'] * 20, c=colors, alpha=0.6)\n\nplt.title('Correlation between Population Density and Urban Green Space in Various Cities')\nplt.xlabel('Population Density (per square km)')\nplt.ylabel('Green Space Percentage')\nplt.grid(True)\n\nlegend1 = plt.legend(*scatter.legend_elements(\"sizes\", num=6), loc=\"upper right\", title=\"Green Space %\")\nplt.gca().add_artist(legend1)\nplt.legend(handles=[plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='forestgreen', markersize=10, label='High Green Space'),\n                    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='saddlebrown', markersize=10, label='Low Green Space')],\n           title='Legend', loc='upper left')\nplt.show()"
+}

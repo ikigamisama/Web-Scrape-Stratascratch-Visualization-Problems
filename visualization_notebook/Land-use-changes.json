@@ -1,1 +1,263 @@
-{"link": "https://platform.stratascratch.com/visualizations/10514-land-use-changes?code_type=2", "title": "Land use changes", "difficulty": "Medium", "id": "ID 10514", "type": "Stacked Area Chart", "analysis": "Trend Analysis", "data_type": "Time Series Data", "description": "Deploy a stacked area chart to show changes in land use in a rural area over the last 50 years, using 'forestgreen' for forested areas, 'sandybrown' for agricultural land, and 'steelblue' for developed land.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10514-land-use-changes?code_type=2",
+	"title": "Land use changes",
+	"difficulty": "Medium",
+	"id": "ID 10514",
+	"type": "Stacked Area Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data",
+	"description": "Deploy a stacked area chart to show changes in land use in a rural area over the last 50 years, using 'forestgreen' for forested areas, 'sandybrown' for agricultural land, and 'steelblue' for developed land.",
+	"data": [
+		{
+			"forested_area": "58.542",
+			"agricultural_land": "30.15",
+			"developed_land": "11.308"
+		},
+		{
+			"forested_area": "63.809",
+			"agricultural_land": "28.551",
+			"developed_land": "7.641"
+		},
+		{
+			"forested_area": "54.351",
+			"agricultural_land": "34.83",
+			"developed_land": "10.818"
+		},
+		{
+			"forested_area": "62.42",
+			"agricultural_land": "22.592",
+			"developed_land": "14.988"
+		},
+		{
+			"forested_area": "64.871",
+			"agricultural_land": "26.823",
+			"developed_land": "8.307"
+		},
+		{
+			"forested_area": "64.927",
+			"agricultural_land": "23.968",
+			"developed_land": "11.105"
+		},
+		{
+			"forested_area": "57.188",
+			"agricultural_land": "32.182",
+			"developed_land": "10.63"
+		},
+		{
+			"forested_area": "65.463",
+			"agricultural_land": "24.189",
+			"developed_land": "10.348"
+		},
+		{
+			"forested_area": "65.457",
+			"agricultural_land": "27.711",
+			"developed_land": "6.832"
+		},
+		{
+			"forested_area": "59.4",
+			"agricultural_land": "25.636",
+			"developed_land": "14.964"
+		},
+		{
+			"forested_area": "66.847",
+			"agricultural_land": "23.536",
+			"developed_land": "9.617"
+		},
+		{
+			"forested_area": "62.938",
+			"agricultural_land": "23.073",
+			"developed_land": "13.989"
+		},
+		{
+			"forested_area": "57.625",
+			"agricultural_land": "31.11",
+			"developed_land": "11.265"
+		},
+		{
+			"forested_area": "69.03",
+			"agricultural_land": "22.936",
+			"developed_land": "8.035"
+		},
+		{
+			"forested_area": "58.109",
+			"agricultural_land": "27.044",
+			"developed_land": "14.847"
+		},
+		{
+			"forested_area": "58.744",
+			"agricultural_land": "31.078",
+			"developed_land": "10.178"
+		},
+		{
+			"forested_area": "50.086",
+			"agricultural_land": "36.19",
+			"developed_land": "13.724"
+		},
+		{
+			"forested_area": "67.05",
+			"agricultural_land": "22.073",
+			"developed_land": "10.877"
+		},
+		{
+			"forested_area": "56.452",
+			"agricultural_land": "31.651",
+			"developed_land": "11.897"
+		},
+		{
+			"forested_area": "66.57",
+			"agricultural_land": "21.652",
+			"developed_land": "11.778"
+		},
+		{
+			"forested_area": "57.33",
+			"agricultural_land": "32.573",
+			"developed_land": "10.097"
+		},
+		{
+			"forested_area": "62.621",
+			"agricultural_land": "27.876",
+			"developed_land": "9.503"
+		},
+		{
+			"forested_area": "52.265",
+			"agricultural_land": "34.886",
+			"developed_land": "12.849"
+		},
+		{
+			"forested_area": "60.112",
+			"agricultural_land": "29.407",
+			"developed_land": "10.481"
+		},
+		{
+			"forested_area": "54.327",
+			"agricultural_land": "36.088",
+			"developed_land": "9.585"
+		},
+		{
+			"forested_area": "66.351",
+			"agricultural_land": "21.959",
+			"developed_land": "11.69"
+		},
+		{
+			"forested_area": "63.151",
+			"agricultural_land": "30.647",
+			"developed_land": "6.202"
+		},
+		{
+			"forested_area": "69.37",
+			"agricultural_land": "22.559",
+			"developed_land": "8.071"
+		},
+		{
+			"forested_area": "61.695",
+			"agricultural_land": "26.462",
+			"developed_land": "11.843"
+		},
+		{
+			"forested_area": "65.817",
+			"agricultural_land": "25.262",
+			"developed_land": "8.921"
+		},
+		{
+			"forested_area": "59.561",
+			"agricultural_land": "28.395",
+			"developed_land": "12.044"
+		},
+		{
+			"forested_area": "63.542",
+			"agricultural_land": "27.446",
+			"developed_land": "9.012"
+		},
+		{
+			"forested_area": "68.145",
+			"agricultural_land": "24.531",
+			"developed_land": "7.324"
+		},
+		{
+			"forested_area": "59.465",
+			"agricultural_land": "32.8",
+			"developed_land": "7.735"
+		},
+		{
+			"forested_area": "54.515",
+			"agricultural_land": "33.906",
+			"developed_land": "11.579"
+		},
+		{
+			"forested_area": "63.258",
+			"agricultural_land": "25.675",
+			"developed_land": "11.067"
+		},
+		{
+			"forested_area": "60.166",
+			"agricultural_land": "29.449",
+			"developed_land": "10.385"
+		},
+		{
+			"forested_area": "65.106",
+			"agricultural_land": "22.85",
+			"developed_land": "12.044"
+		},
+		{
+			"forested_area": "61.542",
+			"agricultural_land": "28.163",
+			"developed_land": "10.294"
+		},
+		{
+			"forested_area": "57.054",
+			"agricultural_land": "34.595",
+			"developed_land": "8.351"
+		},
+		{
+			"forested_area": "58.64",
+			"agricultural_land": "27.04",
+			"developed_land": "14.32"
+		},
+		{
+			"forested_area": "58.295",
+			"agricultural_land": "33.095",
+			"developed_land": "8.61"
+		},
+		{
+			"forested_area": "66.654",
+			"agricultural_land": "23.592",
+			"developed_land": "9.754"
+		},
+		{
+			"forested_area": "51.488",
+			"agricultural_land": "34.516",
+			"developed_land": "13.996"
+		},
+		{
+			"forested_area": "61.981",
+			"agricultural_land": "25.237",
+			"developed_land": "12.783"
+		},
+		{
+			"forested_area": "63.979",
+			"agricultural_land": "23.875",
+			"developed_land": "12.146"
+		},
+		{
+			"forested_area": "58.96",
+			"agricultural_land": "34.512",
+			"developed_land": "6.528"
+		},
+		{
+			"forested_area": "60.313",
+			"agricultural_land": "23.404",
+			"developed_land": "16.283"
+		},
+		{
+			"forested_area": "53.612",
+			"agricultural_land": "34.827",
+			"developed_land": "11.561"
+		},
+		{
+			"forested_area": "62.014",
+			"agricultural_land": "21.757",
+			"developed_land": "16.229"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'forested_area': 'forestgreen', 'agricultural_land': 'sandybrown', 'developed_land': 'steelblue'}\nplt.figure(figsize=(8, 6))\n\ndf.plot(kind='area', stacked=True, color=[colors[col] for col in df.columns])\nplt.title('Changes in Land Use in a Rural Area Over the Last 50 Years')\nplt.xlabel('Year')\nplt.ylabel('Percentage of Land Use')\nplt.legend(title='Land Use')\nplt.grid(axis='y')\nplt.show()"
+}

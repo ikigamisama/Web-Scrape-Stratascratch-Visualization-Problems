@@ -1,1 +1,1213 @@
-{"link": "https://platform.stratascratch.com/visualizations/10490-delivery-time-variability?code_type=2", "title": "Delivery time variability", "difficulty": "Medium", "id": "ID 10490", "type": "Box Plot", "analysis": "Distribution", "data_type": "Numerical Data", "description": "Generate a box plot to analyze the variability in delivery times from different warehouses, marked 'navy' for Warehouse X, 'darkred' for Warehouse Y, and 'olive' for Warehouse Z.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10490-delivery-time-variability?code_type=2",
+	"title": "Delivery time variability",
+	"difficulty": "Medium",
+	"id": "ID 10490",
+	"type": "Box Plot",
+	"analysis": "Distribution",
+	"data_type": "Numerical Data",
+	"description": "Generate a box plot to analyze the variability in delivery times from different warehouses, marked 'navy' for Warehouse X, 'darkred' for Warehouse Y, and 'olive' for Warehouse Z.",
+	"data": [
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.972"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.608"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.743"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.81"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.892"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.903"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.623"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.495"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.637"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.133"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.299"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "1.232"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.34"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.729"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "1.912"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "0.122"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.339"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.706"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.641"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.732"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.964"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.589"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.22"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.476"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.834"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.314"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.398"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.453"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.61"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.759"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "1.814"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.929"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.547"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.13"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.223"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.868"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.495"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.555"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.377"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.363"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.895"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.849"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.845"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.909"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.982"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.819"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.09"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.294"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.052"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.658"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.383"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.387"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.668"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.504"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.033"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.878"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.833"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.934"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.864"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.876"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.22"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.993"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.594"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.336"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.393"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "1.436"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "1.266"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.384"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.045"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.751"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.945"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.282"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "1.106"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.838"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.584"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.357"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.802"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.323"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.011"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.272"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.783"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.53"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "1.104"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.325"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.672"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.503"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.006"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.575"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.557"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.581"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.59"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.116"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.749"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.585"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.361"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.498"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "-0.005"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.126"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "0.35"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.124"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.68"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.698"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.056"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.954"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.375"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.031"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.707"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.403"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.561"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.811"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.883"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.751"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.537"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.877"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "1.059"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.465"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.852"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.049"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.433"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.177"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.733"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.745"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.825"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "8.144"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.685"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.351"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.731"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.246"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.448"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.357"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.766"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.711"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "8.794"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.733"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.336"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.158"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.03"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.625"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.113"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.888"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.361"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.805"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.908"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.098"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.373"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.868"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.549"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.411"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.706"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.624"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.775"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.478"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.033"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "1.488"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.189"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.801"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.444"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.385"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.926"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.283"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.604"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "9.456"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.923"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.1"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.116"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.322"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.104"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.963"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.579"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.989"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.006"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.979"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.857"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.658"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.649"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.7"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.99"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.134"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.491"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.075"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.307"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.281"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.269"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.98"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "0.829"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.866"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.837"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.134"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.717"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.919"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.137"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "2.512"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.47"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.485"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.268"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.64"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.834"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "3.891"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.482"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.96"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.475"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.878"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.121"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.671"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.02"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.866"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "9.072"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.263"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.211"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.073"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.375"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "8.628"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.765"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "10.293"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.455"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.2"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.677"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.562"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.806"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.574"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.629"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "10.048"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.819"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "10.87"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.145"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "9.989"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.349"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "5.6"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.746"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.125"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.948"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "8.926"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.015"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "9.2"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.423"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.363"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.064"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.999"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "2.153"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.455"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "8.353"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.092"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.634"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.406"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "8.453"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "11.178"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.586"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.086"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.739"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "8.95"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.263"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "3.288"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.1"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.178"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.088"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.474"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.506"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.705"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.412"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.88"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "10.497"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.61"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.306"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "5.903"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.916"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "6.912"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.639"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "10.837"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "9.161"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "9.692"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.474"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.041"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "9.425"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.076"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "9.568"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.694"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "8.992"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.201"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "6.299"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "8.552"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "9.112"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "2.479"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.086"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "9.94"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.931"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "7.23"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.672"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.976"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "6.365"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "5.639"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "7.775"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "3.871"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.336"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.703"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "4.144"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "8.068"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "4.796"
+		},
+		{
+			"warehouse": "Warehouse Y",
+			"delivery_time": "7.503"
+		},
+		{
+			"warehouse": "Warehouse Z",
+			"delivery_time": "9.281"
+		},
+		{
+			"warehouse": "Warehouse X",
+			"delivery_time": "4.013"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolor_map = {'Warehouse X': 'navy', 'Warehouse Y': 'darkred', 'Warehouse Z': 'olive'}\nplt.figure(figsize=(10,6))\n\ncolors = df['warehouse'].map(color_map)\n#adding plot titles and labels\nbox = plt.boxplot([\n    df[df['warehouse'] == 'Warehouse X']['delivery_time'],\n    df[df['warehouse'] == 'Warehouse Y']['delivery_time'],\n    df[df['warehouse'] == 'Warehouse Z']['delivery_time']\n], patch_artist=True, labels=['Warehouse X', 'Warehouse Y', 'Warehouse Z'])\n\nfor patch, color in zip(box['boxes'], ['navy', 'darkred', 'olive']):\n    patch.set_facecolor(color)\n\nplt.title(\"Variability in Delivery Times from Different Warehouses\")\nplt.xlabel(\"Warehouse\")\nplt.ylabel(\"Delivery Time (days)\")\nplt.grid(True)\nplt.show()"
+}

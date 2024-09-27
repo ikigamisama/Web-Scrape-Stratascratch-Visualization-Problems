@@ -1,1 +1,25 @@
-{"link": "https://platform.stratascratch.com/visualizations/10482-energy-usage-sectors?code_type=2", "title": "Energy usage sectors", "difficulty": "Easy", "id": "ID 10482", "type": "Pie Chart", "analysis": "Distribution", "data_type": "Categorical Data", "description": "Develop a pie chart to display the proportion of total energy usage by different sectors, using 'turquoise' for residential, 'khaki' for commercial, and 'tomato' for industrial.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10482-energy-usage-sectors?code_type=2",
+	"title": "Energy usage sectors",
+	"difficulty": "Easy",
+	"id": "ID 10482",
+	"type": "Pie Chart",
+	"analysis": "Distribution",
+	"data_type": "Categorical Data",
+	"description": "Develop a pie chart to display the proportion of total energy usage by different sectors, using 'turquoise' for residential, 'khaki' for commercial, and 'tomato' for industrial.",
+	"data": [
+		{
+			"sector": "Residential",
+			"energy_usage": "300"
+		},
+		{
+			"sector": "Commercial",
+			"energy_usage": "200"
+		},
+		{
+			"sector": "Industrial",
+			"energy_usage": "500"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Residential': 'turquoise', 'Commercial': 'khaki', 'Industrial': 'tomato'}\nplt.figure(figsize=(8, 8))\nplt.pie(df['energy_usage'], labels=df['sector'], autopct='%1.1f%%', startangle=140, colors=[colors[sector] for sector in df['sector']])\n\nplt.title('Proportion of Total Energe Usage by Sector')\nplt.show()"
+}

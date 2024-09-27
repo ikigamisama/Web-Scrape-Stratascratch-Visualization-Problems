@@ -1,1 +1,73 @@
-{"link": "https://platform.stratascratch.com/visualizations/10494-monthly-sales-comparison?code_type=2", "title": "Monthly sales comparison", "difficulty": "Medium", "id": "ID 10494", "type": "Stacked Bar Chart", "analysis": "Trend Analysis", "data_type": "Time Series Data & Categorical Data", "description": "Deploy a stacked bar chart to showcase the monthly sales data of different product lines, using 'turquoise' for electronics, 'magenta' for clothing, and 'wheat' for accessories.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10494-monthly-sales-comparison?code_type=2",
+	"title": "Monthly sales comparison",
+	"difficulty": "Medium",
+	"id": "ID 10494",
+	"type": "Stacked Bar Chart",
+	"analysis": "Trend Analysis",
+	"data_type": "Time Series Data & Categorical Data",
+	"description": "Deploy a stacked bar chart to showcase the monthly sales data of different product lines, using 'turquoise' for electronics, 'magenta' for clothing, and 'wheat' for accessories.",
+	"data": [
+		{
+			"electronics": "12732",
+			"clothing": "58095",
+			"accessories": "23430"
+		},
+		{
+			"electronics": "31243",
+			"clothing": "39152",
+			"accessories": "6871"
+		},
+		{
+			"electronics": "40403",
+			"clothing": "50665",
+			"accessories": "12599"
+		},
+		{
+			"electronics": "42103",
+			"clothing": "31921",
+			"accessories": "7496"
+		},
+		{
+			"electronics": "30757",
+			"clothing": "42469",
+			"accessories": "20186"
+		},
+		{
+			"electronics": "24935",
+			"clothing": "53984",
+			"accessories": "15200"
+		},
+		{
+			"electronics": "25430",
+			"clothing": "21921",
+			"accessories": "5755"
+		},
+		{
+			"electronics": "49512",
+			"clothing": "53804",
+			"accessories": "5797"
+		},
+		{
+			"electronics": "24650",
+			"clothing": "17163",
+			"accessories": "22043"
+		},
+		{
+			"electronics": "27089",
+			"clothing": "20072",
+			"accessories": "8219"
+		},
+		{
+			"electronics": "42230",
+			"clothing": "52619",
+			"accessories": "20246"
+		},
+		{
+			"electronics": "28983",
+			"clothing": "22877",
+			"accessories": "21321"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'electronics': 'turquoise','clothing': 'magenta','accessories': 'wheat',}\nplt.figure(figsize=(12, 8))\ndf.plot(kind='bar',stacked=True,color=[colors[col] for col in df.columns],)\n\nplt.title('Monthly Sales Data of Different Product Lines')\nplt.xlabel('Month')\nplt.ylabel('Sales ($)')\nplt.legend(title='Product Line')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+}

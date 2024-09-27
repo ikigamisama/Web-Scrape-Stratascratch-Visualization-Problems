@@ -1,1 +1,58 @@
-{"link": "https://platform.stratascratch.com/visualizations/10447-feedback-word-cloud?code_type=2", "title": "Feedback word cloud", "difficulty": "Easy", "id": "ID 10447", "type": "Word Cloud", "analysis": "Distribution", "data_type": "Textual Data", "description": "Develop a word cloud to highlight the most frequently mentioned features in customer feedback about a new software release, using 'lavender' for common words and 'violet' for key features.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10447-feedback-word-cloud?code_type=2",
+	"title": "Feedback word cloud",
+	"difficulty": "Easy",
+	"id": "ID 10447",
+	"type": "Word Cloud",
+	"analysis": "Distribution",
+	"data_type": "Textual Data",
+	"description": "Develop a word cloud to highlight the most frequently mentioned features in customer feedback about a new software release, using 'lavender' for common words and 'violet' for key features.",
+	"data": [
+		{
+			"0": "fast reliable performance"
+		},
+		{
+			"0": "user-friendly interface"
+		},
+		{
+			"0": "efficient and fast processing"
+		},
+		{
+			"0": "buggy after new update"
+		},
+		{
+			"0": "excellent customer support"
+		},
+		{
+			"0": "needs more features"
+		},
+		{
+			"0": "intuitive design"
+		},
+		{
+			"0": "user interface could be better"
+		},
+		{
+			"0": "great performance improvements"
+		},
+		{
+			"0": "lacks some essential features"
+		},
+		{
+			"0": "fast but not always reliable"
+		},
+		{
+			"0": "improved user experience"
+		},
+		{
+			"0": "more customization options"
+		},
+		{
+			"0": "stable release with few bugs"
+		},
+		{
+			"0": "easy installation process"
+		}
+	],
+	"solution": "from wordcloud import WordCloud\nimport matplotlib.pyplot as plt\n\ntext = ' '.join(feedback)\n\n#adding plot titles and labels\ndef color_func(word, *args, **kwargs):\n    if word in ['fast', 'reliable', 'user-friendly', 'excellent', 'intuitive', 'stable', 'improved']:\n        return 'violet'  # Color for key features\n    else:\n        return 'lavender'  # Color for common words\n\nwordcloud = WordCloud(width=800, height=400, background_color='white', color_func=color_func, random_state=1).generate(text)\n\nplt.figure(figsize=(10, 5))\nplt.imshow(wordcloud, interpolation='bilinear')\nplt.axis('off')\nplt.title('Word Cloud for Customer Feedback on Software Release')\nplt.show()"
+}

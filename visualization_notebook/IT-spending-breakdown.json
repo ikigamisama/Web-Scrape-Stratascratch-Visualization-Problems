@@ -7,6 +7,19 @@
 	"analysis": "Distribution",
 	"data_type": "Categorical Data",
 	"description": "Construct a doughnut chart to display the breakdown of annual IT spending by category within a corporation, using 'navy' for hardware, 'gray' for software, and 'teal' for services.",
-	"data": {},
-	"solution": ""
+	"data": [
+		{
+			"category": "Hardware",
+			"spending": "350000"
+		},
+		{
+			"category": "Software",
+			"spending": "450000"
+		},
+		{
+			"category": "Services",
+			"spending": "200000"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(8,8))\ncolors = ['navy', 'gray', 'teal']\nplt.pie(df['spending'], colors=colors, labels=df['category'], autopct='%1.1f%%', startangle=140)\n\nplt.title('Breakdown of Annual IT Spending by Category')\nmy_circle = plt.Circle((0, 0), 0.7, color='white')\np = plt.gcf()\np.gca().add_artist(my_circle)\nplt.show()"
 }

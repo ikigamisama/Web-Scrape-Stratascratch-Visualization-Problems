@@ -1,1 +1,223 @@
-{"link": "https://platform.stratascratch.com/visualizations/10509-daily-sales-comparison?code_type=2", "title": "Daily sales comparison", "difficulty": "Medium", "id": "ID 10509", "type": "Heat Map", "analysis": "Comparison", "data_type": "Time Series Data & Numerical Data", "description": "Design a heat map to compare the daily sales performance across multiple store locations, with 'lightgreen' for low sales and 'darkgreen' for high sales.", "data": {}, "solution": ""}
+{
+	"link": "https://platform.stratascratch.com/visualizations/10509-daily-sales-comparison?code_type=2",
+	"title": "Daily sales comparison",
+	"difficulty": "Medium",
+	"id": "ID 10509",
+	"type": "Heat Map",
+	"analysis": "Comparison",
+	"data_type": "Time Series Data & Numerical Data",
+	"description": "Design a heat map to compare the daily sales performance across multiple store locations, with 'lightgreen' for low sales and 'darkgreen' for high sales.",
+	"data": [
+		{
+			"store_a": "222",
+			"store_b": "97",
+			"store_c": "167",
+			"store_d": "242",
+			"store_e": "373"
+		},
+		{
+			"store_a": "301",
+			"store_b": "245",
+			"store_c": "409",
+			"store_d": "59",
+			"store_e": "261"
+		},
+		{
+			"store_a": "327",
+			"store_b": "292",
+			"store_c": "342",
+			"store_d": "137",
+			"store_e": "120"
+		},
+		{
+			"store_a": "138",
+			"store_b": "446",
+			"store_c": "364",
+			"store_d": "243",
+			"store_e": "89"
+		},
+		{
+			"store_a": "137",
+			"store_b": "224",
+			"store_c": "138",
+			"store_d": "387",
+			"store_e": "215"
+		},
+		{
+			"store_a": "75",
+			"store_b": "383",
+			"store_c": "122",
+			"store_d": "315",
+			"store_e": "454"
+		},
+		{
+			"store_a": "165",
+			"store_b": "293",
+			"store_c": "247",
+			"store_d": "385",
+			"store_e": "481"
+		},
+		{
+			"store_a": "498",
+			"store_b": "388",
+			"store_c": "149",
+			"store_d": "227",
+			"store_e": "293"
+		},
+		{
+			"store_a": "335",
+			"store_b": "197",
+			"store_c": "197",
+			"store_d": "448",
+			"store_e": "473"
+		},
+		{
+			"store_a": "338",
+			"store_b": "499",
+			"store_c": "315",
+			"store_d": "235",
+			"store_e": "177"
+		},
+		{
+			"store_a": "82",
+			"store_b": "81",
+			"store_c": "252",
+			"store_d": "294",
+			"store_e": "201"
+		},
+		{
+			"store_a": "213",
+			"store_b": "420",
+			"store_c": "233",
+			"store_d": "78",
+			"store_e": "340"
+		},
+		{
+			"store_a": "178",
+			"store_b": "178",
+			"store_c": "470",
+			"store_d": "103",
+			"store_e": "439"
+		},
+		{
+			"store_a": "88",
+			"store_b": "294",
+			"store_c": "323",
+			"store_d": "385",
+			"store_e": "438"
+		},
+		{
+			"store_a": "155",
+			"store_b": "92",
+			"store_c": "492",
+			"store_d": "81",
+			"store_e": "426"
+		},
+		{
+			"store_a": "307",
+			"store_b": "371",
+			"store_c": "475",
+			"store_d": "107",
+			"store_e": "341"
+		},
+		{
+			"store_a": "408",
+			"store_b": "169",
+			"store_c": "317",
+			"store_d": "480",
+			"store_e": "132"
+		},
+		{
+			"store_a": "141",
+			"store_b": "434",
+			"store_c": "448",
+			"store_d": "149",
+			"store_e": "103"
+		},
+		{
+			"store_a": "446",
+			"store_b": "171",
+			"store_c": "476",
+			"store_d": "134",
+			"store_e": "253"
+		},
+		{
+			"store_a": "374",
+			"store_b": "312",
+			"store_c": "97",
+			"store_d": "177",
+			"store_e": "181"
+		},
+		{
+			"store_a": "406",
+			"store_b": "230",
+			"store_c": "384",
+			"store_d": "193",
+			"store_e": "198"
+		},
+		{
+			"store_a": "277",
+			"store_b": "492",
+			"store_c": "329",
+			"store_d": "257",
+			"store_e": "447"
+		},
+		{
+			"store_a": "423",
+			"store_b": "391",
+			"store_c": "98",
+			"store_d": "355",
+			"store_e": "119"
+		},
+		{
+			"store_a": "219",
+			"store_b": "213",
+			"store_c": "498",
+			"store_d": "145",
+			"store_e": "247"
+		},
+		{
+			"store_a": "144",
+			"store_b": "306",
+			"store_c": "419",
+			"store_d": "228",
+			"store_e": "342"
+		},
+		{
+			"store_a": "468",
+			"store_b": "354",
+			"store_c": "399",
+			"store_d": "437",
+			"store_e": "148"
+		},
+		{
+			"store_a": "92",
+			"store_b": "418",
+			"store_c": "455",
+			"store_d": "251",
+			"store_e": "433"
+		},
+		{
+			"store_a": "50",
+			"store_b": "444",
+			"store_c": "420",
+			"store_d": "93",
+			"store_e": "492"
+		},
+		{
+			"store_a": "433",
+			"store_b": "73",
+			"store_c": "237",
+			"store_d": "180",
+			"store_e": "427"
+		},
+		{
+			"store_a": "148",
+			"store_b": "112",
+			"store_c": "469",
+			"store_d": "272",
+			"store_e": "173"
+		}
+	],
+	"solution": "import matplotlib.pyplot as plt\nimport seaborn as sns\n\nplt.figure(figsize=(12, 8))\nsns.heatmap( df.T, cmap='Greens', cbar_kws={'label': 'sales'}, annot=True, fmt='d')\n\nplt.title('Daily Sales Performance Across Multiple Store Locations')\nplt.xlabel('Day of the Week')\nplt.ylabel('Store')\nplt.show()"
+}
