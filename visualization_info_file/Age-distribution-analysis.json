@@ -1009,5 +1009,5 @@
 		{ "age": 17, "age_group": "Under 25" },
 		{ "age": 51, "age_group": "Over 50" }
 	],
-	"solution": "import matplotlib.pyplot as plt\n\n# Colors for each media channel\ncolors = {'TV': 'chocolate', 'Online': 'cyan', 'Print': 'crimson'}\n\n# Plotting\nplt.figure(figsize=(10, 6))\nfor channel, group in df.groupby('media_channel'):\n    plt.scatter(group['ad_spend'], group['sales_volume'], s=group['sales_volume']*10, color=colors[channel], alpha=0.5, label=channel)\n\nplt.title('Correlation Between Advertising Spend and Sales Volume by Media Channel')\nplt.xlabel('Advertising Spend ($)')\nplt.ylabel('Sales Volume (units)')\nplt.legend(title='Media Channel')\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Under 25': 'skyblue', '25-50': 'mediumslateblue', 'Over 50': 'slategray'}\nplt.figure(figsize=(12, 6))\nfor group, color in colors.items():\n    plt.hist(df[df['age_group'] == group]['age'], bins=range(0, 81, 5), alpha=0.7, label=group, color=color)\n\nplt.title('Age Distribution of Population')\nplt.xlabel('Age')\nplt.ylabel('Frequency')\nplt.legend(title='Age Group')\nplt.grid(True)\nplt.show()"
 }
