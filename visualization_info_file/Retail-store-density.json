@@ -509,5 +509,5 @@
 		{ "longitude": -118.32547596047512, "latitude": 33.968593965294886 },
 		{ "longitude": -118.24824008485241, "latitude": 34.10314234323343 }
 	],
-	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nhb = plt.hexbin(df_stores['longitude'], df_stores['latitude'], gridsize=30, cmap='Purples', bins='log')\ncb = plt.colorbar(hb)\ncb.set_label('log10(N)')\n\nplt.xlabel('Longitude')\nplt.ylabel('Latitude')\nplt.title('Density of Retail Stores in an Urban Area')\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nhb = plt.hexbin(df['longitude'], df['latitude'], gridsize=30, cmap='Purples', bins='log')\ncb = plt.colorbar(hb)\ncb.set_label('log10(N)')\n\nplt.xlabel('Longitude')\nplt.ylabel('Latitude')\nplt.title('Density of Retail Stores in an Urban Area')\nplt.grid(True)\nplt.show()"
 }

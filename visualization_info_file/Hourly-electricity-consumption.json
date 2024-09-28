@@ -33,5 +33,5 @@
 		{ "hour": "2023-01-01 22:00:00", "consumption": 284.592 },
 		{ "hour": "2023-01-01 23:00:00", "consumption": 412.212 }
 	],
-	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(12, 6))\nplt.plot(df['hour'], df['consumption'], color=\"midnightblue\", linewidth=2)\n\nplt.title(\"Hourly Electricity Consumption in an Industrial Park\")\nplt.xlabel(\"Hour\")\nplt.ylabel(\"Electricity Consumption (kWh)\")\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ndf['hour'] = pd.to_datetime(df['hour'])\n\nplt.figure(figsize=(12, 6))\nplt.plot(df['hour'], df['consumption'], color=\"midnightblue\", linewidth=2)\n\nplt.title(\"Hourly Electricity Consumption in an Industrial Park\")\nplt.xlabel(\"Hour\")\nplt.ylabel(\"Electricity Consumption (kWh)\")\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()"
 }

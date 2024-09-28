@@ -269,5 +269,5 @@
 			"portfolio_c": 174.801
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\n#plotting the chart\ncolors = {'portfolio_a': 'red', 'portfolio_b': 'blue', 'portfolio_c': 'green'}\nplt.figure(figsize=(14, 7))\n\nfor portfolio, color in colors.items():\n    plt.plot(df.index, df[portfolio], label=portfolio, color=color)\n    \nplt.title('Weekly Performance of Different Stock Portfolios')\nplt.xlabel('Year')\nplt.ylabel('Performance')\nplt.legend(title='Product Sectors')\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\\ncolors = {'portfolio_a': 'red', 'portfolio_b': 'blue', 'portfolio_c': 'green'}\nplt.figure(figsize=(14, 7))\n\nfor portfolio, color in colors.items():\n    plt.plot(df.index, df[portfolio], label=portfolio, color=color)\n    \nplt.title('Weekly Performance of Different Stock Portfolios')\nplt.xlabel('Year')\nplt.ylabel('Performance')\nplt.legend(title='Product Sectors')\nplt.grid(True)\nplt.show()"
 }

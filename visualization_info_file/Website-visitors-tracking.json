@@ -1469,5 +1469,5 @@
 			"visitors": 886
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\nplt.figure(figsize=(14, 7))\nplt.plot(df['date'],df['visitors'],  color='midnightblue', linewidth=2)\nplt.title('Daily Number of Visitors to Website Over the Last Year')\nplt.xlabel('Date')\nplt.ylabel('Number of Visitors')\n#adding plot titles and labels\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ndf['date'] = pd.to_datetime(df['date'])\n#plotting the chart\nplt.figure(figsize=(14, 7))\nplt.plot(df['date'],df['visitors'],  color='midnightblue', linewidth=2)\nplt.title('Daily Number of Visitors to Website Over the Last Year')\nplt.xlabel('Date')\nplt.ylabel('Number of Visitors')\n#adding plot titles and labels\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.show()"
 }

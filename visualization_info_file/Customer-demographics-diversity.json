@@ -9,34 +9,29 @@
 	"description": "Develop a stacked bar chart to illustrate the diversity of customer demographics in a retail chain, using 'ivory' for teens, 'tan' for adults, and 'olivedrab' for seniors.",
 	"data": [
 		{
-			"store": "Store A",
-			"teens": 89,
-			"adults": 237,
-			"seniors": 55
+			"teens": 160,
+			"adults": 294,
+			"seniors": 61
 		},
 		{
-			"store": "Store B",
-			"teens": 156,
-			"adults": 230,
-			"seniors": 98
+			"teens": 197,
+			"adults": 203,
+			"seniors": 31
 		},
 		{
-			"store": "Store C",
-			"teens": 165,
-			"adults": 169,
-			"seniors": 66
+			"teens": 158,
+			"adults": 159,
+			"seniors": 43
 		},
 		{
-			"store": "Store D",
-			"teens": 199,
-			"adults": 215,
-			"seniors": 30
+			"teens": 105,
+			"adults": 213,
+			"seniors": 91
 		},
 		{
-			"store": "Store E",
-			"teens": 97,
-			"adults": 277,
-			"seniors": 30
+			"teens": 175,
+			"adults": 163,
+			"seniors": 46
 		}
 	],
 	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\ncolor_map = {'teens': 'ivory', 'adults': 'tan', 'seniors': 'olivedrab'}\n#adding plot titles and labels\n\ndf.plot(kind='bar',stacked=True,color=[color_map[col] for col in df.columns],figsize=(10, 6))\n\nplt.title('Diversity of Customer Demographics in a Retail Chain')\nplt.xlabel('Store')\nplt.ylabel('Number of Customers')\nplt.legend(bbox_to_anchor=(1.05, 1), borderaxespad=0,loc=\"upper left\", title='Demographic Group')\nplt.grid(axis='y')\nplt.tight_layout()\nplt.show()\n"

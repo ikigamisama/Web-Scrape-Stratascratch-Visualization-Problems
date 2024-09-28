@@ -34,5 +34,5 @@
 			"english": 80.819
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolors = {'mathematics': 'plum', 'science': 'lightcoral', 'english': 'khaki'}\ndf.plot(kind='bar',stacked=False,color=[colors[col] for col in df.columns],figsize=(12,8))\n\nplt.title('Average TEst Scores in Different Subjects Across Schools')\nplt.xlabel('School')\nplt.ylabel('Average Text Score')\nplt.legend(title='Subject')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'mathematics': 'plum', 'science': 'lightcoral', 'english': 'khaki'}\ndf.plot(kind='bar',stacked=False,color=[colors[col] for col in df.columns],figsize=(12,8))\n\nplt.title('Average TEst Scores in Different Subjects Across Schools')\nplt.xlabel('School')\nplt.ylabel('Average Text Score')\nplt.legend(title='Subject')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
 }

@@ -81,5 +81,5 @@
 			"accessories": 562
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\nplt.figure(figsize=(12, 6))\n\ncolors=['lightcoral', 'lightseagreen', 'lightsalmon']\nplt.stackplot(df['date'], df['electronics'], df['clothing'], df['accessories'], labels=['Electronics', 'Clothing', 'Accessories'], colors=colors)\n\nplt.title('Evolution of Sales Figures Over Time')\nplt.xlabel('Month')\nplt.ylabel('Sales ($)')\nplt.legend()\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ndf['date'] = pd.to_datetime(df['date'])\nplt.figure(figsize=(12, 6))\n\ncolors=['lightcoral', 'lightseagreen', 'lightsalmon']\nplt.stackplot(df['date'], df['electronics'], df['clothing'], df['accessories'], labels=['Electronics', 'Clothing', 'Accessories'], colors=colors)\n\nplt.title('Evolution of Sales Figures Over Time')\nplt.xlabel('Month')\nplt.ylabel('Sales ($)')\nplt.legend()\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"
 }

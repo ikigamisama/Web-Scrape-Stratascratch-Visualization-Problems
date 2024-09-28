@@ -129,5 +129,5 @@
 			"humidity": 46.446
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\n#plotting the chart\nplt.figure(figsize=(12, 6))\nplt.plot(\n    df['hour'], \n    df['temperature'], \n    color='deepskyblue', \n    label='Temperature'\n)\nplt.plot(\n    df['hour'], \n    df['humidity'], \n    color='lightcoral', \n    label='Humidity'\n)\nplt.title(\n    'Changes in Air Temperature and Humidity Over the Course of a Day'\n)\nplt.xlabel('Hour of the Day')\nplt.ylabel('Value')\nplt.legend(title='Legend')\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\nplt.figure(figsize=(12, 6))\nplt.plot(\n    df['hour'], \n    df['temperature'], \n    color='deepskyblue', \n    label='Temperature'\n)\nplt.plot(\n    df['hour'], \n    df['humidity'], \n    color='lightcoral', \n    label='Humidity'\n)\nplt.title(\n    'Changes in Air Temperature and Humidity Over the Course of a Day'\n)\nplt.xlabel('Hour of the Day')\nplt.ylabel('Value')\nplt.legend(title='Legend')\nplt.grid(True)\nplt.show()"
 }

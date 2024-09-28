@@ -10,15 +10,15 @@
 	"data": [
 		{
 			"department": "Administration",
-			"office_space": "350"
+			"office_space": 350
 		},
 		{
 			"department": "Human Resources",
-			"office_space": "200"
+			"office_space": 200
 		},
 		{
 			"department": "IT Services",
-			"office_space": "450"
+			"office_space": 450
 		}
 	],
 	"solution": "import matplotlib.pyplot as plt\n\ncolor = ['goldenrod', 'lightblue', 'thistle']\nplt.figure(figsize=(8,8))\n\nplt.pie(df['office_space'], labels=df['department'], autopct=\"%1.1f%%\", startangle=140, colors=color)\nplt.title(\"Division of Office Space Usage by Department\")\nplt.show()"

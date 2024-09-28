@@ -1834,5 +1834,5 @@
 			"city_c": 20.625
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\nplt.figure(figsize=(10, 5))\nplt.plot(df_temperatures.index, df_temperatures['city_a'], label='City A', color='skyblue')\nplt.plot(df_temperatures.index, df_temperatures['city_b'], label='City B', color='coral')\nplt.plot(df_temperatures.index, df_temperatures['city_c'], label='City C', color='limegreen')\n\nplt.title('Average Daily Temperature Over a Year')\nplt.xlabel('Date')\nplt.ylabel('Temperature (\u00b0C)')\nplt.legend()\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\n#plotting the chart\nplt.figure(figsize=(10, 5))\nplt.plot(df.index, df['city_a'], label='City A', color='skyblue')\nplt.plot(df.index, df['city_b'], label='City B', color='coral')\nplt.plot(df.index, df['city_c'], label='City C', color='limegreen')\n\nplt.title('Average Daily Temperature Over a Year')\nplt.xlabel('Date')\nplt.ylabel('Temperature (\u00b0C)')\nplt.legend()\nplt.grid(True)\nplt.show()"
 }

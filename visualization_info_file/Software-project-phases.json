@@ -27,5 +27,5 @@
 			"phase": "Testing"
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n\ncolor_map = {'Planning': 'salmon', 'Development': 'lightgreen', 'Testing': 'lightskyblue'}\nfig, ax = plt.subplots(figsize=(12, 6))\n\nfor i, task in df.iterrows():\n    ax.barh(task['task'], (task['finish'] - task['start']).days, left=task['start'], color=color_map[task['phase']])\n\nax.set_xlabel('Date')\nax.set_ylabel('Task')\nax.set_title('Gantt Chart for Software Project Deployment Phases')\n\nax.xaxis_date()\nax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))\nplt.xticks(rotation=45)\n\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\nimport matplotlib.dates as mdates\n\ndf['start'] = pd.to_datetime(df['start'])\ndf['finish'] = pd.to_datetime(df['finish'])\n\ncolor_map = {'Planning': 'salmon', 'Development': 'lightgreen', 'Testing': 'lightskyblue'}\nfig, ax = plt.subplots(figsize=(12, 6))\n\nfor i, task in df.iterrows():\n    ax.barh(task['task'], (task['finish'] - task['start']).days, left=task['start'], color=color_map[task['phase']])\n\nax.set_xlabel('Date')\nax.set_ylabel('Task')\nax.set_title('Gantt Chart for Software Project Deployment Phases')\n\nax.xaxis_date()\nax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))\nplt.xticks(rotation=45)\n\nplt.show()"
 }

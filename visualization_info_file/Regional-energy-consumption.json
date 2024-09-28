@@ -9,29 +9,29 @@
 	"description": "Deploy an area chart to compare the annual energy consumption of different regions, using 'lightgrey' for North America, 'turquoise' for Europe, and 'lightpink' for Asia.",
 	"data": [
 		{
-			"north_america": "6732",
-			"europe": "4731",
-			"asia": "7647"
+			"north_america": 6732,
+			"europe": 4731,
+			"asia": 7647
 		},
 		{
-			"north_america": "6607",
-			"europe": "4033",
-			"asia": "8142"
+			"north_america": 6607,
+			"europe": 4033,
+			"asia": 8142
 		},
 		{
-			"north_america": "5653",
-			"europe": "3277",
-			"asia": "8544"
+			"north_america": 5653,
+			"europe": 3277,
+			"asia": 8544
 		},
 		{
-			"north_america": "4835",
-			"europe": "4778",
-			"asia": "7648"
+			"north_america": 4835,
+			"europe": 4778,
+			"asia": 7648
 		},
 		{
-			"north_america": "4763",
-			"europe": "4828",
-			"asia": "8468"
+			"north_america": 4763,
+			"europe": 4828,
+			"asia": 8468
 		}
 	],
 	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\ncolors = {'north_america': 'lightgrey', 'europe': 'turquoise', 'asia': 'lightpink'}\nplt.figure(figsize=(8, 6))\ndf.plot(kind='area', stacked=True, color=[colors[col] for col in df.columns])\nplt.title('Annual Energey Consumption by Region')\nplt.xlabel('Year')\nplt.ylabel('Energy Consumption (TWh)')\nplt.legend(title='Regions')\nplt.grid(axis='y')\nplt.xticks(rotation=45)\nplt.show()"

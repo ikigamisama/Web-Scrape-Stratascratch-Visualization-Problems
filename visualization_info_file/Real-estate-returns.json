@@ -11,32 +11,32 @@
 		{
 			"market": "Market A",
 			"category": "Residential",
-			"investment_return": "13.232",
-			"market_size": "146.884"
+			"investment_return": 13.232,
+			"market_size": 146.884
 		},
 		{
 			"market": "Market B",
 			"category": "Commercial",
-			"investment_return": "15.728",
-			"market_size": "115.638"
+			"investment_return": 15.728,
+			"market_size": 115.638
 		},
 		{
 			"market": "Market C",
 			"category": "Industrial",
-			"investment_return": "14.041",
-			"market_size": "183.766"
+			"investment_return": 14.041,
+			"market_size": 183.766
 		},
 		{
 			"market": "Market D",
 			"category": "Residential",
-			"investment_return": "13.173",
-			"market_size": "194.549"
+			"investment_return": 13.173,
+			"market_size": 194.549
 		},
 		{
 			"market": "Market E",
 			"category": "Commercial",
-			"investment_return": "11.355",
-			"market_size": "107.516"
+			"investment_return": 11.355,
+			"market_size": 107.516
 		}
 	],
 	"solution": "import matplotlib.pyplot as plt\nimport plotly.express as px\n\nplt.figure(figsize=(12, 8))\ncolor_map = {'Residential': 'skyblue', 'Commercial': 'darkgreen', 'Industrial': 'gray'}\ncatter = plt.scatter(df['investment_return'], df['market'],  s=df['market_size'] * 10, c=[color_map[cag] for cag in df['category']], alpha=0.6)\n\nplt.title('Investment Returns of Different Real Estate Markets')\nplt.xlabel('Market')\nplt.ylabel('Investment Return (%)')\nplt.grid(True)\n\nplt.legend(handles=[\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='skyblue', markersize=10, label='Residential'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='darkgreen', markersize=10, label='Commercial'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='gray', markersize=10, label='Industrial')\n    ],\n    title='Property Type', loc='upper right')\nplt.show()"

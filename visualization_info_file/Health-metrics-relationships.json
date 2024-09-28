@@ -609,5 +609,5 @@
 			"status": "Critical"
 		}
 	],
-	"solution": "import seaborn as sns\nimport matplotlib.pyplot as plt\nsns.set(style=\"whitegrid\")\n\npairplot = sns.pairplot(df_health, hue='status', palette={'Normal': 'lightskyblue', 'Critical': 'darkred'}, markers=[\"o\", \"D\"], plot_kws={'alpha': 0.7})\npairplot.fig.suptitle('Scatter Plot Matrix of Health Metrics', y=1.02)\n\nplt.show()"
+	"solution": "import seaborn as sns\nimport matplotlib.pyplot as plt\nsns.set(style=\"whitegrid\")\n\npairplot = sns.pairplot(df, hue='status', palette={'Normal': 'lightskyblue', 'Critical': 'darkred'}, markers=[\"o\", \"D\"], plot_kws={'alpha': 0.7})\npairplot.fig.suptitle('Scatter Plot Matrix of Health Metrics', y=1.02)\n\nplt.show()"
 }

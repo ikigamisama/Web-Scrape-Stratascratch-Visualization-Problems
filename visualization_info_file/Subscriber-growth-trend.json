@@ -57,5 +57,5 @@
 			"growth_rate": 6.231
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 6))\nplt.plot(df['month'], df['growth_rate'], color='blue', linewidth=2, marker='o')\n\nplt.title('Monthly Growth Rate of New Subscribers')\nplt.xlabel('Month')\nplt.ylabel('Growth Rate (%)')\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\ndf['month'] = pd.to_datetime(df['month'])\nplt.figure(figsize=(10, 6))\nplt.plot(df['month'], df['growth_rate'], color='blue', linewidth=2, marker='o')\n\nplt.title('Monthly Growth Rate of New Subscribers')\nplt.xlabel('Month')\nplt.ylabel('Growth Rate (%)')\nplt.grid(True)\nplt.xticks(rotation=45)\nplt.tight_layout()\nplt.show()"
 }

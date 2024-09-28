@@ -10,64 +10,64 @@
 	"data": [
 		{
 			"month": "January",
-			"change": "20000",
-			"revenue": "120000"
+			"change": 20000,
+			"revenue": 120000
 		},
 		{
 			"month": "February",
-			"change": "-5000",
-			"revenue": "135000"
+			"change": -5000,
+			"revenue": 135000
 		},
 		{
 			"month": "March",
-			"change": "15000",
-			"revenue": "165000"
+			"change": 15000,
+			"revenue": 165000
 		},
 		{
 			"month": "April",
-			"change": "-7000",
-			"revenue": "188000"
+			"change": -7000,
+			"revenue": 188000
 		},
 		{
 			"month": "May",
-			"change": "10000",
-			"revenue": "221000"
+			"change": 10000,
+			"revenue": 221000
 		},
 		{
 			"month": "June",
-			"change": "5000",
-			"revenue": "259000"
+			"change": 5000,
+			"revenue": 259000
 		},
 		{
 			"month": "July",
-			"change": "-3000",
-			"revenue": "294000"
+			"change": -3000,
+			"revenue": 294000
 		},
 		{
 			"month": "August",
-			"change": "12000",
-			"revenue": "341000"
+			"change": 12000,
+			"revenue": 341000
 		},
 		{
 			"month": "September",
-			"change": "-8000",
-			"revenue": "380000"
+			"change": -8000,
+			"revenue": 380000
 		},
 		{
 			"month": "October",
-			"change": "15000",
-			"revenue": "434000"
+			"change": 15000,
+			"revenue": 434000
 		},
 		{
 			"month": "November",
-			"change": "-4000",
-			"revenue": "484000"
+			"change": -4000,
+			"revenue": 484000
 		},
 		{
 			"month": "December",
-			"change": "17000",
-			"revenue": "551000"
+			"change": 17000,
+			"revenue": 551000
 		}
 	],
-	"solution": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots(figsize=(12, 8))\nax.bar(df['month'][0], initial_revenue, color='grey', edgecolor='black')\nfor i in range(1, len(df)):\n    color = 'tomato' if df['change'][i] > 0 else 'navy'\n    ax.bar(df['month'][i], df['change'][i], bottom=df['revenue'][i-1], color=color, edgecolor='black')\n\nax.bar(df['month'], df['revenue'], color='grey', edgecolor='black', alpha=0.5)\n\nax.set_xlabel('Month')\nax.set_ylabel('Revenue ($)')\nax.set_title('Step-by-Step Revenue Changes Throughout the Year')\nplt.xticks(rotation=45)\nplt.grid(True)\nplt.show()"
+	"solution": "import matplotlib.pyplot as plt\n\nfig, ax = plt.subplots(figsize=(12, 8))\nax.bar(df['month'][0], 100000, color='grey', edgecolor='black')\nfor i in range(1, len(df)):\n    color = 'tomato' if df['change'][i] > 0 else 'navy'\n    ax.bar(df['month'][i], df['change'][i], bottom=df['revenue'][i-1], color=color, edgecolor='black')\n\nax.bar(df['month'], df['revenue'], color='grey', edgecolor='black', alpha=0.5)\n\nax.set_xlabel('Month')\nax.set_ylabel('Revenue ($)')\nax.set_title('Step-by-Step Revenue Changes Throughout the Year')\nplt.xticks(rotation=45)\nplt.grid(True)\nplt.show()"
 }

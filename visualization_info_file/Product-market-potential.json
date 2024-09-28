@@ -10,45 +10,45 @@
 	"data": [
 		{
 			"product_category": "Electronics",
-			"market_size": "3195.254",
-			"growth_rate": "9.314",
+			"market_size": 3195.254,
+			"growth_rate": 9.314,
 			"market_potential": "High",
-			"bubble_size": "150"
+			"bubble_size": 150
 		},
 		{
 			"product_category": "Clothing",
-			"market_size": "3860.757",
-			"growth_rate": "17.944",
+			"market_size": 3860.757,
+			"growth_rate": 17.944,
 			"market_potential": "Medium",
-			"bubble_size": "100"
+			"bubble_size": 100
 		},
 		{
 			"product_category": "Groceries",
-			"market_size": "3411.054",
-			"growth_rate": "19.31",
+			"market_size": 3411.054,
+			"growth_rate": 19.31,
 			"market_potential": "Low",
-			"bubble_size": "50"
+			"bubble_size": 50
 		},
 		{
 			"product_category": "Furniture",
-			"market_size": "3179.533",
-			"growth_rate": "8.285",
+			"market_size": 3179.533,
+			"growth_rate": 8.285,
 			"market_potential": "High",
-			"bubble_size": "150"
+			"bubble_size": 150
 		},
 		{
 			"product_category": "Toys",
-			"market_size": "2694.619",
-			"growth_rate": "16.043",
+			"market_size": 2694.619,
+			"growth_rate": 16.043,
 			"market_potential": "Medium",
-			"bubble_size": "100"
+			"bubble_size": 100
 		},
 		{
 			"product_category": "Books",
-			"market_size": "3583.576",
-			"growth_rate": "11.049",
+			"market_size": 3583.576,
+			"growth_rate": 11.049,
 			"market_potential": "Low",
-			"bubble_size": "50"
+			"bubble_size": 50
 		}
 	],
 	"solution": "import matplotlib.pyplot as plt\n\ncolors = {'Low': 'peachpuff', 'Medium': 'limegreen', 'High': 'deepskyblue'}\nplt.figure(figsize=(12, 8))\n\nscatter = plt.scatter(df['market_size'], df['growth_rate'],  s=df['bubble_size'], c=[colors[mp] for mp in df['market_potential']], alpha=0.6)\n#adding plot titles and labels\nplt.title('Market Potential of various Product Categories')\nplt.xlabel('Market Size (millions)')\nplt.ylabel('Growth Rate (%)')\nplt.grid(True)\n\nplt.legend(handles=[\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='deepskyblue', markersize=10, label='High'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='peachpuff', markersize=10, label='Low'),\n    plt.Line2D([0], [0], marker='o', color='w', markerfacecolor='limegreen', markersize=10, label='Medium')\n    ],\n           title='Market Potential', loc='upper right')\nplt.show()"
